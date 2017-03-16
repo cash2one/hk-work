@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <!--Swiper3.0.4-->
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/choumei.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <div class="header">
+            <a href="" class="back"></a>
+            <a href="/" class="logo"><img src="images/logo.png" alt=""></a>
+            <a href="/" class="home"></a>
+        </div>
+        <!--header end-->
+        <!--banner-->
+        <div class="banner">
+            <a href=""> <img src="images/banner.jpg" alt=""> </a>
+        </div>
+        <!--banner end-->
+        <div class="position"><a href="/">首页</a>> <a href="/">中医科简介</a> </div>
+        <!--文章详情-->
+        <div id="main" style="background:#f0e8d2">
+            <div class="article">
+                <div class="article-top">
+                    <p class="title">中医科简介</p>
+                    <p class="time">时间：2016-05-23 <i>来源：上海金高中西医结合医院</i></p>
+                </div>
+                <div class="article-con">
+                    <p>3月4日，高行镇政府在万嘉广场举行了高行志愿者服务队授旗仪式。今后，金高中西医结合医院每天都将身披“高行志愿者”字样工作服为周边居民提供健康医疗服务。 </p>
+                    <p>仪式上，金高中西医结合医院党支部书记李铁代表志愿服务队作了表态发言，对医疗志愿者服务队的工作宗旨做了详细介绍。</p>
+                    <p>据介绍，这支志愿者队伍全部来自上海金高中西医结合医院，由医院有专业医疗背景的志愿者组成。她们因有志于以无偿、自愿服务的方式参与各种社会公益活动而聚集在一起。希望自己能够表现出中国志愿者的刚毅果敢，勤劳向上，无私奉献的精神面貌，并展示当代中国青年阶层奉献的情操和优秀的素质。</p>
+                    <p>  在此之前，为大力弘扬“奉献，友爱，互助”的志愿精神，我院志愿者经常会深入到社区开展讲座、献爱心等服务，得到广大群众的一致好评。</p>
+                </div>
+            </div>
+            <!--文章详情 end-->
+            <!--预约医生-->
+            <div class="yuyue">
+                <div class="yy-top">
+                    <img src="images/yuyue2.png" alt="">
+                </div>
+
+                <div class="form_box">
+                    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+                    <form name='tjform' method='post' action='/plus/diy.php' onsubmit='return yzform()' class="material" target="aa">
+                        <input type='hidden' name='action' value='post' />
+                        <input type='hidden' name='wid' value='725'>
+                        <iframe name="aa" id="aa" frameborder="0" style="display:none;" width="0" height="0"></iframe>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="td1"><i class="star fl">*</i>您的称呼：</td>
+                                <td class="td2"><input name="xm" id="xm" type="text" class="input-txt" placeholder="请输入您的姓名"></td>
+                            </tr>
+                            <tr>
+                                <td class="td1"><i class="star fl">*</i>联系电话：</td>
+                                <td class="td2"><input name="tel" id="tel" type="text" class="input-txt" placeholder="请输入您的电话号码"></td>
+                            </tr>
+                            <tr>
+                                <td class="td1"><i class="star fl"></i>就诊时间：</td>
+                                <td class="td2"><input name="yysj" id='time' type="text" class="input-txt time" readonly placeholder="请选择您的就诊时间"></td>
+                            </tr>
+                            <tr style="margin-top:30px;">
+                                <td><input type="reset" class="input-btn reset" value="重置" /></td>
+                                <td><input type="submit" class="input-btn submit" value="提交" /></td>
+                            </tr>
+                        </table>
+
+                    </form>
+                    <script>
+                        var now = new Date();
+                        tjform.yysj.value = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
+
+                        function yzform() {
+                            var temp = document.getElementById("tel");
+                            //对电话的验证
+                            var myreg = /^((1[0-9][0-9]{1})|159|153)+\d{8}$/;
+
+                            if (document.getElementById("xm").value == "")
+
+                            {
+                                alert("请填写您的【姓名】后再次提交!")
+                                document.getElementById("xm").focus();
+                                return false;
+                            }
+
+                            if (!myreg.test(temp.value)) {
+                                alert('请输入11位有效的手机号码！');
+                                document.getElementById("tel").focus();
+                                return false;
+                            }
+
+
+                        }
+                    </script>
+                </div>
+                <!--预约医生end-->
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <p class="p1">健康热线：400-6670-630</p>
+                <p class="p2">医院地址：浦东新区金高路1115号（近巨峰路口)</p>
+            </div>
+            <div class="footer-bottom">
+                <p>沪医广【2015】第09-08-G158</p>
+            </div>
+
+        </div>
+</body>
+
+</html>

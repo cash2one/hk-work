@@ -1,0 +1,269 @@
+.zzgh {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.relative {
+    position: relative
+}
+
+.fr {
+    float: right
+}
+
+.fc:before,
+.fc:after {
+    display: block;
+    overflow: hidden;
+    height: 0;
+    content: '\0020';
+}
+
+.fc:after {
+    clear: both;
+}
+
+.fc {
+    *zoom: 1;
+}
+
+.fl {
+    float: left
+}
+
+.w990 {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.item1 {
+    overflow: hidden;
+}
+
+.zzgh-title {
+    width: 309px;
+    height: 415px;
+    display: block;
+    background: url(../images/zzgh/zzgh-l.jpg) no-repeat left center;
+}
+
+.zzgh-title ul {
+    padding-top: 123px;
+}
+
+.zzgh-title ul li {
+    width: 80px;
+    height: 85px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.zzgh-title ul li a p {
+    font-size: 14px;
+    color: #5f5f5f;
+    line-height: 30px;
+}
+
+.gh-img {
+    padding-top: 32px;
+    float: left;
+    padding-left: 10px;
+}
+
+.item1 .form {
+    width: 750px;
+    margin-right: 60px
+}
+
+.item1 .captain {
+    padding: 50px 0 14px 130px;
+    border-bottom: 1px solid #e5e5e5;
+    background: url(../images/zzgh/register_captain.jpg) 0 100% no-repeat
+}
+
+.item1 .captain .fc * {
+    float: left;
+}
+
+.item1 .captain b {
+    font-size: 32px;
+    color: #961e1e;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.item1 .captain i {
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 6px
+}
+
+.item1 .captain p {
+    color: #505050;
+    font-size: 16px;
+}
+
+.item1 form {
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.item1 form li {
+    padding: 0px 0px 10px;
+}
+
+.item1 li .fl {
+    width: 120px
+}
+
+.item1 form li i {
+    font-size: 20px;
+    line-height: 1;
+    float: left;
+    width: 20px;
+    height: 1em;
+    margin-top: 10px;
+    color: #ff2c2c
+}
+
+.item1 form .fl span {
+    font-size: 18px;
+    line-height: 36px;
+    float: left;
+    color: #323232
+}
+
+.item1 form li .time {
+    background: #fff url(../images/zzgh/time.jpg)no-repeat right center;
+}
+
+.item1 form .fr {
+    width: 508px;
+    margin-right: 80px
+}
+
+.item1 .text {
+    width: 330px;
+    height: 36px;
+}
+
+.item1 form .text,
+.item1 form textarea {
+    padding: 0;
+    padding-left: 20px;
+    color: #b4b4b4;
+    border: 1px solid #c8c8c8;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #323232;
+    outline: none;
+    font-family: "Microsoft YaHei" !important;
+}
+
+.item1 form .text,
+.item1 form textarea,
+.item1 label {
+    line-height: 36px;
+    height: 36px;
+    font-size: 15px;
+}
+
+.item1 form textarea {
+    line-height: 24px;
+    width: 510px;
+    height: 175px;
+    padding-right: 25px;
+    resize: none
+}
+
+.item1 form .text:focus {
+    color: #323232
+}
+
+.item1 label {
+    display: inline-block;
+    text-indent: 16px;
+    color: #323232
+}
+
+.item1 .btn {
+    overflow: hidden
+}
+
+.item1 .btn .fc {
+    left: 50%;
+    margin: 25px 0
+}
+
+.form-btn {
+    height: 70px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.form-btn .btn {
+    width: 247px;
+    height: 70px;
+    display: block;
+    float: left;
+    margin: 0px 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-btn .submit {
+    margin-left: 50px;
+    background: url(../images/zzgh/btn1.jpg)no-repeat center;
+}
+
+.form-btn .reset {
+    background: url(../images/zzgh/btn2.jpg)no-repeat center;
+}
+
+.item2 {
+    width: 1162px;
+    height: 192px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: url(../images/zzgh/item2.jpg)no-repeat center center;
+}
+
+.item2 p {
+    padding-top: 20px;
+    padding-left: 58px;
+    font-size: 24px;
+    color: #a01e1e;
+    font-weight: 600;
+}
+
+.item2 ul {
+    padding-top: 10px;
+}
+
+.item2 ul li {
+    width: 50%;
+    display: block;
+    float: left;
+    text-indent: 60px;
+    font-size: 14px;
+    color: #8c6e64;
+    margin-top: 15px;
+}
+
+.laiyuan-step {
+    width: 1162px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.laiyuan-step .step {
+    padding: 23px 0px 0;
+}

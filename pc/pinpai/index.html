@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>金高品牌_上海医保牙科_上海金高口腔</title>
+    <link rel="stylesheet" href="/templets/default/css/reset.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="/templets/default/css/header.css" />
+    <div class="header">
+        <div class="head-inner">
+            <a class="head-logo" href="/"><img src="/templets/default/images/logo.jpg" /></a>
+            <div>
+                <a class="phone-tel" href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="nav-inner">
+            <a class="head-home active" href="/">首页<span>HOME</span></a>
+            <a href="/yypp/"><img src="/templets/default/images/head_nav_0.png" />
+                <p>品牌<span>BRAND</span></p>
+            </a>
+            <a href="/zj/"><img src="/templets/default/images/head_nav_1.png" />
+                <p>医生<span>EXPERTS</span></p>
+            </a>
+            <a href="/js/"><img src="/templets/default/images/head_nav_2.png" />
+                <p>技术<span>TECHNOLOGY</span></p>
+            </a>
+            <a href="/gh/"><img src="/templets/default/images/head_nav_3.png" />
+                <p>挂号<span>REGISTER</span></p>
+            </a>
+            <a href="/lylx/"><img src="/templets/default/images/head_nav_4.png" />
+                <p>路线<span>ROUTE</span></p>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="index-phone" id="index-phone">
+        <span class="phone-span" id="phone-span">
+  </span>
+        <div class="index-phone-c">
+            <div class="index-phone-left">
+                <h3>
+                    <img src="/templets/default/images/phone-logo.jpg">
+                </h3>
+                <div class="index-phone-left-l">
+                    <p>您的号码:</p>
+                    <p>通话时段</p>
+                </div>
+                <div class="index-phone-left-r">
+                    <form action="http://tel.kuaishang.com.cn/calld.php" method="post" onsubmit="return chk(this);return false;" target="phone">
+                        <input type="hidden" name="fromurl" id="call_fromurl1" value="">
+                        <input type="hidden" name="sid" value="2013141726">
+                        <input type="hidden" name="did" value="1011701">
+                        <div class="mainr-t">
+                            <div class="mainr-td">
+                                <input class="index-phone-f_tel" id="index-phone-f_tel" name="tel" autocomplete="off" value="请输入您自己的电话号码！" onfocus="if(this.value=='请输入您自己的电话号码！'){this.value='';this.style.color='#737373'}" onblur="if(this.value==''){this.value='请输入您自己的电话号码！';this.style.color='#737373'}"
+                                    style="color: rgb(115, 115, 115);" type="text">
+                                <div class="fd-nr">
+                                </div>
+                            </div>
+                            <div>
+                                <select class="timing" name="timing" size="1">
+              <option value="不限时段">不限时段</option>
+              <option value="中午12:00-13:30">中午12:00-13:30</option>
+              <option value="下午18:00-21:00">下午18:00-21:00</option>
+              <option value="周六或者周日">周六或者周日</option>
+            </select>
+                            </div>
+                            <div class="mainr-p">
+                                <i></i>您的通话全程免费并加密，请放心倾听！
+                            </div>
+                        </div>
+                        <div class="mainr-n">
+                            <span>
+              <input name="" class="input2" value="" type="submit">
+            </span>
+                            <s id="phone-zq">
+              <i></i>
+              <input class="comr-c-form3" name="" value="重新输入" type="reset">
+            </s>
+                        </div>
+                    </form>
+                    <script>
+                        document.getElementById('phone-zq').onclick = function() {
+                            this.getElementsByTagName("i")[0].className = "ad";
+                            setTimeout(function() {
+                                    document.getElementById('phone-zq').getElementsByTagName("i")[0].className = " ";
+                                },
+                                400);
+                        }
+                    </script>
+                    <div class="index-phone-left-b">
+                        <a href="javascript:;" onclick="swt();" class="phone-zixun1">
+                            <span>
+            </span>
+                            <s>QQ咨询</s>
+                        </a>
+                        <a href="javascript:;" onclick="swt();" class="phone-zixun2">
+                            <span></span>
+                            <s>在线咨询</s>
+                        </a>
+                    </div>
+                </div>
+                <p class="phone-p">
+                    诊疗项目：
+                    <a href="javascript:;" onclick="swt();">牙齿种植</a>
+                    <a href="javascript:;" onclick="swt();">牙齿矫正</a>
+                    <a href="javascript:;" onclick="swt();">牙齿修复</a>
+                    <a href="javascript:;" onclick="swt();">牙齿美白</a>
+                    <a href="javascript:;" onclick="swt();">补牙</a>
+                    <a href="javascript:;" onclick="swt();">牙疼</a>
+                    <a href="javascript:;" onclick="swt();">蛀牙</a>
+                    <a href="javascript:;" onclick="swt();">烤瓷牙</a>
+                    <a href="javascript:;" onclick="swt();">牙齿松动</a>
+                    <a href="javascript:;" onclick="swt();">拔牙</a>等
+                </p>
+                <p class="phone-p">
+                    医院地址：
+                    <a href="/lylx" target="_blank">上海市浦东新区金高路1115号（近12号线金京站）</a>
+                </p>
+            </div>
+            <div class="index-phone-right">
+                <img src="/templets/default/images/phone-left.jpg">
+            </div>
+        </div>
+        <iframe name="phone" id="phone" frameborder="0" width="0" height="0"></iframe>
+    </div>
+    <div id="tel-float-div"></div>
+    <script>
+        function chk(_obj) {
+            var _tel = _obj.tel.value;
+            var zz = /^(0[3-9]\d{2}-)?([2-9][0-9]{6})(-[0-9]{1,4})?$|^(0(10|2[0-9])-)?([2-9][0-9]{7})(-[0-9]{1,4})?$|^1([3,8][0-9]|4[5,7,9]|5[012356789]|7[0,5,6,7,8])\d{8}$/;
+            if (_tel == '请输入您自己的电话号码！' || _tel == '' || !zz.test(_tel)) {
+                alert('请填写正确的手机或座机号码！');
+                return false;
+            }
+            return true;
+        }
+        $(function() {
+            $('a.phone-tel').click(function() {
+                $('#index-phone').stop().animate({
+                    'top': '60%'
+                }, 300);
+                $('#tel-float-div').show();
+                return false;
+            })
+
+            $('#phone-span').click(function() {
+                $('#index-phone').stop().animate({
+                    'top': '-50%'
+                }, 300);
+                $('#tel-float-div').hide();
+            })
+        })
+    </script>
+    <div class="banner">
+        <div class="ppwh">
+            <div class="img">
+                <img src="images/b-1.jpg" alt="" class="fl">
+                <img src="images/b-2.jpg" alt="" class="fr">
+                <img src="images/b-3.jpg" alt="" class="fr" style="margin-top:7px;">
+            </div>
+            <div class="txt">
+                <img src="images/b-4.jpg" alt="" class="title">
+                <p>金高口腔是上海市医保定点单位，以“自然、美观、精确”为准则，以齿科技术为支撑，不断引进精良的设备和先进的进口材料，汇集国内众多口腔医学精英，根据生物力学原理和电脑辅助设计，为患者提供不同年龄段的口腔保健服务。</p>
+                <a href="javascript:;" onclick="swt();" class="look">查看详情<i><img src="images/b-btn.png" alt=""></i></a>
+            </div>
+        </div>
+    </div>
+    <!--div1-->
+    <div class="div1s">
+        <div class="w1000 div1-con">
+            <div class="linian">
+                <div class="ln ln1">
+                    <p class="p1"> 品牌理念</p>
+                    <p class="p2">精专美齿，以守护客户口腔健康为己任，立足品质服务，打造成国内知名口腔医疗品牌。
+                    </p>
+                </div>
+                <div class="ln ln2">
+                    <p class="p1"> 品牌价值观</p>
+                    <p class="p2">尊重每一位独一无二的生命，根据每一位客户的自身特点，已贴心优质的服务，为您量齿定制个性化诊疗方案。
+                    </p>
+                </div>
+                <div class="ln ln3">
+                    <p class="p1"> 品牌精神</p>
+                    <p class="p2">不断学习、引进齿科技术，为广大爱牙人士提供美齿方案，让美丽微笑，从齿开始。
+                    </p>
+                </div>
+                <div class="ln ln4">
+                    <p class="p1"> 服务理念</p>
+                    <p class="p2">理解客户需求，满足客户需求，让客户在舒适的环境中享受口腔诊疗服务。
+                    </p>
+                </div>
+                <div class="ln5">
+                    <img src="images/div1-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--div1 end-->
+    <!--div 2-->
+    <!--div1-->
+    <div class="div2s">
+        <div class="div2-title"></div>
+        <div class="w1000 div2-con">
+            <ul class="ul1">
+                <li>
+                    <p class="p1">规范诊疗 严格消毒</p>
+                    <img src="images/div2-1.jpg" alt="">
+                </li>
+                <li>
+                    <p class="p1">进口材料 确保品质</p>
+                    <img src="images/div2-2.jpg" alt="">
+                </li>
+                <li>
+                    <p class="p1">精良设备 先进技术</p>
+                    <img src="images/div2-3.jpg" alt="">
+                </li>
+                <li>
+                    <p class="p1">优质环境 舒适看牙</p>
+                    <img src="images/div2-4.jpg" alt="">
+                </li>
+                <li>
+                    <p class="p1">贴心服务 悉心周到</p>
+                    <img src="images/div2-5.jpg" alt="">
+                </li>
+            </ul>
+            <img src="images/div2-10.png" alt="">
+            <ul class="ul2">
+                <li>
+                    <img src="images/div2-6.jpg" alt="">
+                    <p class="p1">上海基本医疗保险定</p>
+                </li>
+                <li>
+
+                    <img src="images/div2-7.jpg" alt="">
+                    <p class="p1">上海医学会单位会员</p>
+                </li>
+                <li>
+
+                    <img src="images/div2-8.jpg" alt="">
+                    <p class="p1">浦东新区质量诊疗协会</p>
+                </li>
+                <li>
+                    <img src="images/div2-9.jpg" alt="">
+                    <p class="p1">上海金高医院志愿服务队</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--div 2 end-->
+    <!--div3-->
+    <div class="xijie">
+        <div class="title"></div>
+        <div class="w1000">
+            <div class="xj-list">
+                <ul>
+                    <li class="li1 on">
+                        <i><img src="images/icon1.png" alt=""></i>
+                        <p>牙齿种植
+                        </p>
+                    </li>
+                    <li class="li2">
+                        <i><img src="images/icon2.png" alt=""></i>
+                        <p>牙齿矫正
+                        </p>
+                    </li>
+                    <li class="li3">
+                        <i><img src="images/icon3.png" alt=""></i>
+                        <p>牙齿修复
+                        </p>
+                    </li>
+                    <li class="li4">
+                        <i><img src="images/icon4.png" alt=""></i>
+                        <p>牙齿美白
+                        </p>
+                    </li>
+                    <li class="li5">
+                        <i><img src="images/icon5.png" alt=""></i>
+                        <p>牙周治疗
+                        </p>
+                    </li>
+                    <li class="li6">
+                        <i><img src="images/icon6.png" alt=""></i>
+                        <p>儿童齿科
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="yunxuhelpwamp">
+
+                <div class="xwj" style="background: url(images/div3-1.jpg)no-repeat center center;display: block;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔牙齿种植中心</p>
+                        <p class="ch">JINGAO DENTAL Orthodontic teeth CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高拥有成熟的种植牙技术、监护设备及种植体在牙槽骨条件较好的情况下，实现即刻种植。
+                        </div>
+                        <p class="js">特色技术：金高即刻种植牙</p>
+                        <p class="ys"><i>即拔即种</i> <i>精准植入</i> <i>创口微小</i> <i>持久耐用</i></p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+
+                <div class="xwj" style="background: url(images/div3-2.jpg)no-repeat center center;display: none;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔牙齿矫正中心
+                        </p>
+                        <p class="ch">JINGAO DENTAL Orthodontic teeth CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高牙齿矫正开展自锁托槽矫正、陶瓷矫正、隐形 矫正等多项治疗。结合面型，设计专属美学矫正方案。
+                        </div>
+                        <p class="js">特色技术：自锁托槽矫正</p>
+                        <p class="ys"><i>美观舒适</i> <i>性价比高</i> <i>缩短时间</i></p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+
+                <div class="xwj" style="background: url(images/div3-3.jpg)no-repeat center center;display: none;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔牙齿修复中心</p>
+                        <p class="ch">JINGAO DENTAL REPAIR CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高牙齿修复采用电脑辅助设计及进口全瓷/烤瓷材料 量齿打造美牙冠以恢复牙体缺损形态和功能
+                        </div>
+                        <p class="js">特色技术：金高3D烤瓷牙</p>
+                        <p class="ys"><i>快速修复</i> <i>量齿定制</i> <i>舒适耐用</i> <i>媲美真牙</i></p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+
+                <div class="xwj" style="background: url(images/div3-4.jpg)no-repeat center center;display: none;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔牙齿美白中心
+                        </p>
+                        <p class="ch">JINGAO DENTAL Teeth beauty CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高皓齿美白是一项正流行于欧美的牙齿美白技术，它不仅可以去除牙齿表面的色素沉积，同时可进入牙齿深层达到脱色的效果。
+                        </div>
+                        <p class="js">特色技术：皓齿美白</p>
+                        <p class="ys">舒适美白 维护得当可保持5—7年</p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+
+                <div class="xwj" style="background: url(images/div3-5.jpg)no-repeat center center;display: none;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔牙周治疗中心</p>
+                        <p class="ch">JINGAO DENTAL Periodontal treatment CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高牙周诊疗根据患者的自身情况，设计独特的牙周病治疗方案，解决并实现创口小、痛感小、出血小等技术难题，打造舒适看牙新体验。
+                        </div>
+                        <p class="js">特色技术：根管治疗</p>
+                        <p class="ys"><i>减少牙髓损伤</i> <i>保留松动牙齿</i> <i>价格亲民</i></p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+
+                <div class="xwj" style="background: url(images/div3-6.jpg)no-repeat center center;display: none;">
+                    <div class="xwj-con">
+                        <p class="zh">金高口腔儿童齿科中心</p>
+                        <p class="ch">JINGAO DENTAL Children CENTER</p>
+                        <div class="xwj-con-txt">
+                            金高儿童齿科中心充分考虑了儿童活泼好动的心理，专门配备了儿童诊室，减少孩子的心理恐惧，使得治疗过程变得轻松舒适。
+                        </div>
+                        <p class="js">特色技术：MRC口腔矫正</p>
+                        <p class="ys"><i>改善孩子不良肌功能习惯</i> 完美面容</p>
+                        <a href="javascript:;" onclick="swt();" class="zx">点击咨询>></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                $('.xj-list li').click(function() {
+                    var liindex = $('.xj-list li').index(this);
+                    $(this).addClass('on').siblings().removeClass('on');
+                    $('.yunxuhelpwamp div.xwj').eq(liindex).fadeIn(150).siblings('div.xwj').hide();
+                });
+
+            });
+        </script>
+    </div>
+    <!--div3 end-->
+    <!--div4-->
+    <div class="div4s">
+        <div class="title"></div>
+        <div class="w1000 div4-con">
+            <div class="bz bz1">
+                <div class="img"><img src="images/bz1.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">体验美</p>
+                    <p class="p2">以客户为中心，开始舒适、轻松的美牙之旅</p>
+                </div>
+            </div>
+            <div class="bz bz2">
+                <div class="img"><img src="images/bz2.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">自然美</p>
+                    <p class="p2">与口腔内软组织自然融合，舒适柔和</p>
+                </div>
+            </div>
+            <div class="bz bz3">
+                <div class="img"><img src="images/bz3.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">协调美</p>
+                    <p class="p2">医疗美学设计理念，整体提升面部美丽</p>
+                </div>
+            </div>
+            <div class="bz bz4">
+                <div class="img"><img src="images/bz4.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">生态美</p>
+                    <p class="p2">牙齿机能仿生至原生状态</p>
+                </div>
+            </div>
+            <div class="bz bz5">
+                <div class="img"><img src="images/bz5.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">个性美</p>
+                    <p class="p2">个性化设计，满足多元化需求</p>
+                </div>
+            </div>
+            <div class="bz bz6">
+                <div class="img"><img src="images/bz6.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">色泽美</p>
+                    <p class="p2">半透明皓齿质感，色泽温润灵动</p>
+                </div>
+            </div>
+            <div class="bz bz7">
+                <div class="img"><img src="images/bz7.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">安全美</p>
+                    <p class="p2">严格消毒隔离流程，预防交叉感染</p>
+                </div>
+            </div>
+            <div class="bz bz8">
+                <div class="img"><img src="images/bz8.png" alt=""></div>
+                <div class="txt">
+                    <p class="p1">多彩美</p>
+                    <p class="p2">23种皓齿色阶选择方案可供顾客选择</p>
+                </div>
+            </div>
+            <div class="teeth">
+                <img src="images/div4-teeth.png" alt="">
+            </div>
+        </div>
+        <div class="picScroll-left">
+            <div class="hd">
+                <a class="next"></a>
+                <a class="prev"></a>
+            </div>
+            <div class="bd">
+                <ul class="picList">
+                    <li>
+                        <div class="pic">
+                            <img src="images/img1.png" />
+                        </div>
+                        <div class="p">德国西诺德牙科综合治疗台</div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="images/img2.png" />
+                        </div>
+                        <div class="p">奥地利W&H种植机</div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="images/img3.png" />
+                        </div>
+                        <div class="p">YSGG水激光</div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="images/img4.png" />
+                        </div>
+                        <div class="p">数字化口腔全景机</div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".picScroll-left").slide({
+                titCell: ".hd ul",
+                mainCell: ".bd ul",
+                autoPage: true,
+                effect: "leftLoop",
+                autoPlay: true,
+                vis: 4,
+                trigger: "click"
+            });
+        </script>
+
+    </div>
+    <!--div4 end-->
+    <!--div5-->
+    <div class="div5s">
+        <div class="title"></div>
+        <div class="div5-con w1000">
+            <p class="txt">金高口腔汇聚了国内口腔精英医师，坚持以“高起点、高要求、高品质”进行口腔医师队伍的建设与打造，让其在牙齿种植、牙齿正畸、牙齿修复、牙齿美白、牙周治疗、儿童齿科方面能带给所有爱牙、护牙客户提供优质的口腔诊疗服务。</p>
+            <a href="javascript:;" onclick="swt()" class="doctor">点击进一步了解金高医生</a>
+        </div>
+    </div>
+    <!--div5 end-->
+    <!--div6-->
+    <div class="div6">
+        <div class="title"></div>
+        <div class="div6-con w1000">
+            <ul>
+                <li><img src="images/div6-1.jpg" alt=""></li>
+                <li><img src="images/div6-2.jpg" alt=""></li>
+                <li><img src="images/div6-3.jpg" alt=""></li>
+                <li><img src="images/div6-4.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!--div6 end-->
+    <!--div7-->
+    <div class="div7">
+        <div class="title"></div>
+        <div class="adjustimg"></div>
+        <div class="div7-con">
+            <div class="w1000 fw">
+                <ul class="fws">
+                    <li class="li1">
+                        <img src="images/pic1.png" alt="">
+                        <p>合理定价 价格亲民</p>
+                    </li>
+                    <li><img src="images/w1.jpg" alt=""></li>
+                    <li class="li2">
+                        <img src="images/pic2.png" alt="">
+                        <p>大医精诚 口碑相传</p>
+                    </li>
+                    <li><img src="images/w2.jpg" alt=""></li>
+                    <li><img src="images/w3.jpg" alt=""></li>
+                    <li class="li3">
+                        <img src="images/pic3.png" alt="">
+                        <p>365天无假日医院</p>
+                    </li>
+                    <li><img src="images/w4.jpg" alt=""></li>
+                    <li class="li4">
+                        <img src="images/pic4.png" alt="">
+                        <p>优雅环境 舒适诊疗</p>
+                    </li>
+                </ul>
+                <a href="javascript:;" onclick="swt();" class="fw-btn">点击预约 开始护牙美齿之旅！</a>
+            </div>
+
+        </div>
+    </div>
+    <!--div7 end-->
+    <link rel="stylesheet" href="/templets/default/css/footer.css" />
+    <div class="footer_nav">
+        <p>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_01"></i>术前严检</a>
+            <!----><a href="/zj/"><i class="footer_nav_02"></i>医生资质</a>
+            <!---->
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_03"></i>进口材料</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_04"></i>数码设备</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_05"></i>私人定制</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_06"></i>术后管理</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_07"></i>医保定点</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_08"></i>免费挂号</a>
+        </p>
+    </div>
+    <div class="footer_wrap">
+        <div class="footer_conter">
+            <img class="footer_conter_logo" src="/templets/default/images/img20.jpg" />
+            <div class="fonter_conter_zj">
+                <p>
+                    <a href="/zt/wczzy/"><b>牙齿种植</b>Teeth grow</a>
+                    <a href="/zt/ycjzjh/"><b>牙齿矫正</b>Teeth rectify</a>
+                    <a href="/zt/kaociya/"><b>牙齿修复</b>Teeth repair</a>
+                    <a href="/lgmb/"><b>牙齿美白</b>Teeth whitening</a>
+                    <a href="/yczl/28.html" style="width:114px;"><b>牙齿治疗</b>Teeth treat</a>
+                </p>
+
+                <form name="form1" method="post" action="/plus/search.php">
+                    <input type="text" name="q" onfocus="if(this.value=='种植牙、烤瓷牙') {this.value='';}this.style.color='#7f7f7f';" onblur="if(this.value==''){this.value='种植牙、烤瓷牙';this.style.color='#7f7f7f';}" value="种植牙、烤瓷牙" class="footer_conter_form1" />
+                    <input type="submit" name="submit1" class="footer_conter_form2" />
+                </form>
+
+                <em>医院地址：上海市浦东新区金高路1115号（近地铁12号线）</em>
+
+            </div>
+            <div class="footer_conter_right"><img src="/templets/default/images/img23.jpg" /></div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        沪ICP备12005134号-1 ©上海金高医院 版权所有"沪卫（中医）变审[2014]第10026号"<img src="/templets/default/images/img24.jpg" />
+    </div>
+    <script type="text/javascript">
+        function closeFixedLeft() {
+            document.getElementById('fixed_left').style.display = 'none';
+            setTimeout(function() {
+                document.getElementById('fixed_left').style.display = 'block';
+            }, 3e4);
+        }
+
+        $(document).ready(function() {
+            $(".swt_right li:eq(3)").hover(function() {
+                $(".swt_right li:eq(3) div").animate({
+                    left: '-220px'
+                });
+            }, function() {
+                $(".swt_right li:eq(3) div").animate({
+                    left: '60px'
+                });
+            })
+
+            $("#leftphone").hover(function() {
+                $("#fixed_left4").css({
+                    "background-position": "100px -2400px"
+                });
+                $("#fixed_left_dh").animate({
+                    left: '0px'
+                });
+            }, function() {
+                $("#fixed_left_dh").animate({
+                    left: '-280px'
+                });
+                $("#fixed_left4").css({
+                    "background-position": "0px -240px"
+                });
+            })
+        })
+    </script>
+    <!-- /左侧商务通 -->
+    <script src="/templets/default/js/swt.js"></script>
+</body>
+
+</html>

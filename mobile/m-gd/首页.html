@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=640" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="">
+<meta name="format-detection" content="telephone=no">
+<title>首页 </title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/page.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/addons.js"></script>
+
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+	var version=parseFloat(RegExp.$1);  
+	if (version > 2.3) {  
+	  document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+	} else {  
+	  document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+	}  
+  } else {  
+	document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+
+</head>
+
+<body>
+<div class="layout">
+	<!--header-->
+	<div class="header">
+		<div class="logo left"><a href=""><img src="images/logo.png"/></a></div>
+		<div class="logo2 right"><a href=""><img src="images/logo2.png"/></a></div>
+	</div>
+	<!--header end-->
+	<!--nav-->
+	<div class="nav">
+		<ul>
+			<li><a href="">品牌</a><i></i></li>
+			<li><a href="">医师</a><i></i></li>
+			<li><a href="">技术</a><i></i></li>
+			<li><a href="">挂号</a><i></i></li>
+			<li><a href="">地址</a><i></i></li>
+		</ul>
+	</div>
+	<!--nav end-->
+	 <!-- Swiper -->
+	 
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner.png"/></div>
+            <div class="swiper-slide"><img src="images/banner2.png"/></div>
+            <div class="swiper-slide"><img src="images/banner.png"/></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+  <!-- Swiper JS -->
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    spaceBetween: 30,
+	autoplay: 3000
+});
+</script>
+	<!--主体部分-->
+	<div class="wrapper">
+		<!--肝胆疾病分类-->
+		<div class="disease">
+			<ul>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/gd1.png" alt="" /></div>
+						<p class="disease-name">胆囊结石</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/gd2.png" alt="" /></div>
+						<p class="disease-name">胆囊息肉</p>
+					</a>
+				</li>
+				<li style="margin-right: 0px;">
+					<a href="">
+						<div class="img"><img src="images/gd3.png" alt="" /></div>
+						<p class="disease-name">胆囊炎</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/gd4.png" alt="" /></div>
+						<p class="disease-name">胆管结石</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/gd5.png" alt="" /></div>
+						<p class="disease-name">胆总管结石</p>
+					</a>
+				</li>
+				<li style="margin-right: 0px;">
+					<a href="">
+						<div class="img"><img src="images/gd6.png" alt="" /></div>
+						<p class="disease-name">肝内胆管结石</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--肝胆疾病分类end-->
+		<!--医师团队-->
+		<div class="doctor clear">
+			<div class="doctor-head">
+				<span class="doctor-head-l left">医师团队</span>
+				<span class="doctor-head-r right"><a href="">更多>></a></span>
+			</div>
+			<ul class="doctorlist">
+				<li>
+					<div class="img left"><img src="images/doctor1.png"/></div>
+					<div class="profile right">
+						<span class="name">王碧芬  <i>主治医师</i></span>
+						<span class="accept">接受预约：1234次</span>
+						<span class="goodat">
+							擅长：微创治疗胆囊结石、胆囊息肉、胆总管结石。
+						</span>
+						<div class="doctor-url">
+							<a href="" class="details">查看详情</a>
+							<a href="" class="reservation">预约挂号</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="img left"><img src="images/doctor2.png"/></div>
+					<div class="profile right">
+						<span class="name">常德林  <i>副主任医师</i></span>  
+						<span class="accept">接受预约：1234次</span>
+						<span class="goodat">
+							擅长：胆囊炎、胆总管结石、肝内单管结石、胆囊息肉。
+						</span>
+						<div class="doctor-url">
+							<a href="" class="details">查看详情</a>
+							<a href="" class="reservation">预约挂号</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<!--医师团队end-->
+		
+		<!--诊疗技术-->
+		<div class="doctor clear">
+			<div class="doctor-head">
+				<span class="doctor-head-l left">诊疗技术</span>
+				<span class="doctor-head-r right"><a href="">更多>></a></span>
+			</div>
+			<ul class="treatlist">
+				<li class="right li1"><a href=""><img src="images/treat3.png"/></a></li>
+				<li class="left li2"><a href=""><img src="images/treat1.png"/></a></li>
+				<li class="left li3"><a href=""><img src="images/treat2.png"/></a></li>
+				
+			</ul>
+		</div>
+		<!--诊疗技术 end-->
+		<!--询问-->
+		<div class="ask clear">
+			<ul>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/ask1.png" alt="" /></div>
+						<p>问症状</p>
+						<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/ask2.png" alt="" /></div>
+						<p>问疾病</p>
+						<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/ask3.png" alt="" /></div>
+						<p>问费用</p>
+						<i></i>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img"><img src="images/ask4.png" alt="" /></div>
+						<p>问症状</p>
+						<i></i>
+					</a>
+				</li>	
+			</ul>
+		</div>
+		<!--询问 end-->
+		<!-- footer-->
+		<div class="footer clear">
+			<div class="footer-p">
+				<p>地址：上海市普陀区大渡河路1933号</p>
+				<p>门诊时间（无假日医院）：8:00-20:30</p>
+				<p>备案号：沪ICP备10036551号</p>
+			</div>
+		</div>
+		<!-- footer end-->
+	</div>
+	<!--主体 end-->
+</div>
+<script>
+	$(function(){
+		$(".doctor .doctorlist li").last().addClass('last');
+		$(".nav ul li").last().find('i').css({'display':'none'});
+		$(".ask ul li").last().find('i').css({'display':'none'});
+	})
+</script>
+</body>
+</html>
+

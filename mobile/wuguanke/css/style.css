@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html {font-size:10px;}
+
+body, h1, h2, h3, h4, h5, h6, hr, p,blockquote, dl, dt, dd, ul, ol, li,pre,form, fieldset, legend, button, input, textarea, th, td, 
+img{border:medium none;margin: 0;padding: 0;list-style-type: none;}
+
+body,button, input, select, textarea {font: 12px/1.5 '微软雅黑',tahoma, Srial, helvetica, sans-serif;}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+em{font-style:normal;}
+
+ul, ol,{ list-style: none; }
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: none;  }
+
+img{ border:0px;}
+
+body,.ui-overlay-h{margin:0 auto;position:relative;background:#fff;}
+
+input, img {vertical-align: middle;}
+
+body,html{margin:0 auto;}
+
+img {border:none;vertical-align:top;}
+
+* {margin:0;padding:0;text-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+.blank{height:8px;clear:both;}
+
+.blank20{height:20px;clear:both;}
+
+clear{
+	clear: both;
+}
+.clearfix:after,.clear:before{
+
+	display:table;
+
+	content:'';
+
+	}
+
+.clearfix:after{
+
+	clear:both;
+
+	overflow:hidden;
+
+	}
+
+.clearfix{
+
+	zoom:1;
+
+	}
+
+.relative {position:relative;}
+
+.absolute {position:absolute;}
+
+.float_left {float:left;}
+
+.float_right {float:right;}
+
+
+
+
+
+/*header css*/
+
+body {min-width:320px;overflow-x:hidden;}

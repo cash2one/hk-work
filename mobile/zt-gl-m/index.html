@@ -1,0 +1,488 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>肛瘘费用</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lc.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/addons.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <div class="header header2">
+
+            <div class="nav left" style="display:block;">
+                <i></i>
+                <ul>
+                    <span class="h3"><b>项目大全</b><a href="javascript:;" class="back right"><img src="imgs/back.png" alt="" /></a></span>
+                    <li class="selected"><a href="javascript:;" class="a1">疝气</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/fggsq/">腹股沟疝气</a></dd>
+
+                                <dd><a href="/xesq/">小儿疝气</a></dd>
+
+                                <dd><a href="/zlnsq/">中老年疝气</a></dd>
+
+                                <dd><a href="/xs/">斜疝</a></dd>
+
+                                <dd><a href="/zs/">直疝</a></dd>
+
+                                <dd><a href="/xcsq/">小肠疝气</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">静脉曲张</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/xzjmqz/">下肢静脉曲张</a></dd>
+
+                                <dd><a href="/jmy/">静脉炎</a></dd>
+
+                                <dd><a href="/mgy/">脉管炎</a></dd>
+
+                                <dd><a href="/llt/">老烂腿</a></dd>
+
+                                <dd><a href="/jmxs/">静脉血栓</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li><a href="javascript:;" class="a1">痔疮</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/nz/">内痔</a></dd>
+
+                                <dd><a href="/wz/">外痔</a></dd>
+
+                                <dd><a href="/gl/">肛裂</a></dd>
+
+                                <dd><a href="/gl/">肛瘘</a></dd>
+
+                                <dd><a href="/hhz/">混合痔</a></dd>
+
+                                <dd><a href="/bx/">便血</a></dd>
+
+                                <dd><a href="/gt/">肛脱</a></dd>
+
+                                <dd><a href="/gt/">肛脱</a></dd>
+
+                                <dd><a href="/gmyw/">肛门异物</a></dd>
+
+                                <dd><a href="/gmzz/">肛门坠胀</a></dd>
+
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">阑尾炎</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/mxlwy/">慢性阑尾炎</a></dd>
+
+                                <dd><a href="/jxlwy/">急性阑尾炎</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">乳腺</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/rxzs/">乳腺增生</a></dd>
+
+                                <dd><a href="/fr/">副乳</a></dd>
+
+                                <dd><a href="/rxxwl/">乳腺纤维瘤</a></dd>
+
+                                <dd><a href="/rxnz/">乳腺囊肿</a></dd>
+
+                                <dd><a href="/rxy/">乳腺炎</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">甲状腺</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/jzxjj/">甲状腺结节</a></dd>
+
+                                <dd><a href="/jzxzd/">甲状腺肿大</a></dd>
+
+                                <dd><a href="/jzxnz/">甲状腺囊肿</a></dd>
+
+                                <dd><a href="/jzxy/">甲状腺炎</a></dd>
+
+                                <dd><a href="/jk/">甲亢</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">男乳增生</a>
+                        <div class="sub">
+                            <dl>
+
+                                <dd><a href="/nxrxfd/">男性乳腺肥大</a></dd>
+
+                                <dd><a href="/nxrxzs/">男性乳腺增生</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">腋臭</a>
+                        <div class="sub">
+                            <dl>
+
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo left">
+                <a href="/" id="ddd"><img src="imgs/logo.png" /></a>
+            </div>
+            <div class="tel right">
+                <a href="tel:021-52833793"><img src="imgs/te.png" /></a>
+            </div>
+        </div>
+        <!--header end-->
+        <!--nav-->
+        <div class="navbar">
+            <ul>
+                <li><a href="/pp/2016/0616/1.html">品牌</a><i></i></li>
+                <li><a href="/ystd/">医师</a><i></i></li>
+                <li><a href="/zljs/">疗法</a><i></i></li>
+                <li><a href="/yygh/">挂号</a><i></i></li>
+                <li><a href="/lylx/">地址</a><i></i></li>
+            </ul>
+        </div>
+        <script>
+            $(function() {
+                $(".nav ul li").last().find('i').css({
+                    'display': 'none'
+                });
+            })
+        </script>
+        <!--nev end-->
+        <!-- benner -->
+        <div class="banner">
+            <a href="javascript:;" onclick="swt()"><img src="imgs/banner.jpg" /></a>
+        </div>
+        <!--banner end-->
+
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--hgroup1-->
+            <hgroup class="hgroup1">
+                <div class="title">
+                    <p class="p1">解析</p>
+                    <p class="p2">费用都受到那些因素限制</p>
+                    <p class="p3">parsingCharges will be constrained by those factors</p>
+                </div>
+                <section>
+                    <div class="content1">
+                        <div class="kuai kuai1">
+                            <p>与地区有关</p>
+                            <span>不同地区的医院肛瘘手术费用的价格也不同，医保报销比例也不同。</span>
+                        </div>
+                        <div class="kuai kuai2">
+                            <p>与患者病情有关</p>
+                            <span>不同的病情手术费用也是不一样的，到医院经过权威的检查后才能确定，越严重的肛瘘，治疗费用就会相对越高一些。</span>
+                        </div>
+                        <div class="kuai kuai3">
+                            <p>与治疗方法的选</p>
+                            <span>传统疗法和微创疗法具有很大的差别。好的治疗方法可以一次治愈肛瘘，免了二次治疗的费用与痛苦。</span>
+                        </div>
+                    </div>
+                    <div class="content2">
+                        <span>肛瘘的危害非常大，严重影响人们日常的生活，如果有肛周肿痛、瘙痒、流脓等类似症状，一定要到正规医院接受专业医生的检查诊治，不能轻信广告、盲目投医，以免留下后患。</span>
+                    </div>
+                    <div class="content3">
+                        <div class="zheng"></div>
+                        <div class="content3-txt">
+                            <p class="t1"><i>治疗肛瘘</i>如何精明省钱？</p>
+                            <p class="t2">In the treatment of anal fistula how smart save more money?</p>
+                            <span>
+                                <p>1、及早就医，一旦产生肛瘘，不手术治疗是不能痊愈的。</p>
+<p>2、选对治疗方法非常重要。传统的治疗方法，患者常有疼痛，还伴有大便失禁，等并发症。</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:;" onclick="swt()">做肛瘘手术要多少钱？<i>立即咨询</i></a>
+                    </div>
+
+                </section>
+
+            </hgroup>
+
+            <!--hgroup1 end-->
+            <!--hgroup2-->
+            <hgroup class="hgroup2">
+                <div class="title">
+                    <p class="p1">费用包括</p>
+                    <p class="p2">从预约到治疗所有均包含</p>
+                    <p class="p3">Fee includes from appointment to treat all are included</p>
+                </div>
+                <section>
+                    <ul class="yc-money">
+                        <li style="background: url(./imgs/y1.png)no-repeat center;">
+                            <p class="gh-name">挂号费</p>
+                            <p class="gh-con">现在预约<br>直接<i>减免</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y2.png)no-repeat center;">
+                            <p class="gh-name">检查费</p>
+                            <p class="gh-con">常规<i>血检</i><br>心电图等</p>
+                        </li>
+                        <li style="background: url(./imgs/y3.png)no-repeat center;margin-right:0px;">
+                            <p class="gh-name">治疗费</p>
+                            <p class="gh-con">收费公示<br><i>医保</i>援助
+                            </p>
+                        </li>
+                        <li style="background: url(./imgs/y4.png)no-repeat center;">
+                            <p class="gh-name">会诊费</p>
+                            <p class="gh-con">疑难病例<br>专家<i>会诊</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y5.png)no-repeat center;">
+                            <p class="gh-name">麻醉费</p>
+                            <p class="gh-con">术后消炎<br>局部<i>麻醉</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y6.png)no-repeat center;margin-right:0px;">
+                            <p class="gh-name">术后护理</p>
+                            <p class="gh-con"><i>术后</i>消炎<br>抵抗感染
+                            </p>
+                        </li>
+                    </ul>
+
+                    <div class="btn">
+                        <a href="tel:02152833793">电话咨询 了解更多</a>
+                    </div>
+
+                </section>
+
+            </hgroup>
+
+            <!--hgroup2 end-->
+            <hgroup class="hgroup3">
+                <div class="title">
+                    <p class="p1">省多少？</p>
+                    <p class="p2">价格完全公开透明</p>
+                    <p class="p3">What province? The price is completely transparent</p>
+                </div>
+                <section>
+                    <div class="content4">
+                        <div class="div1">
+                            <p class="p1">收费公示接受患者监督</p>
+                            <p class="p2">公开透明的价格告示，接受社会及患者的监督，让患者“花少的钱” 达到好的治疗效果。</p>
+                        </div>
+                        <div class="div2">
+                            <p class="p1">价格规范</p>
+                            <p class="p2">严格执行省卫生局检价局等制定的医疗卫生机构收费标准
+                            </p>
+                        </div>
+                        <div class="div3">
+                            <p class="p1">杜绝私受红包医风医德检查</p>
+                            <p class="p2">拒绝红包回扣拒绝商业贿赂加强行风建设创建文明医院
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <a href="javascript:;" onclick="swt()">详细点击咨询>>></a>
+                    </div>
+
+                </section>
+
+            </hgroup>
+            <!--hgroup3 end-->
+            <!--hgroup4-->
+            <hgroup class="hgroup4">
+                <div class="title">
+                    <p class="p1">HCPT微创术</p>
+                    <p class="p2">治疗肛瘘微创微痛</p>
+                    <p class="p3">Micro ChuangShu HCPT treatment of anal fistula of minimally invasive slightly pain</p>
+                </div>
+                <section>
+                    <div class="content5">
+                        <img src="imgs/zl.jpg" alt="" class="zltitle">
+                        <ul class="zllist">
+                            <li><img src="imgs/z1.jpg" alt=""></li>
+                            <li><img src="imgs/z2.jpg" alt=""></li>
+                            <li style="margin-right:0px;"><img src="imgs/z3.jpg" alt=""></li>
+
+                        </ul>
+                        <div class="zltxt">
+                            通过细小的直肠纤维镜来查看肛门里面的疾病状况，一旦找到肛瘘的内口，经过数据分析后，就会释放电凝波，让肛瘘内口彻底的凝合起来，同时会清洗以前留下的脓液。
+                        </div>
+                        <img src="imgs/zl4.jpg" alt="">
+                    </div>
+                    <div class="btn">
+                        <a href="tel:02152833793">拨打电话预约除瘘</a>
+                    </div>
+
+                </section>
+
+            </hgroup>
+
+            <!--hgroup4 end-->
+            <!--hgroup5-->
+            <hgroup class="hgroup5">
+                <div class="title">
+                    <p class="p1">医师亲诊</p>
+                    <p class="p2">拒绝实习医生做手术</p>
+                    <p class="p3">Physicians in clinical interns declined to do surgery</p>
+                </div>
+
+                <div class="content6">
+                    <div class="yunxuhelptopd">
+                        <ul>
+                            <li class="on">
+                                宋冠平
+                            </li>
+                            <li>
+                                王丰功
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="yunxuhelpwamp">
+
+                        <div class="yunxuhelpshow" style="display: block;">
+                            <a href="javascript:;" onclick="swt()"><img src="imgs/d-s.jpg" alt=""></a>
+                        </div>
+
+                        <div class="yunxuhelpshow" style="display: none;">
+                            <a href="javascript:;" onclick="swt()"> <img src="imgs/d-w.jpg" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(function() {
+                        $('.yunxuhelptopd li').click(function() {
+                            var liindex = $('.yunxuhelptopd li').index(this);
+                            $(this).addClass('on').siblings().removeClass('on');
+                            $('.yunxuhelpwamp div.yunxuhelpshow').eq(liindex).fadeIn(150).siblings('div.yunxuhelpshow').hide();
+
+                        });
+                    });
+                </script>
+
+            </hgroup>
+
+            <!--hgroup5 end-->
+            <!--预约挂号-->
+            <hgroup class="hgroup6">
+                <div class="title">
+                    <p class="p1">预约挂号</p>
+                    <p class="p2">避免造成无号的困扰</p>
+                    <p class="p3">Make an appointment to avoid causing no. No</p>
+                </div>
+                <section>
+                    <div class="form_box">
+                        <form name="form1" id="form1" class="index_form">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="td1 "><i class="star left">*</i>您的姓名：</td>
+                                    <td class="td2 "><input type="text" name="you_name" class="input-txt" placeholder="请输入您的姓名"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1 ">就诊日期：</td>
+                                    <td class="td2 "><input type="date" name="you_time" class="input-txt" placeholder="年/月/日"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td1 "><i class="star left">*</i>联系方式：</td>
+                                    <td class="td2 "><input type="text" name="you_tel" class="input-txt" placeholder="请输入您的号码"></td>
+                                </tr>
+                                <tr style="height: 250px;">
+                                    <td class="td1 left">病情描述：</td>
+                                    <td class="td2 "><textarea name="you_por" class="input-area" placeholder="描述您的病情..."></textarea></td>
+                                </tr>
+                                <tr rowspan="2">
+                                    <input type="hidden" value="707" name="wid" />
+                                    <td class="td4"><input type="submit" value="提交在线挂号" class="input-btn submit" /></td>
+                                </tr>
+                            </table>
+                            <p class="notice"><i>温馨提示：</i>预约成功患者，系统将专家号和医院地址下发到您 的手机，请注意查收。
+                            </p>
+                        </form>
+                        <script type="text/javascript" src="/include/js/newform.js"></script>
+                    </div>
+                </section>
+
+            </hgroup>
+            <!--预约挂号 end-->
+            <footer>
+                <ul></ul>
+            </footer>
+
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-p" style="padding-top:40px;">
+                    <p>医院地址：上海市普陀区大渡河路1933号</p>
+                    <p>门诊时间（无假日医院）：8:00-20:30</p>
+                    <p>挂号电话：021-52833793</p>
+                </div>
+            </div>
+            <!-- footer end-->
+            <div class="swt-bottom" id="swt-bottom">
+                <div class="bottom_inner">
+                    <img src="imgs/bottom.png" />
+                    <div class="bootom_link">
+                        <a href="tel:021-52833793" class="b_click">
+                            <p>电话咨询</p>
+                        </a>
+                        <a href="javascript:;" onclick="swt()" class="b_click" target="_blank">
+                            <p>在线咨询</p>
+                        </a>
+                        <a href="javascript:;" onclick="swt()" class="b_click" target="_blank">
+                            <p>在线挂号</p>
+                        </a>
+                        <a href="/lylx/" class="b_click" target="_blank">
+                            <p>来院路线</p>
+                        </a>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--主体部分 end-->
+        <script type="text/javascript" src="/include/js/swt.js"></script>
+        <script type="text/javascript" src="/include/js/bottomswt.js"></script>
+
+
+</body>
+
+</html>

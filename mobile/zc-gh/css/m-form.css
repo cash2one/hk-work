@@ -1,0 +1,280 @@
+.layout {
+    width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.top {
+    width: 100%;
+    height: 79px;
+    display: block;
+    background: url(../images/top.jpg)no-repeat center;
+    margin: 5px auto 10px;
+    text-indent: 144px;
+    line-height: 79px;
+    font-size: 45px;
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 288px;
+}
+
+
+/* 本例子css */
+
+.txtMarquee-left {
+    width: 640px;
+    height: 48px;
+    background: url(../images/txt.jpg)no-repeat center;
+    position: relative;
+    margin: 30px auto;
+}
+
+.txtMarquee-left .bd {
+    padding: 10px;
+}
+
+.txtMarquee-left .bd .tempWrap {
+    width: 620px !important;
+}
+
+
+/* 用 !important覆盖SuperSlide自动生成的宽度，这样就可以手动控制可视宽度。 */
+
+.txtMarquee-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.txtMarquee-left .bd ul li {
+    margin-right: 0px;
+    float: left;
+    height: 24px;
+    line-height: 30px;
+    text-align: left;
+    _display: inline;
+    font-size: 16px;
+    color: #000;
+    width: auto !important;
+}
+
+
+/* 用 width:auto !important 覆盖SuperSlide自动生成的宽度，解决文字不衔接问题 */
+
+.txtMarquee-left .bd ul li span {
+    color: #999;
+}
+
+.disease ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.disease ul li {
+    width: 160px;
+    height: 135px;
+    display: block;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.disease ul li p {
+    font-size: 25px;
+    color: #000;
+    line-height: 40px;
+}
+
+
+/*guahao*/
+
+.sk-zzgh {
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.guahao {
+    width: 100%;
+    height: 448px;
+    display: block;
+}
+
+.guahao .title {
+    width: 100%;
+    height: 61px;
+    background: url(../images/guahao.jpg)no-repeat center;
+    font-size: 28px;
+    color: #fff;
+    line-height: 61px;
+    text-indent: 65px;
+}
+
+.guahao .img {
+    width: 586px;
+    height: 353px;
+    margin: 31px auto;
+}
+
+.hotimg {
+    width: 100%;
+    height: 193px;
+    display: block;
+}
+
+.footer {
+    width: 640px;
+    height: 160px;
+    margin: auto;
+    background: #116f6e;
+    margin-top: 20px;
+    padding-bottom: 130px;
+}
+
+.footer p {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 40px;
+}
+
+.form-warp {
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-warp .title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form-warp .tishi {
+    width: 520px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 20px;
+}
+
+.form-warp .tishi span {
+    padding: 5px 16px;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    line-height: 26px;
+}
+
+.form-warp .tishi span i {
+    color: red;
+}
+
+.form_box {
+    padding: 0px 0px 0px 38px;
+}
+
+.form_box table tr {
+    height: 40px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.form_box table tr .td1 {
+    width: 155px;
+    font-size: 24px;
+    color: #323232;
+    line-height: 44px;
+    text-align: left;
+    float: left;
+}
+
+.form_box table tr .td1 .star {
+    float: left;
+    width: 18px;
+    display: block;
+    color: #ff2c55;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.form_box table tr .td2 {
+    float: left;
+}
+
+.form_box table tr .td3 {
+    height: 44px;
+    float: left;
+    line-height: 44px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.form_box table tr .input-txt {
+    width: 398px;
+    height: 44px;
+    line-height: 44px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #d7d7d7;
+    border-radius: 5px;
+    outline: none;
+    font-size: 22px;
+    color: #323232;
+    font-family: "Microsoft YaHei";
+}
+
+.form_box table tr .time {
+    font-family: "Microsoft YaHei";
+    background: url(../imgs/time.jpg)no-repeat right center;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 22px;
+    color: #b4b4b4;
+    font-family: "微软雅黑";
+}
+
+.form_box table tr .input-area {
+    width: 398px;
+    height: 195px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #323232;
+    resize: none;
+    padding-top: 10px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+.form_box table tr .input-btn {
+    width: 264px;
+    height: 84px;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 34px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    border-radius: 5px;
+}
+
+.form_box table tr .submit {
+    float: left;
+    background: #0fc3c2;
+    margin-left: 25px;
+}
+
+.form_box table tr .reset {
+    background: #e77505;
+    margin-left: 10px;
+}

@@ -1,0 +1,1285 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    background: #666;
+    color: #242a2d;
+}
+
+input {
+    font-family: "微软雅黑";
+    outline: none;
+    border: none;
+}
+
+.layout {
+    width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.layout2 {
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.header {
+    height: 110px;
+    background: #13a8af;
+}
+
+.header .logo {
+    margin: 23px 0px 0px 40px
+}
+
+.header .logo2 {
+    margin-top: 23px;
+}
+
+
+/*banenr*/
+
+.swiper-container {
+    width: 640px;
+    height: 320px;
+    margin: 0px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-container2 {
+    width: 640px;
+    height: 320px;
+    margin: 0px auto;
+}
+
+
+/*nav*/
+
+.nav {
+    height: 70px;
+    border-bottom: 1px solid #dedcd7;
+}
+
+.nav ul li {
+    display: inline-block;
+    float: left;
+    width: 128px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+}
+
+.nav ul li a {
+    width: 128px;
+    display: block;
+    height: 22px;
+    color: #242a2d;
+    font-size: 26px;
+}
+
+.nav ul li i {
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    background: #D3D4D5;
+    right: 0px;
+    top: 25px;
+}
+
+.wrapper {
+    background: #f0f0f0;
+}
+
+
+/*疾病分类*/
+
+.disease {
+    width: 100%;
+    overflow: hidden;
+}
+
+.disease ul {
+    padding-top: 20px;
+    ;
+}
+
+.disease ul li {
+    width: 209px;
+    height: 205px;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.disease ul li .img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: 30px auto 0px;
+}
+
+.disease ul li .disease-name {
+    font-size: 24px;
+    color: #1e262a;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/*医师团队*/
+
+.doctor-head {
+    height: 70px;
+}
+
+.doctor-head-l {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    margin: 25px 0px 0px 15px;
+    border-left: 3px solid #10a6ad;
+    font-size: 30px;
+    color: #242a2d;
+}
+
+.doctor-head-r {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 25px 15px 0px 0px;
+}
+
+.doctor-head-r a {
+    font-size: 22px;
+    color: #4c4c4c;
+    padding-top: 25px;
+}
+
+.doctor .doctorlist {
+    background: #fff;
+    padding: 25px 14px 20px 14px;
+    overflow: hidden;
+}
+
+.doctor .doctorlist li {
+    display: block;
+    float: left;
+    border-bottom: 1px dotted #a8a8a8;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.doctor .doctorlist li.last {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.doctor .doctorlist li .img {
+    width: 215px;
+    height: 191px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.doctor .doctorlist li .img img {
+    width: 215px;
+    height: 191px;
+}
+
+.doctor .doctorlist li .profile {
+    width: 370px;
+}
+
+.doctor .doctorlist li .profile .name {
+    display: block;
+    font-size: 30px;
+    color: #242a2d;
+}
+
+.doctor .doctorlist li .profile .name i {
+    font-size: 24px;
+    padding-left: 18px;
+}
+
+.doctor .doctorlist li .profile .accept {
+    font-size: 20px;
+    color: #767676;
+    display: block;
+    line-height: 34px;
+}
+
+.doctor .doctorlist li .profile .goodat {
+    font-size: 24px;
+    color: #242a2d;
+    display: block;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.doctor-url a {
+    width: 151px;
+    height: 43px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.doctor-url a.details {
+    background: #43cad0;
+    margin-right: 20px;
+}
+
+.doctor-url a.reservation {
+    background: #fc814b;
+}
+
+.form_box {
+    width: 100%;
+    padding: 30px 15px;
+    background: #fff;
+}
+
+.form_box table tr {
+    height: 55px;
+    display: block;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.form_box table tr .td1 {
+    width: 150px;
+    font-size: 26px;
+    color: #323232;
+    line-height: 53px;
+    letter-spacing: 5px;
+}
+
+.form_box table tr .td1 .star {
+    color: #ff2c55;
+    margin: 3px 15px 3px 10px;
+}
+
+.form_box table tr .input-txt {
+    width: 429px;
+    height: 53px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    color: #b4b4b4;
+    letter-spacing: 3px;
+}
+
+::-webkit-datetime-edit {
+    width: 429px !important;
+    height: 53px;
+    display: block;
+    padding: 10px 0px;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+    background-color: #eee;
+    line-height: 53px;
+}
+
+::-webkit-datetime-edit-text {
+    color: #4D90FE;
+    line-height: 53px;
+}
+
+::-webkit-datetime-edit-year-field {
+    color: purple;
+}
+
+::-webkit-datetime-edit-month-field {
+    color: blue;
+}
+
+::-webkit-datetime-edit-day-field {
+    color: green;
+}
+
+::-webkit-inner-spin-button {
+    visibility: hidden;
+}
+
+::-webkit-calendar-picker-indicator {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px #fff, 0 1px #eee;
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+    color: #666;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 22px;
+    color: #8a8a8a;
+    font-family: "微软雅黑";
+}
+
+.form_box table tr .td4 {
+    padding-left: 15rem;
+}
+
+.form_box table tr .input-btn {
+    width: 199px;
+    height: 51px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form_box table tr .submit {
+    float: left;
+    margin-left: 4rem;
+    background: #fc814b;
+}
+
+.form_box .notice {
+    padding: 20px 15px;
+    color: #242a2d;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.form_box .notice i {
+    color: #ff0000;
+}
+
+
+/*特殊下拉框*/
+
+select {
+    display: none;
+}
+
+select option {
+    color: #ff2c00
+}
+
+.select_box {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #999999;
+    width: 230px;
+    height: 34px;
+    line-height: 32px;
+}
+
+.select_showbox {
+    width: 239px;
+    height: 53px;
+    line-height: 48px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    color: #b4b4b4;
+    font-family: "微软雅黑";
+    letter-spacing: 3px;
+    background: url(../images/xiala.png) no-repeat 161px -1px #fff;
+}
+
+.select_option {
+    border: 2px solid #dcdcdc;
+    border-top: none;
+    display: none;
+    position: relative;
+    background: #fff;
+    top: 0px;
+    width: 238px;
+}
+
+.select_option li {
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 5px;
+}
+
+
+/*
+.select_option li.selected {
+	background-color: #F3F3F3;
+}
+
+.select_option li.hover {
+	background: #7b6959;
+	color: #fff;
+}
+*/
+
+.form_box table tr .td3 {
+    width: 50px;
+}
+
+.notice .star {
+    height: 66px;
+    display: inline-block;
+    color: #ff2c55;
+    margin-right: 15px;
+}
+
+.notice span {
+    line-height: 32px;
+    font-size: 26px;
+    color: #262626;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 199px;
+    background: #006b70;
+    margin-bottom: 120px;
+}
+
+.footer P {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+.footer .footer-p {
+    padding-top: 45px;
+}
+
+
+/*挂号*/
+
+.pubtop {
+    height: 72px;
+    line-height: 72px;
+    padding-left: 18px;
+    font-size: 24px;
+    color: #666666;
+}
+
+.pubtop .homeimg {
+    margin-top: 19px;
+    padding-right: 7px;
+}
+
+.pubtop a {
+    color: #666666;
+}
+
+.reserve-gh-con {
+    overflow: hidden;
+    display: block;
+    background: #0ba2a9;
+}
+
+.reserve-gh-con .title {
+    width: 100%;
+    height: 92px;
+    border-bottom: 2px solid #ececec;
+    font-size: 36px;
+    color: #fff;
+    line-height: 92px;
+    text-align: center;
+}
+
+.pubtop2 {
+    height: 92px;
+    line-height: 92px;
+    padding-left: 18px;
+    font-size: 24px;
+}
+
+.pubtop2 .homeimg {
+    margin-top: 26px;
+    padding-right: 7px;
+}
+
+.pubtop2 a {
+    color: #242a2d;
+}
+
+.treat-process-con {
+    min-height: 580px;
+    padding: 30px 14px 0px 18px;
+    background: #fff;
+}
+
+.treat-process-con .step {
+    width: 146px;
+    height: 138px;
+    display: block;
+    float: left;
+    margin: 0px 17px 15px 18px;
+}
+
+.treat-process-con .step p {
+    text-align: center;
+    color: #2d353a;
+}
+
+.treat-process-con .step .step-num {
+    font-family: arial;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.treat-process-con .step .step-message {
+    font-size: 20px;
+}
+
+.next-step {
+    width: 32px;
+    height: 138px;
+    display: block;
+    float: left;
+    background: url(../images/step.png)no-repeat center;
+}
+
+.treat-process-con .linkurl {
+    padding-top: 30px;
+}
+
+.treat-process-con .linkurl a {
+    width: 100%;
+    height: 76px;
+    display: block;
+    background: #37B3FD;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.treat-process-con .linkurl .advisory {
+    background: #1acecd;
+    line-height: 76px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.treat-process-con .linkurl .advisory2 {
+    background: #f86b2e;
+}
+
+.tel-to {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tel-to img {
+    float: left;
+    width: 70px;
+    height: 76px;
+}
+
+.tel-to .p1 {
+    width: 257px;
+    padding-left: 4px;
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 18px;
+}
+
+.tel-to .p2 {
+    width: 260px;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 800;
+    font-family: arial;
+}
+
+
+/*来院路线*/
+
+
+/*地址*/
+
+.road-content {
+    height: 640px;
+    background: #fff;
+    padding: 20px 15px 20px 18px;
+}
+
+.road-content .phone {
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.road-content .phone img {
+    float: left;
+    padding-top: 5px;
+}
+
+.road-content .phone span {
+    font-size: 28px;
+    line-height: 50px;
+    color: #333333;
+    padding-left: 10px;
+    float: left;
+}
+
+.road-content .phone span b {
+    font-size: 34px;
+    font-family: arial;
+}
+
+.road-content .phone .lookmap {
+    width: 212px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 7px;
+    text-indent: 15px;
+    background: #ff6702 url(../images/lookmap.png)no-repeat 167px center;
+}
+
+.road-content .address {
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    clear: both;
+}
+
+.road-content .address img {
+    float: left;
+    padding-top: 5px;
+}
+
+.road-content .address span {
+    font-size: 28px;
+    line-height: 50px;
+    color: #333333;
+    padding-left: 10px;
+    float: left;
+}
+
+
+/*路线分类*/
+
+.road-class {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+}
+
+.road-class .title {
+    width: 220px;
+    height: 60px;
+    display: block;
+    margin: 30px auto 35px;
+    height: 60px;
+}
+
+.road-class .title img {
+    float: left;
+    margin-right: 8px;
+}
+
+.road-class .title .zh {
+    font-size: 36px;
+    color: #272c2f;
+    line-height: 45px;
+}
+
+.road-class .title .en {
+    font-size: 12px;
+    color: #686868;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+
+/*线路切换*/
+
+.roadtab {
+    padding-left: 6px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.roadtab ul li {
+    width: 114px;
+    height: 95px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.roadtab ul li.on {
+    background-position: center -95px !important;
+    color: #fff;
+}
+
+.roadshow {
+    padding: 0px 15px;
+    overflow: hidden;
+}
+
+
+/*bus road*/
+
+.Bus ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.Bus ul li .roadline {
+    width: 104px;
+    height: 118px;
+    display: block;
+    margin-top: 8px;
+    background: url(../images/roadline.png)no-repeat center;
+}
+
+.Bus ul li .roadline p {
+    color: #52585b;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 34px;
+}
+
+.Bus ul li .roaddetail {
+    width: 480px;
+    padding-top: 5px;
+}
+
+.Bus ul li .roaddetail .p1 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 30px;
+}
+
+.Bus ul li .roaddetail .p1 i {
+    font-family: arial;
+}
+
+.Bus ul li .roaddetail .p2 {
+    padding-top: 3px;
+    font-size: 20px;
+    color: #666666;
+    line-height: 30px;
+}
+
+.zixun2 {
+    padding-left: 18px;
+    margin-bottom: 40px;
+}
+
+.zixun2 a {
+    width: 243px;
+    height: 74px;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 74px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.zixun2 .online {
+    background: #1acecd;
+    margin-left: 35px;
+}
+
+.zixun2 .register {
+    background: #f86a2c;
+    margin-left: 45px;
+}
+
+
+/*sunway*/
+
+.Subway ul li .roadline .s-line {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 34px;
+    color: #52585b;
+}
+
+.Subway ul li .roadline .s-line2 {
+    padding-left: 30px;
+}
+
+.Subway ul li .roaddetail .p2 i {
+    color: #00b4b3;
+}
+
+
+/*飞机*/
+
+.Air ul li .roadline {
+    width: 131px;
+    height: 118px;
+    display: block;
+    background: url(../images/aircraft.png)no-repeat center top;
+}
+
+.Air ul li .roadline .a-line {
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 36px;
+    color: #52585b;
+}
+
+.Air ul li .roaddetail {
+    width: 460px;
+}
+
+.Air ul li .roaddetail .p2 i {
+    color: #00b4b3;
+}
+
+.hotline {
+    margin-top: 35px;
+}
+
+.ask-category {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.ask-category ul li {
+    width: 157px;
+    height: 139px;
+    display: block;
+    float: left;
+    background: #fff;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.ask-category ul li a img {
+    display: block;
+    margin: 10px auto 0px;
+}
+
+.ask-category ul li a p {
+    text-align: center;
+    font-size: 24px;
+    color: #535c5c
+}
+
+
+/*文章*/
+
+.article-content {
+    overflow: hidden;
+    background: #fff;
+    padding: 0px 15px;
+}
+
+.article-content .title {
+    padding: 30px 0px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #242a2d
+}
+
+.free-phone {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: #EDF7FC;
+}
+
+.free-phone .head {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.free-phone .tel-input {
+    width: 330px;
+    height: 69px;
+    line-height: 69px;
+    display: block;
+    font-size: 24px;
+    color: #5f5454;
+    text-indent: 50px;
+    border: 1px solid #c6c6c6;
+    background: url(../images/art-tel.png)no-repeat 5px center #f1f9fe;
+    margin-top: 5px;
+    margin-left: 4rem;
+}
+
+.free-phone .free-to {
+    width: 170px;
+    height: 69px;
+    line-height: 69px;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    background: #38b4fe;
+    margin-top: 5px;
+    margin-right: 4rem;
+}
+
+.article-txt {
+    padding-top: 30px;
+    line-height: 36px;
+    font-size: 26px;
+    color: #343434;
+    padding-bottom: 20px;
+}
+
+.article-txt img {
+    max-width: 600px;
+    height: auto;
+}
+
+.article-url {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.article-url a {
+    width: 277px;
+    height: 64px;
+    display: inline-block;
+    float: left;
+    font-weight: 800;
+    color: #fff;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.article-url .a1 {
+    background: #0ba2a9;
+}
+
+.article-url .a2 {
+    background: #f86a2c;
+    margin-left: 50px;
+}
+
+.turnpage {
+    padding: 25px 0px 25px 18px;
+    background: #fff;
+    border-top: 1px solid #ececec;
+}
+
+.turnpage .shang,
+.turnpage .xia {
+    width: 600px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.turnpage .shang a,
+.turnpage .xia a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 26px;
+    color: #242a2d;
+}
+
+
+/*热心公益*/
+
+.spirited ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.spirited ul li {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+}
+
+.spirited ul li .title {
+    height: 75px;
+    line-height: 75px;
+    text-indent: 60px;
+    display: block;
+    background: url(../images/yuan.jpg)no-repeat 25px center;
+    font-size: 30px;
+    color: #000;
+}
+
+.spirited ul li .daoyu {
+    font-size: 24px;
+    line-height: 40px;
+    color: #757575;
+    padding-left: 60px;
+}
+
+.spirited ul li .daoyu .xiangxi {
+    color: #ff9000;
+}
+
+.spirited ul li .time {
+    height: 40px;
+    font-size: 20px;
+    color: #808080;
+    margin-top: 10px;
+}
+
+.spirited ul li .time img {
+    float: left;
+    margin-left: 65px;
+    padding-right: 5px;
+}
+
+.page {
+    background: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.page a {
+    display: inline-block;
+    font-size: 20px;
+    color: #8d8d8d;
+    margin-right: 10px;
+    border: 1px solid #d9d9d9;
+    padding: 5px 10px;
+}
+
+
+/*列表页*/
+
+.pathology-content {
+    background: #fff;
+    padding: 30px 14px 35px 18px;
+    overflow: hidden;
+}
+
+.disease-xq {
+    overflow: hidden;
+}
+
+.disease-xq .img {
+    width: 247px;
+    height: 230px;
+    display: block;
+    border: 1px solid #e6ecf0;
+}
+
+.disease-xq .img img {
+    width: 245px;
+    height: 228px;
+}
+
+.disease-xq .disease-r {
+    width: 340px;
+}
+
+.disease-r .title {
+    height: 80px;
+    border-bottom: 1px dotted #aaaaaa;
+}
+
+.disease-r .title .zh {
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.disease-r .title .en {
+    font-size: 14px;
+    color: #cdcdce;
+    font-family: arial;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.disease-r dl {
+    padding-top: 25px;
+}
+
+.disease-r dl dd {
+    width: 100%;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    background: url(../images/img1.png)no-repeat left center;
+    font-size: 24px;
+    text-indent: 15px;
+}
+
+.dis-reason {
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    background: #eaeaea;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.dis-reason .zheng {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.dis-reason .zheng img {
+    float: left;
+    padding-right: 8px;
+}
+
+.dis-reason .zheng a {
+    color: #242a2d;
+    font-size: 24px;
+}
+
+.dis-reason .reason {
+    margin-top: 10px;
+}
+
+.ask-list {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ask-list li {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    display: block;
+    border-bottom: 1px dotted #aaaaaa;
+    background: url(../images/img2.png)no-repeat 10px center;
+}
+
+.ask-list li a {
+    font-size: 24px;
+    color: #242a2d;
+    display: block;
+    text-indent: 28px;
+}
+
+.swt {
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+    height: 141px;
+    background: url(../images/swt_bg.png) bottom repeat-x scroll;
+    z-index: 10;
+}
+
+.swt_box {
+    width: 640px;
+    height: 141px;
+    margin: 0 auto;
+    display: flex;
+    background: url(../images/swt.png) center scroll no-repeat;
+}
+
+.swt_yygh {
+    height: 120px;
+    align-self: flex-end;
+    width: 248px;
+}
+
+.swt_ljth {
+    height: 130px;
+    align-self: flex-end;
+    width: 124px;
+}
+
+.swt_hdsy {
+    height: 120px;
+    align-self: flex-end;
+    width: 248px;
+}

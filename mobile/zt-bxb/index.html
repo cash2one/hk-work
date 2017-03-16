@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>便血移动端专题</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="layout">
+        <!--logo-->
+        <div class="logo">
+            <a href="/"><img src="images/logo.jpg" /></a>
+        </div>
+        <!--logo end-->
+        <!--nav -->
+        <div class="nav">
+            <ul>
+                <li><a href="/">医院首页</a></li>
+                <li><a href="/yyjj/2015/0829/324.html">医院简介</a></li>
+                <li><a href="/wkjs/">特色疗法</a></li>
+                <li class="br"><a href="/kfal/">党建工作</a></li>
+                <li><a href="/wkzj/">医师团队</a></li>
+                <li><a href="tel:021-52833793">电话预约</a></li>
+                <li><a href="javascript:;" onclick="swt()">自助挂号</a></li>
+                <li><a href="/lylx/2015/0810/243.html">来院路线</a></li>
+            </ul>
+        </div>
+        <!--nav end-->
+        <!--banenr-->
+        <div class="banner">
+            <a href=""><img src="./images/banner.jpg" alt=""></a>
+        </div>
+        <!--banenr end-->
+        <div class="warp">
+            <!--内容1-->
+            <hgroup class="hgroup1">
+                <div class="title">
+                    <p class="zh"><span><i>8</i>大病因 </span>揭示便血背后疾病 </p>
+                    <h3 style="width:536px;"></h3>
+                    <span class="ch">Eight causes Behind the bloody diseases</span>
+                </div>
+                <section>
+                    <p class="p1">如果您还认为便血是小问题</p>
+                    <p class="p2">那您就要注意了</p>
+                    <img src="./images/img1.jpg" alt="">
+                    <p class="p3"><i style="color:#ff0000;">结论：</i>由痔疮引起的便血概率较大，当然也不排除患有直肠癌的可能,不妨说说您的情况。</p>
+                    <div class="zixun"><a href="">在线咨询</a></div>
+                </section>
+            </hgroup>
+            <!--内容2-->
+            <hgroup class="hgroup2">
+                <div class="title">
+                    <p class="zh"><span><i>5</i>期症状 </span>细看便血周期 </p>
+                    <h3 style="width:450px;"></h3>
+                    <span class="ch">5) symptoms Look bloody cycle</span>
+                </div>
+                <section>
+                    <ul class="bxtime">
+                        <li class="li1">
+                            <p class="p">便血一周</p>
+                            <div class="img"><img src="./images/bx1.png" alt=""></div>
+                            <div class="ms">
+                                <p>便血初期，一周内便血偶尔出现一次</p>
+                            </div>
+                            <i></i>
+                        </li>
+                        <li class="li2">
+                            <p class="p">便血一个月</p>
+                            <div class="img"><img src="./images/bx2.png" alt=""></div>
+                            <div class="ms">
+                                <p>便血早期，症状出现过多次，肛门会引发炎症</p>
+                            </div>
+                            <i style="background: #42a0f8;;"></i>
+                        </li>
+                        <li class="li3">
+                            <p class="p">便血半年</p>
+                            <div class="img"><img src="./images/bx3.png" alt=""></div>
+                            <div class="ms">
+                                <p> 便血中期，持续便血两三天,伴有便秘、肛周红肿、疼痛</p>
+                            </div>
+                            <i style=" background: #c2c442;"></i>
+                        </li>
+                        <li class="li4">
+                            <p class="p">便血一年</p>
+                            <div class="img"><img src="./images/bx4.png" alt=""></div>
+                            <div class="ms">
+                                <p>便血中晚期，便血次数明显增多，易出现缺铁性贫血、引发妇科炎症</p>
+                            </div>
+                            <i style=" background: #ff9a01;"></i>
+                        </li>
+                    </ul>
+                    <div class="zixun"><a href="">>>您的症状已经多久了</a></div>
+                </section>
+            </hgroup>
+            <!--内容3-->
+            <hgroup class="hgroup3">
+                <div class="title">
+                    <p class="zh"><span><i>4</i>种类型 </span>帮您鉴别便血程度 </p>
+                    <h3 style="width:588px;"></h3>
+                    <span class="ch">Four types Help you identify the bloody degree</span>
+                </div>
+                <section>
+                    <ul class="bx-chengdu">
+                        <li>
+                            <div class="img"><img src="./images/cd1.jpg" alt=""></div>
+                            <p class="name">鲜血便</p>
+                            <div class="ms2">
+                                鲜血便是便血的一种常见症状，常见于内痔、外痔、混合痔、肛裂等肛肠疾病。
+                            </div>
+                        </li>
+                        <li style="margin-left:38px;">
+                            <div class="img"><img src="./images/cd2.jpg" alt=""></div>
+                            <p class="name">脓血便</p>
+                            <div class="ms2">
+                                脓血便是肠道有器质性病变，必须十分重视，及时明确诊断，抓紧治疗
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><img src="./images/cd3.jpg" alt=""></div>
+                            <p class="name">柏油便（黑便）</p>
+                            <div class="ms2">
+                                良性疾患，包括内痔、外痔，肛裂，大肠息肉，肛瘘等。
+                            </div>
+                        </li>
+                        <li style="margin-left:38px;">
+                            <div class="img"><img src="./images/cd4.jpg" alt=""></div>
+                            <p class="name">鲜血便</p>
+                            <div class="ms2">
+                                上消化道或小肠出血并在肠内停留时间较长，红细胞破坏后。
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="zx">
+                        <div class="gril"><img src="images/girl.jpg" alt=""></div>
+                        <div class="zuxin-r">
+                            <p><i style="color:#ff0000;">肛肠医师指出：</i>众多疾病都有便血症状，有便血者切忌不知病因盲目用药，更忌拖延不治。</p>
+                            <a href="">>>无法辨别便血程度  <i>点击咨询</i></a>
+                        </div>
+                    </div>
+                </section>
+            </hgroup>
+            <!--内容4-->
+            <hgroup class="hgroup4">
+                <div class="title">
+                    <p class="zh"><span><i></i>宏康治便血 </span>检查准确 对症下药 </p>
+                    <h3 style="width:0px;"></h3>
+                    <span class="ch">Macro koji bloody check accurate suit the remedy to the case</span>
+                </div>
+                <section>
+                    <div class="z-top">
+                        <p>到院需要通过电子肛门镜检查就<br> 可以快速为您确诊！
+                        </p>
+                    </div>
+                    <div class="con-l">
+                        <img src="./images/img3.jpg" alt="">
+                    </div>
+                    <div class="con-r">
+                        <p style="background:#42a0f8">准确图像采集</p>
+                        <p style="background:#c2c442">用时3-5分钟，实时诊断</p>
+                        <p style="background:#ff9a01">疼痛低 可视化彩色报告</p>
+                    </div>
+                    <div class="zixun">
+                        <a href="">花小钱检查一下才安心</a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--内容5-->
+            <hgroup class="hgroup5">
+                <div class="title">
+                    <p class="zh"><span><i></i>宏康微创疗法 </span>轻松除便血 </p>
+                    <h3 style="width:446px;"></h3>
+                    <span class="ch">Safe and painless hematochezia</span>
+                </div>
+                <section>
+                    <div class="z-top">
+                        <p class="p1">便血病因不同 治疗方法不同</p>
+                        <p class="p2">安全、微创、治疗范围广、不反复</p>
+                    </div>
+                    <div class="smalltab">
+                        <ul>
+                            <li class="on">
+                                PPH美国强生微创术
+                            </li>
+                            <li style="margin:0px 30px;">
+                                HCPT微创术
+                            </li>
+                            <li>
+                                RPH套扎器
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabwamp clear">
+                        <div class="tabshow" style="display: block;">
+                            <div class="img"><img src="./images/img7.jpg" alt=""></div>
+                            <div class="xiangqiang">
+                                <h3>PPH美国强生微创术</h3>
+                                <p>PPH微创术是建立在肛垫学说基础上的利用特制的圆形吻合器经肛门插入直肠，环形切除直肠下端肠壁的黏膜和黏膜下层组织……<a href="">[详情]</a></p>
+                            </div>
+                        </div>
+
+                        <div class="tabshow" style="display: none;">
+                            <div class="img"><img src="./images/img7.jpg" alt=""></div>
+                            <div class="xiangqiang">
+                                <h3>PPH美国强生微创术</h3>
+                                <p>PPH微创术是建立在肛垫学说基础上的利用特制的圆形吻合器经肛门插入直肠，环形切除直肠下端肠壁的黏膜和黏膜下层组织……<a href="">[详情]</a></p>
+                            </div>
+                        </div>
+
+                        <div class="tabshow" style="display: none;">
+                            <div class="img"><img src="./images/img7.jpg" alt=""></div>
+                            <div class="xiangqiang">
+                                <h3>PPH美国强生微创术</h3>
+                                <p>PPH微创术是建立在肛垫学说基础上的利用特制的圆形吻合器经肛门插入直肠，环形切除直肠下端肠壁的黏膜和黏膜下层组织……<a href="">[详情]</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <script type="text/javascript">
+                        $(function() {
+                            $('.smalltab li').click(function() {
+                                var liindex = $('.smalltab li').index(this);
+                                $(this).addClass('on').siblings().removeClass('on');
+                                $('.tabwamp div.tabshow').eq(liindex).fadeIn(150).siblings('div.tabshow').hide();
+                            });
+
+                        });
+                    </script>
+                </section>
+            </hgroup>
+            <!--内容6-->
+            <hgroup class="hgroup6">
+                <section>
+                    <div class="z-top">
+                        <p class="zh">微创疗法 四大优势</p>
+                        <p class="ch">Minimally invasive treatment Four big advantage</p>
+                    </div>
+                    <ul class="youshi">
+                        <li style="background:#5656b7;">
+                            <p>手术成功率<br>较高</p>
+                        </li>
+                        <li style="background:#3fa0f8;">
+                            <p>手术时间短<br>平均为<br>15min</p>
+                        </li>
+                        <li style="background:#c2c43f;">
+                            <p>轻微疼痛<br>创伤小</p>
+                        </li>
+
+                        <li style="margin-right:0px;background:#ff9a01;">
+                            <p>基本无并发症<br>一般一次治愈</p>
+
+                        </li>
+                    </ul>
+                    <div class="zixun">
+                        <a href="">我的情况适合那种疗法，点击问医师？</a>
+                    </div>
+                </section>
+            </hgroup>
+            <div class="yuyueimg">
+                <a href=""><img src="images/img9.jpg"> </a>
+            </div>
+            <div class="yuyueimg" style="padding-bottom:60px;">
+                <a href=""><img src="images/img10.jpg"> </a>
+            </div>
+            <!--内容7-->
+            <hgroup class="hgroup7">
+                <div class="title">
+                    <p class="zh"><span><i></i>便血 </span>的预防和保健 </p>
+                    <h3 style="width:480px;"></h3>
+                    <span class="ch">Bloody prevention and health care</span>
+                </div>
+                <section>
+                    <ul class="yufang">
+                        <li>
+                            <p class="name">忌烟酒、刺激之物</p>
+                            <p class="txt">烟酒或刺激食品可加重肠粘膜充血水肿 使便血症状加重。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="name">起居调整</p>
+                            <p class="txt" style="width:524px;">便血量大者要卧床休息，吃流动或少渣饮食，必要时应禁食以减少对消化道刺激。
+                            </p>
+                        </li>
+                        <li style=" background: url(./images/img12.jpg)no-repeat center;">
+                            <p class="name">忌用活血药</p>
+                            <p class="txt" style="width:384px;">便血患者在治疗过程中避免使用活血化淤药以免渣成出血不止的现象
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </hgroup>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="footlogo"><img src="images/footlogo.png"></div>
+            <div class="f-tel">
+                <div class="img"><img src="./images/f-tel.png" alt=""></div>
+                <div class="txt">
+                    <p>咨询热线：</p>
+                    <p class="telnumber">021-52833793</p>
+                </div>
+            </div>
+            <div class="f-tel">
+                <div class="img"><img src="./images/f-add.png" alt=""></div>
+                <div class="txt">
+                    <p style="padding-top: 13px;font-size: 28px;">地址：上海市普陀区大渡河1933号</p>
+                </div>
+            </div>
+        </div>
+        <!--footer end-->
+        <div class="swt-bottom" id="swt-bottom">
+            <div class="bottom_inner">
+                <img src="./images/bottom.png">
+                <div class="bootom_link">
+                    <a href="tel:02162150060" class="b_click">
+                        <p>电话咨询</p>
+                    </a>
+                    <a href="javascript:;" onclick="swt()" class="b_click" target="_blank">
+                        <p>在线咨询</p>
+                    </a>
+                    <a href="javascript:;" onclick="swt()" class="b_click" target="_blank">
+                        <p>在线挂号</p>
+                    </a>
+                    <a href="/lylx/" class="b_click" target="_blank">
+                        <p>来院路线</p>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/include/js/swt.js" type="text/jscript"></script>
+</body>
+
+</html>

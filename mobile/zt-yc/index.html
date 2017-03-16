@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>上海宏康医院外科</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lc.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/addons.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <div class="header header2">
+            <div class="nav left" style="display:block;">
+                <i></i>
+                <ul>
+                    <span class="h3"><b>项目大全</b><a href="javascript:;" class="back right"><img src="imgs/back.png" alt="" /></a></span>
+                    <li class="selected"><a href="javascript:;" class="a1">疝气</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/fggsq/">腹股沟疝气</a></dd>
+                                <dd><a href="/xesq/">小儿疝气</a></dd>
+                                <dd><a href="/zlnsq/">中老年疝气</a></dd>
+                                <dd><a href="/xs/">斜疝</a></dd>
+                                <dd><a href="/zs/">直疝</a></dd>
+                                <dd><a href="/xcsq/">小肠疝气</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">静脉曲张</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/xzjmqz/">下肢静脉曲张</a></dd>
+                                <dd><a href="/jmy/">静脉炎</a></dd>
+                                <dd><a href="/mgy/">脉管炎</a></dd>
+                                <dd><a href="/llt/">老烂腿</a></dd>
+                                <dd><a href="/jmxs/">静脉血栓</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">痔疮</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/nz/">内痔</a></dd>
+                                <dd><a href="/wz/">外痔</a></dd>
+                                <dd><a href="/gl/">肛裂</a></dd>
+                                <dd><a href="/gl/">肛瘘</a></dd>
+                                <dd><a href="/hhz/">混合痔</a></dd>
+                                <dd><a href="/bx/">便血</a></dd>
+                                <dd><a href="/gt/">肛脱</a></dd>
+                                <dd><a href="/gt/">肛脱</a></dd>
+                                <dd><a href="/gmyw/">肛门异物</a></dd>
+                                <dd><a href="/gmzz/">肛门坠胀</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">阑尾炎</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/mxlwy/">慢性阑尾炎</a></dd>
+                                <dd><a href="/jxlwy/">急性阑尾炎</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">乳腺</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/rxzs/">乳腺增生</a></dd>
+                                <dd><a href="/fr/">副乳</a></dd>
+                                <dd><a href="/rxxwl/">乳腺纤维瘤</a></dd>
+                                <dd><a href="/rxnz/">乳腺囊肿</a></dd>
+                                <dd><a href="/rxy/">乳腺炎</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">甲状腺</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/jzxjj/">甲状腺结节</a></dd>
+                                <dd><a href="/jzxzd/">甲状腺肿大</a></dd>
+                                <dd><a href="/jzxnz/">甲状腺囊肿</a></dd>
+                                <dd><a href="/jzxy/">甲状腺炎</a></dd>
+                                <dd><a href="/jk/">甲亢</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">男乳增生</a>
+                        <div class="sub">
+                            <dl>
+                                <dd><a href="/nxrxfd/">男性乳腺肥大</a></dd>
+                                <dd><a href="/nxrxzs/">男性乳腺增生</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li><a href="javascript:;" class="a1">腋臭</a>
+                        <div class="sub">
+                            <dl>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo left">
+                <a href="/" id="ddd"><img src="imgs/logo.png" /></a>
+            </div>
+            <div class="tel right">
+                <a href="tel:021-52833793"><img src="imgs/te.png" /></a>
+            </div>
+        </div>
+        <!--header end-->
+        <!--nav-->
+        <div class="navbar">
+            <ul>
+                <li><a href="/yyjj/2015/0829/324.html">品牌</a><i></i></li>
+                <li><a href="/wkzj/">医师</a><i></i></li>
+                <li><a href="/wkjs/">疗法</a><i></i></li>
+                <li><a href="javascript:;" onclick="swt()">挂号</a><i></i></li>
+                <li><a href="/lylx/2015/0810/243.html">地址</a><i></i></li>
+            </ul>
+        </div>
+        <script>
+            $(function() {
+                $(".nav ul li").last().find('i').css({
+                    'display': 'none'
+                });
+            })
+        </script>
+        <!--nev end-->
+        <!-- banenr -->
+        <div class="banner">
+            <a href="javascript:;" onclick="swt()"><img src="imgs/banner.jpg" alt=""></a>
+        </div>
+        <!--banner end-->
+
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--1-->
+            <hgroup class="hgroup1">
+                <div class="title">
+                    <p class="zh">腋臭分4级轻重等级辨清楚</p>
+                    <p class="ch">Armpits four levels of severity cause clear</p>
+                </div>
+                <section>
+                    <ul class="yc-level">
+                        <li style="background: url(./imgs/level1.jpg)no-repeat center;">
+                            <p class="level">弱度腋臭</p>
+                            <div class="ms">
+                                腋下夹上纱布5-10分钟取下纱布异味。
+                            </div>
+                        </li>
+                        <li style="background: url(./imgs/level2.jpg)no-repeat center;">
+                            <p class="level" style="color:#58c991;">轻度腋臭</p>
+                            <div class="ms">
+                                腋下夹上纱布取下来纱布异味。
+                            </div>
+                        </li>
+                        <li style="background: url(./imgs/level3.jpg)no-repeat center;">
+                            <p class="level" style="color:#2ebebf;">中度腋臭</p>
+                            <div class="ms">
+                                脱下衣服时，就能闻到异味。
+                            </div>
+                        </li>
+                        <li style="background: url(./imgs/level4.jpg)no-repeat center;margin-right:0px;">
+                            <p class="level" style="color:#1e85d2;">重度腋臭</p>
+                            <div class="ms">
+                                进屋一会儿，就能闻到异味
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="a-btn">
+                        <a href="javascript:;" onclick="swt()">点击测试腋臭等级</a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--1 end-->
+            <!--2-->
+            <hgroup class="hgroup2">
+                <div class="title">
+                    <p class="zh">主任医师解析影响腋臭费用的因素</p>
+                    <p class="ch">Chief physician analytical factors affecting the costs of bromhidrosis</p>
+                </div>
+                <section>
+                    <div class="content">
+                        <img src="imgs/img1.jpg" alt="">
+                    </div>
+                    <div class="a-btn">
+                        <a href="javascript:;" onclick="swt()" style="padding: 10px 50px;">立即咨询 >>></a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--2 end-->
+            <!--3-->
+            <hgroup class="hgroup3">
+                <div class="title">
+                    <p class="zh">腋臭费用明细 每一笔钱都能查到</p>
+                    <p class="ch">Armpits cost detail Each a sum of money to look up to</p>
+                </div>
+                <section>
+                    <ul class="yc-money">
+                        <li style="background: url(./imgs/y1.jpg)no-repeat center;">
+                            <p class="gh-name">挂号费</p>
+                            <p class="gh-con">现在预约<br>直接<i>减免</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y2.jpg)no-repeat center;">
+                            <p class="gh-name">检查费</p>
+                            <p class="gh-con">常规<i>血检</i><br>心电图等</p>
+                        </li>
+                        <li style="background: url(./imgs/y3.jpg)no-repeat center;margin-right:0px;">
+                            <p class="gh-name">治疗费</p>
+                            <p class="gh-con">收费公示<br><i>医保</i>援助
+                            </p>
+                        </li>
+                        <li style="background: url(./imgs/y4.jpg)no-repeat center;">
+                            <p class="gh-name">会诊费</p>
+                            <p class="gh-con">疑难病例<br>专家<i>会诊</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y5.jpg)no-repeat center;">
+                            <p class="gh-name">麻醉费</p>
+                            <p class="gh-con">术后消炎<br>局部<i>麻醉</i></p>
+                        </li>
+                        <li style="background: url(./imgs/y6.jpg)no-repeat center;margin-right:0px;">
+                            <p class="gh-name">术后护理</p>
+                            <p class="gh-con"><i>术后</i>消炎<br>抵抗感染
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="a-btn">
+                        <a href="tel:02152833793" style="padding: 10px 50px;">电话咨询 >>></a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--3 end-->
+            <!--4-->
+            <hgroup class="hgroup4">
+                <div class="title">
+                    <p class="zh">宏康医院每项收费都有规定</p>
+                    <p class="ch">Macro kang hospital each charge has a regulation</p>
+                </div>
+                <section>
+                    <div class="content">
+                        <div class="div1">
+                            <p class="p1">收费公示接受患者监督</p>
+                            <p class="p2">公开透明的价格告示，接受社会及患者的监督，让患者“花少的钱” 达到好的治疗效果。</p>
+                        </div>
+                        <div class="div2">
+                            <p class="p1">价格规范</p>
+                            <p class="p2">严格执行省卫生局检价局等制定的医疗卫生机构收费标准
+                            </p>
+                        </div>
+                        <div class="div3">
+                            <p class="p1">杜绝私受红包医风医德检查</p>
+                            <p class="p2">拒绝红包回扣拒绝商业贿赂加强行风建设创建文明医院
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a-btn">
+                        <a href="javascript:;" onclick="swt()" style="padding: 10px 50px;">点击咨询 >>></a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--4 end-->
+            <!--5-->
+            <hgroup class="hgroup5">
+                <div class="title">
+                    <p class="zh">腋臭切除 还您洁净人生!</p>
+                    <p class="ch">Body odor removal Are you clean life!</p>
+                </div>
+                <div class="method">
+                    <div class="txt">根据不同患者的需要，自由调节治疗深度。将微针于表皮进入真皮层后发放射频热进而完全破坏大汗腺，破坏掉的大汗腺随人体代谢排出体外。</div>
+                </div>
+                <section>
+                    <ul class="jishu">
+                        <li>
+                            <img src="./imgs/js1.jpg" alt="">
+                            <p>射频探头接触肌肤表面</p>
+                        </li>
+                        <li>
+                            <img src="./imgs/js2.jpg" alt="">
+                            <p>射频探头接触肌肤表面</p>
+                        </li>
+                        <li style="margin-right:0px;">
+                            <img src="./imgs/js3.jpg" alt="">
+                            <p>热能使大汗腺丧失功能</p>
+                        </li>
+                    </ul>
+                    <ul class="youshi">
+                        <li style="background: url(./imgs/ys1.jpg)no-repeat center;">
+                            <p>准确定位<br>勘测病灶</p>
+                        </li>
+                        <li style="background: url(./imgs/ys2.jpg)no-repeat center;">
+                            <p>基本不不影<br>响手臂活动</p>
+                        </li>
+                        <li style="background: url(./imgs/ys3.jpg)no-repeat center;">
+                            <p>痛苦较小<br>操作简单</p>
+                        </li>
+                        <li style="background: url(./imgs/ys4.jpg)no-repeat center;margin-right:0px;">
+                            <p>术后愈后<br>基本无复发</p>
+                        </li>
+
+                    </ul>
+                    <div class="a-btn">
+                        <a href="javascript:;" onclick="swt()" style="padding: 10px 50px;">我要除腋臭 >>></a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--5 end-->
+            <!--6-->
+            <hgroup class="hgroup6">
+                <div class="title">
+                    <p class="zh">好技术要有好医师，宏康主任医师亲诊</p>
+                    <p class="ch">Good technology must have the good doctor, macro, chief physician diagnosis</p>
+                </div>
+                <section>
+                    <div class="doctor">
+                        <div class="doctor-top">
+                            <p class="name">宋冠平</p>
+                            <p class="zhiwei">主任医师</p>
+                            <p class="jianjie">进修于西京、华西、吉大医院</p>
+                        </div>
+                        <div class="doctor-con">
+                            <p class="zy">我的专业 您的自信</p>
+                            <p class="shanchang"><b>擅长：</b>腋臭、肝胆胃肠外科、乳腺、甲状腺外科疾病的诊断与治疗。尤其擅长“腋臭切除术清除术”治疗腋臭。</p>
+                        </div>
+                    </div>
+                    <div class="a-btn">
+                        <a href="tel:02152833793" style="padding: 10px 50px;">电话预约 >>></a>
+                    </div>
+                </section>
+            </hgroup>
+            <!--6 end-->
+            <!--7自助挂号通道-->
+            <hgroup class="hgroup7">
+                <div class="title">
+                    <p class="zh">自助挂号平台</p>
+                    <p class="ch">Self-help registered platform</p>
+                </div>
+                <section>
+                    <div class="reserve">
+                        <div class="gh-title">24小时免费挂号，保障您的个人隐私</div>
+                        <div class="form_box">
+                            <div class="form_box">
+                                <form name="form1" id="form1" class="index_form">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="td1">您的姓名：</td>
+                                            <td class="td2"><input type="text" name="you_name" class="input-txt"><i class="star left">*</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td1">联系方式：</td>
+                                            <td class="td2"><input type="text" name="you_tel" class="input-txt"><i class="star left">*</i></td>
+                                        </tr>
+                                        <tr style="height: 120px;">
+                                            <td class="td1">病情描述：</td>
+                                            <td class="td2"><textarea name="you_por" class="input-area" placeholder="可对自身病情简单描述或填写其他疑问等。"></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <input type="hidden" value="669" name="wid" />
+                                            <td class="td2">
+                                                <a href="/swt/" class="input-btn zaixian ">在线咨询</a>
+                                                <input type="submit" value="提交挂号" class="input-btn submit" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                                <script type="text/javascript" src="js/newform.js"></script>
+                            </div>
+                            <div class="tixing">
+                                <span>*</span><i>郑重提示：因无法全面了解您的病情，文章内容仅供参考，具体诊情需要到医院，在医生指导下进行。</i>
+                            </div>
+                        </div>
+                </section>
+            </hgroup>
+
+            <!--7自助挂号通道end-->
+            <!--预约挂号 end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-p" style="padding-top:40px;">
+                    <p>地址：上海市普陀区大渡河路1933号</p>
+                    <p>门诊时间（无假日医院）：8:00-20:30</p>
+                    <p>备案号：沪ICP备10036551号-6</p>
+                </div>
+                <div style="text-align:center;padding-top:10px;">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702001274" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.shhkyy.com/baimg.png" style="float:left;" />
+                        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#fff;">沪公网安备 31010702001274号</p>
+                    </a>
+                </div>
+            </div>
+            <!-- footer end-->
+
+            <script type="text/javascript" src="/include/js/swt.js"></script>
+            <script type="text/javascript" src="/include/js/bottomswt.js"></script>
+            </div>
+            <!--主体部分 end-->
+
+</body>
+
+</html>

@@ -1,0 +1,315 @@
+.lylx {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.lylx em {
+    font-style: normal;
+}
+
+
+/*  来院路线  */
+
+.lylx_banner {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background: url(../images/lylx/img79.jpg) center 0px no-repeat;
+    overflow: hidden;
+}
+
+.lylxclass_h3 {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 19px auto 0px auto;
+    overflow: hidden;
+}
+
+.lylxclass_h3 img {
+    display: inline;
+    float: left;
+    padding-left: 248px;
+}
+
+.lylxclass1 {
+    display: block;
+    width: 981px;
+    height: auto;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.lylxclass1 p {
+    display: inline;
+    float: left;
+    width: 234px;
+    height: 160px;
+    background-color: #fff;
+    margin: 0px 5px;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.lylxclass1 p i {
+    display: block;
+    width: 101px;
+    height: 101px;
+    margin: 9px auto 6px auto;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.lylxclass1 p i.lylxclass1a {
+    background-image: url(../images/lylx/img65.jpg);
+}
+
+.lylxclass1 p i.lylxclass1b {
+    background-image: url(../images/lylx/img66.jpg);
+}
+
+.lylxclass1 p i.lylxclass1c {
+    background-image: url(../images/lylx/img67.jpg);
+}
+
+.lylxclass1 p i.lylxclass1d {
+    background-image: url(../images/lylx/img68.jpg);
+}
+
+.lylxclass1 p a {
+    font-size: 24px;
+    color: #0b0b0b;
+}
+
+.lylxclass1 p a:hover {
+    color: #9a1e1e;
+}
+
+.lylxclass2 {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 22px auto 0px auto;
+    overflow: hidden;
+}
+
+.lylxclass3 {
+    display: block;
+    width: 1000px;
+    height: 630px;
+    margin: 20px auto 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.lylxclass3 .lylxclass3_right_lb.hover {
+    display: block;
+}
+
+.lylxclass3 .lylxclass3_left {
+    display: inline;
+    float: left;
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_left li {
+    display: inline;
+    float: left;
+    width: 120px;
+    height: 110px;
+    margin-bottom: 19px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right {
+    display: inline;
+    float: right;
+    width: 878px;
+    height: 630px;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right1 {
+    display: block;
+    width: 825px;
+    height: 624px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right1 span {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    width: 220px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right1 dl {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 19px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right1 dl dt {
+    display: inline;
+    float: left;
+    width: 65px;
+    height: auto;
+    min-height: 95px;
+    background: url(../images/lylx/img74.jpg) 0px 0px no-repeat;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right1 dl dd {
+    display: inline;
+    float: left;
+    margin-left: 17px;
+}
+
+.lylxclass3 .lylxclass3_right1 dl dd b {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #007325;
+}
+
+.lylxclass3 .lylxclass3_right1 dl dd i {
+    display: inline-block;
+    margin-left: 20px;
+    color: #f00;
+}
+
+.lylxclass3 .lylxclass3_right1 dl dd p {
+    display: block;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.lylxclass3 .lylxclass3_right2 {
+    display: block;
+    width: 850px;
+    height: auto;
+    margin: 15px auto 0px auto;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right3 {
+    display: block;
+    width: 874px;
+    height: 584px;
+    background: url(../images/lylx/img76.jpg) 0px 0px no-repeat;
+    margin: 42px auto 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right3 span {
+    position: absolute;
+    bottom: 0px;
+    right: 26px;
+    display: block;
+    width: 220px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right3 p {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 125px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 96px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right3 p.lylxclass3_right3a {
+    padding-left: 305px;
+}
+
+.lylxclass3 .lylxclass3_right3 p.lylxclass3_right3b {
+    padding-left: 406px;
+}
+
+.lylxclass3 .lylxclass3_right4 {
+    display: block;
+    width: background: red;
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right4 span {
+    position: absolute;
+    bottom: 10px;
+    right: 26px;
+    display: block;
+    width: 220px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.lylxclass3_right4_title {
+    width: 140px;
+    height: 60px;
+    background: url(../images/lylx/train_ico.jpg);
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.lylxclass3 .lylxclass3_right4 p {
+    width: 820px;
+    height: auto;
+    line-height: 30px;
+    font-size: 16px;
+    text-indent: 34px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.lylxclass3 .lylxclass3_right4 p i {
+    color: #f00;
+}
+
+.lylxclass3 .lylxclass3_right4 p em {
+    font-size: 20px;
+    color: #ff14d6;
+}
+
+.lylxclass3_right5_title {
+    width: 160px;
+    height: 60px;
+    background: url(../images/lylx/plane_ico.jpg);
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.lylxclass3 .lylxclass3_right5 {
+    height: 412px;
+    margin: 212px auto 0px auto;
+}

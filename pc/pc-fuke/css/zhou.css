@@ -1,0 +1,413 @@
+i {
+    font-style: normal
+}
+
+
+/*图片集锦*/
+
+.conter2 {
+    width: 100%;
+    background: #f0f0f0;
+    height: auto;
+}
+
+.main-center {
+    width: 1200px;
+    min-height: 500px;
+    display: block;
+    margin: 0 auto 25px;
+    background: #fff;
+    position: relative;
+    top: -20px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.pic-top {
+    padding-top: 10px;
+    width: 1160px;
+    height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    margin: 0px auto;
+}
+
+.pic-top .pic-top-l {
+    width: 260px;
+    position: absolute;
+    left: 45px;
+    height: 60px;
+    border-bottom: 1px solid #ff5078;
+    background: url(../img/picture/img1.jpg)no-repeat left center;
+}
+
+.pic-top .pic-top-l span {
+    font-size: 22px;
+    color: #ff5078;
+    line-height: 60px;
+    text-indent: 30px;
+    display: block;
+}
+
+.pic-top .pic-top-l span i {
+    font-size: 14px;
+    color: #b4b4b4;
+}
+
+.pic-top .pic-top-r {
+    position: absolute;
+    right: 20px;
+    line-height: 60px;
+    height: 60px;
+    color: #999;
+}
+
+.pic-top .pic-top-r a {
+    color: #323232;
+}
+
+.pic-top .pic-top-r i {
+    padding: 0 5px;
+}
+
+.lightbox-list ul {
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.lightbox-list li {
+    float: left;
+    width: 270px;
+    height: 250px;
+    display: block;
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+
+.lightbox-list li a {
+    display: block;
+    position: relative;
+    font-size: 15px;
+}
+
+.lightbox-list li img {
+    width: 270px;
+    height: 200px;
+}
+
+.lightbox-list li .tit {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    display: block;
+    color: #000;
+}
+
+.lightbox-list li .hover {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+
+.lightbox-list li a:hover .hover {
+    opacity: .6;
+    filter: alpha(opacity=60);
+    background: #000 url(../img/picture/ss.png)no-repeat center;
+}
+
+.lightbox-list li a:hover .tit {
+    color: #ff5078;
+}
+
+.pager {
+    overflow: hidden;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.pager a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    padding: 0 12px;
+    background: #fff;
+    color: #666666;
+    border: 1px solid #e5e5e5;
+}
+
+.pager a:hover {
+    background: #ff5078;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.pager a.disabled,
+.pager a.disabled:hover,
+.pager a.cur {
+    background: #ff5078;
+    color: #fff;
+    cursor: default;
+    border: 1px solid #fff;
+}
+
+.pager span {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+
+/*自主挂号*/
+
+.zizhuguahao {
+    padding-top: 55px;
+}
+
+.guahao-l {
+    width: 590px;
+    height: 870px;
+    display: block;
+    float: left;
+    margin-left: 35px;
+    border-right: 2px dotted #cccccc;
+}
+
+.guahao-l hgroup {
+    width: 550px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.guahao-l hgroup section h2 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: url(../img/picture/gh1.png)no-repeat left center;
+    font-size: 18px;
+    margin: 0px 0 10px;
+    font-weight: 400;
+    text-indent: 30px;
+}
+
+.guahao-l hgroup section {
+    padding-left: 5px;
+}
+
+.guahao-l hgroup section .z-line {
+    display: block;
+    float: left;
+    margin: 7px 0;
+}
+
+.guahao-l hgroup section .z-line .img {
+    width: 23px;
+    height: 23px;
+    display: block;
+    background: url(../img/picture/zzgh_list_dot.png)no-repeat;
+    float: left;
+}
+
+.guahao-l hgroup section .z-line span {
+    width: 515px;
+    line-height: 23px;
+    display: block;
+    font-size: 14px;
+    color: #000;
+    float: left;
+}
+
+.guahao-l .hgroup2 section h2 {
+    background: url(../img/picture/gh2.png)no-repeat left center;
+}
+
+.guahao-l .hgroup3 section h2 {
+    background: url(../img/picture/gh3.png)no-repeat left center;
+}
+
+.guahao-l .hgroup4 section h2 {
+    background: url(../img/picture/gh4.png)no-repeat left center;
+}
+
+.guahao-l .hgroup2 section .z-line .tel {
+    font-size: 24px;
+    color: #ff5078;
+    font-weight: 800;
+}
+
+.guahao-l .hgroup2 section .telimg {
+    width: 267px;
+    height: 91px;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    background: url(../img/picture/tel.jpg)no-repeat;
+}
+
+.guahao-l .hgroup4 {
+    border-bottom: none;
+}
+
+.guahao-r {
+    width: 568px;
+    display: block;
+    float: right;
+}
+
+.guahao-r .zzgh_content_2 {
+    width: 475px;
+    background: #ccc;
+    height: 800px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.guahao-r .zzgh_content_2 h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 348px;
+    height: 143px;
+    background: url(../img/picture/zzgh.png)no-repeat center;
+}
+
+.guahao-r .zzgh_content_2 form {
+    width: 475px;
+    margin: 0 auto;
+}
+
+.guahao-r .zzgh_content_2 form p {
+    font-size: 16px;
+    color: #323232;
+    line-height: 32px;
+}
+
+.guahao-r .zzgh_content_2 form .gh-textarea {
+    width: 470px;
+    height: 155px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-family: "Microsoft YaHei";
+}
+
+.redstar {
+    color: red;
+}
+
+.guahao-r .zzgh_content_2 form .gh-input {
+    width: 470px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: "Microsoft YaHei";
+    border-radius: 5px;
+}
+
+.guahao-r .zzgh_content_2 .yygh_tj {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: #ff5078;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+
+.guahao-r .zzgh_content_2 .yygh_tj:hover {
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+    box-shadow: 2px 2px 8px #999999;
+    -webkit-box-shadow: 2px 2px 8px #999999;
+    -moz-box-shadow: 2px 2px 8px #999999;
+}
+
+
+/*医生介绍*/
+
+.doctorlist {
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.doctorlist ul {
+    width: 1300px;
+    overflow: hidden;
+}
+
+.doctorlist ul li {
+    width: 266px;
+    height: 294px;
+    display: block;
+    float: left;
+    margin: 0px 16px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.doctorlist ul li .img img {
+    width: 266px;
+    height: 234px;
+}
+
+.doctorlist ul li .name {
+    width: 266px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    color: #505050;
+    font-size: 20px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    z-index: 99999;
+    position: relative;
+}
+
+.doctorlist ul li .name i {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.doctorlist ul li .hongse {
+    width: 266px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: -54px;
+    background: #ff5078;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.doctorlist ul li:hover .name {
+    color: #fff;
+}
+
+.doctorlist ul li:hover .hongse {
+    bottom: 0px;
+}

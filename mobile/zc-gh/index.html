@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>官方预约挂号平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=0" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/m-form.css">
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <div class="layout">
+        <div class="top">
+            官方预约挂号平台
+        </div>
+        <!--banner-->
+        <div class="banner">
+            <a href=""><img src="images/banner.jpg" alt=""></a>
+        </div>
+        <!--滚动-->
+        <div class="txtMarquee-left">
+            <div class="bd">
+                <ul class="infoList">
+                    <li>贯彻落实国家卫生部号召，上海宏康医院特开通免费网络咨询、</li>
+                    <li>预约挂号服务。解决患者看病难的问题 ! &nbsp;&nbsp;&nbsp;&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".txtMarquee-left").slide({
+                mainCell: ".bd ul",
+                autoPlay: true,
+                effect: "leftMarquee",
+                vis: 2,
+                interTime: 50
+            });
+        </script>
+        <!--疾病分类-->
+        <div class="disease">
+            <ul>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic1.jpg" alt="">
+                        <p>大便出血</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic2.jpg" alt="">
+                        <p>肛瘘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic3.jpg" alt="">
+                        <p>混合痔</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic4.jpg" alt="">
+                        <p>肛门长包</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic5.jpg" alt="">
+                        <p>肛门瘙痒</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic6.jpg" alt="">
+                        <p>肛门疼痛 </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic7.jpg" alt="">
+                        <p>肛周浓肿</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic8.jpg" alt="">
+                        <p>便秘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic9.jpg" alt="">
+                        <p>痔疮</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic10.jpg" alt="">
+                        <p>内痔</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic11.jpg" alt="">
+                        <p>外痔</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic12.jpg" alt="">
+                        <p>肛门湿疹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic13.jpg" alt="">
+                        <p>肛门息肉</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic14.jpg" alt="">
+                        <p>肛门异物</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic15.jpg" alt="">
+                        <p>肛裂</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/gfgh/zzgh.html">
+                        <img src="images/ic16.jpg" alt="">
+                        <p>脱肛</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!--guahao-->
+        <div class="guahao">
+            <div class="title">来院就诊流程:</div>
+            <div class="img"><img src="images/step.jpg" alt=""></div>
+        </div>
+        <div class="hotimg">
+            <a href=""><img src="images/hotimg.jpg" alt=""></a>
+        </div>
+        <div class="pinglun">
+            <div class="lmid" style="display:none">9</div>
+            <script type="text/javascript" src="/include/js/bd.js"></script>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <p>
+                门诊时间：8:00-20:30（无假日医院）<br> 医院地址：上海市普陀区大渡河路1933号
+                <br> 预约电话：021-52833793
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

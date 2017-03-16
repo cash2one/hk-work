@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>王碧芬简介 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--单页头部-->
+        <div class="page-header">
+            <a href="" class="back"><img src="images/back.png" alt=""></a>
+            <p class="lanmu">王碧芬简介</p>
+            <a href="" class="home"><img src="images/home.png" alt=""></a>
+        </div>
+        <!--单页头部 end-->
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--专家介绍-->
+            <div class="zhuanjua-top">
+                <div class="img"><img src="images/zhuanjia.png" alt=""></div>
+                <p class="name">王碧芬 <i>主治医师</i></p>
+                <p class="year">30余年临床经验 <i>接诊量&nbsp; 846</i></p>
+                <p class="star">★★★★<i>★</i><span>9.8</span></p>
+                <div class="zixunqu">
+                    <ul>
+                        <li>
+                            <a href="tel:02162150060">
+                                <img src="images/dor_article_07.jpg" alt="">
+                                <p class="p1">电话问诊</p>
+                                <p class="p2">
+                                    <script>
+                                        document.write(Math.round(Math.random() * 300) + 87);
+                                    </script>问过</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:02162150060">
+                                <img src="images/dor_article_09.jpg" alt="">
+                                <p class="p1">在线问诊</p>
+                                <p class="p2">
+                                    <script>
+                                        document.write(Math.round(Math.random() * 300) + 87);
+                                    </script>问过</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:02162150060">
+                                <img src="images/dor_article_11.jpg" alt="">
+                                <p class="p1">在线挂号</p>
+                                <p class="p2">
+                                    <script>
+                                        document.write(Math.round(Math.random() * 300) + 87);
+                                    </script>问过</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--详细-->
+            <div class="doctor-detail">
+
+                <div class="doctor-line">
+                    <div class="doctor-line-title">个人简介</div>
+                    <div class="doctor-line-con">
+                        擅长戒烟、肺肿瘤、肺血管病、胸膜间皮瘤、慢性气道疾病等所有呼吸系统疾病诊治,
+                    </div>
+                </div>
+
+                <div class="doctor-line">
+                    <div class="doctor-line-title doctor-line-title2">医生擅长</div>
+                    <div class="doctor-line-con">
+                        擅长戒烟、肺肿瘤、肺血管病、胸膜间皮瘤、慢性气道疾病等所有呼吸系统疾病诊治,
+                    </div>
+                </div>
+
+                <div class="doctor-line">
+                    <div class="doctor-line-title doctor-line-title2">行医格言</div>
+                    <div class="doctor-line-con">
+                        行医一时，鞠躬一生；不求闻达，但求利人。
+                    </div>
+                </div>
+
+                <div class="doctor-line">
+                    <div class="doctor-line-title doctor-line-title2">医生资质</div>
+                    <div class="yszz">
+                        <div class="picScroll-left">
+                            <div class="hd">
+                                <a class="next"></a>
+                                <a class="prev"></a>
+                            </div>
+                            <div class="bd">
+                                <ul class="picList">
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="images/zz1.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="images/zz2.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="images/zz1.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <script type="text/javascript">
+                            jQuery(".picScroll-left").slide({
+                                titCell: ".hd ul",
+                                mainCell: ".bd ul",
+                                autoPage: true,
+                                effect: "left",
+                                autoPlay: true,
+                                vis: 2,
+                                trigger: "click"
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!--详细 end-->
+            <!--专家介绍 end-->
+            <!--患者评价-->
+            <div class="hzpj">
+                <div class="pubtitle" style="padding:20px 0px;">
+                    <div class="pubtitle-con">
+                        <p class="zh">患者评价</p>
+                        <p class="ch">Evaluation of patients with</p>
+                    </div>
+                </div>
+                <iframe id="iframe" src="http://bbs.hkyy021.com/plus/diy.php?action=list&amp;diyid=1&amp;ks=肝胆" frameborder="0" width="640" scrolling="no"></iframes>
+                <script>
+
+                </script>
+            </div>
+            <!--患者评价 end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-nav">
+                    <a href="">医院概况</a>
+                    <a href="">医生团队</a>
+                    <a href="">病例查询</a>
+                    <a href="">来院路线</a>
+                </div>
+                <div class="footer-p">
+                    <p>门诊时间：8:00-20:30（无假日医院） </p>
+                    <p>医院地址：上海市普陀区大渡河路1933号</p>
+                    <p>预约电话：021-62150060</p>
+                </div>
+            </div>
+            <!-- footer end-->
+        </div>
+        <!--主体 end-->
+    </div>
+
+    <script type="text/javascript" src="js/select.js"></script>
+</body>
+
+</html>

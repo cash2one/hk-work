@@ -1,0 +1,268 @@
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 118px;
+    display: block;
+    background: #00b4b3;
+    margin: 0px auto 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 436px;
+    background: url(../images/jibing.jpg)no-repeat center;
+}
+
+.banner ul {
+    width: 548px;
+    height: 370px;
+    display: block;
+    float: right;
+    margin-top: 38px;
+}
+
+.banner ul li {
+    width: 128px;
+    height: 88px;
+    display: block;
+    float: left;
+    margin: 0px 3px 2px 0px;
+    background: #fff;
+    text-align: center;
+}
+
+.banner ul li .p1 {
+    font-size: 21px;
+    color: #099b9a;
+    padding-top: 25px;
+}
+
+.banner ul li .p2 {
+    font-size: 12px;
+    color: #099b9a;
+    padding-top: 5px;
+    font-family: "Arial";
+}
+
+
+/*guahao*/
+
+.guahao {
+    width: 100%;
+    height: 508px;
+    display: block;
+    margin-top: 28px;
+}
+
+.guahao .title {
+    width: 100%;
+    height: 83px;
+    background: url(../images/guahao.jpg)no-repeat center;
+}
+
+.guahao .img {
+    width: 761px;
+    height: 425px;
+    margin: 0px auto;
+}
+
+.hotimg {
+    width: 100%;
+    height: 362px;
+    display: block;
+    background: url(../images/hotimg.jpg)no-repeat center;
+}
+
+.footer {
+    width: 100%;
+    height: 212px;
+    margin: auto;
+    background: #116f6e;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 40px;
+}
+
+.sk-zzgh {
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.form-warp {
+    width: 100%;
+    overflow: hidden;
+    height: 635px;
+    background: #ddf5e9;
+}
+
+.form-warp .form-left {
+    width: 401px;
+    display: block;
+    float: left;
+}
+
+.form-warp .form-left .l-txt {
+    width: 377px;
+    height: 485px;
+    display: block;
+    float: right;
+    font-size: 15px;
+    color: #000;
+    background: url(../images/br.png)no-repeat right top;
+}
+
+.form-warp .form-left .l-txt p {
+    width: 325px;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 13px;
+    line-height: 30px;
+}
+
+.form-warp .form-right {
+    width: 561px;
+    display: block;
+    float: right;
+}
+
+.form-warp .title {
+    text-align: center;
+}
+
+.form-warp .tishi {
+    width: 458px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 10px;
+}
+
+.form-warp .tishi span {
+    padding: 5px 16px;
+    font-size: 14px;
+    color: #000;
+    display: block;
+    line-height: 26px;
+}
+
+.form-warp .tishi span i {
+    color: red;
+}
+
+.form_box {
+    padding: 0px 0px 0px 38px;
+}
+
+.form_box table tr {
+    height: 30px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.form_box table tr .td1 {
+    width: 110px;
+    font-size: 16px;
+    color: #323232;
+    line-height: 30px;
+    text-align: left;
+    float: left;
+}
+
+.form_box table tr .td1 .star {
+    float: left;
+    width: 18px;
+    display: block;
+    color: #ff2c55;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.form_box table tr .td2 {
+    float: left;
+}
+
+.form_box table tr .td3 {
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #323232;
+}
+
+.form_box table tr .input-txt {
+    width: 350px;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    text-indent: 18px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    color: #323232;
+    font-family: "Microsoft YaHei";
+}
+
+.form_box table tr .time {
+    font-family: "Microsoft YaHei";
+    background: #fff;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #b4b4b4;
+    font-family: "微软雅黑";
+}
+
+.form_box table tr .input-area {
+    width: 350px;
+    height: 140px;
+    display: block;
+    text-indent: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #323232;
+    resize: none;
+    padding-top: 10px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+.form_box table tr .input-btn {
+    width: 147px;
+    height: 37px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    border-radius: 5px;
+}
+
+.form_box table tr .submit {
+    float: left;
+    background: #0fc3c2;
+    margin-left: 25px;
+}
+
+.form_box table tr .reset {
+    background: #e77505;
+    margin-left: 100px;
+}

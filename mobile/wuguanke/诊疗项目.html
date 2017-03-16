@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>诊疗项目 </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+    <script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <link rel="stylesheet" type="text/css" href="css/headerFooter.css" />
+        <div id="header" class="header1 header relative">
+            <div class="showMenu absolute">
+                <a href="javascript:void(0)" id="headercontro"></a>
+            </div>
+            <i class="jibing">疾病</i>
+            <div class="logo absolute"></div>
+            <a href="tel:400-021-1992" target="_blank" class="topTell absolute"></a>
+            <!--下拉菜单-->
+            <div id="popMenu" class="popMenu">
+                <div class="menulists">
+                    <div class="menulist">
+                        <h3>鼻部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">鼻炎</a></li>
+                            <li><a href="">鼻窦炎 </a></li>
+                            <li><a href="">鼻息肉</a></li>
+                            <li><a href="">鼻出血</a></li>
+                            <li><a href="">过敏鼻炎</a></li>
+                            <li><a href="">鼻甲肥大</a></li>
+                            <li><a href="">鼻中隔偏曲</a></li>
+                            <li><a href="">其他鼻炎</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>咽喉疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">咽炎</a></li>
+                            <li><a href="">打呼噜</a></li>
+                            <li><a href="">咽喉炎</a></li>
+                            <li><a href="">腺样体</a></li>
+                            <li><a href="">声带息肉</a></li>
+                            <li><a href="">声带小结</a></li>
+                            <li><a href="">扁桃体炎</a></li>
+                            <li><a href="">咽喉异物</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>耳部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">耳鸣</a></li>
+                            <li><a href="">耳聋</a></li>
+                            <li><a href="">中耳炎</a></li>
+                            <li><a href="">美尼尔</a></li>
+                            <li><a href="">鼓膜穿孔</a></li>
+                            <li><a href="">鼓膜内陷</a></li>
+                            <li><a href="">外耳道炎</a></li>
+                            <li><a href="">其他耳病</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>眼部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">白内障</a></li>
+                            <li><a href="">青光眼</a></li>
+                            <li><a href="">眼底病</a></li>
+                            <li><a href="">翼状胬肉</a></li>
+                            <li><a href="">弱视 </a></li>
+                            <li><a href="">斜视</a></li>
+                            <li><a href="">近视矫正</a></li>
+                            <li><a href="">其他眼病</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--下拉菜单  end-->
+        </div>
+
+  <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+        <!--诊疗项目分类-->
+      	<div class="disease-nav">
+	      <div id="disease-nav-ul" >
+	            <ul class=" swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                  <li class="swiper-slide on"><a href="">鼻炎</a></li>
+                  <li class="swiper-slide"><a href="">鼻窦炎</a></li>
+                  <li class="swiper-slide"><a href="">鼻息肉</a></li>
+                  <li class="swiper-slide"><a href="">鼻出血</a></li>
+                  <li class="swiper-slide"><a href="">过敏性鼻炎</a></li>
+                  <li class="swiper-slide"><a href="">鼻息肉</a></li>
+                  <li class="swiper-slide"><a href="">鼻出血</a></li>
+                  <li class="swiper-slide"><a href="">过敏性鼻炎</a></li>
+                </ul>
+                             
+	      </div>
+	    </div>
+<!--手滑切换end-->
+<script>
+	var swiper3 = new Swiper('#disease-nav-ul', {
+		//pagination: '.swiper-pagination',
+		slidesPerView: 'auto',
+		paginationClickable: true,
+		//spaceBetween: 30,
+		freeMode: true
+	});
+ </script> 
+            
+        <!--诊疗项目 end-->
+        <!--banenr-->
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div>-->
+        </div>
+        <!-- Swiper JS -->
+      
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                spaceBetween: 30,
+                autoplay: 3000
+            });
+        </script>
+
+        <!--banner end-->
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--疾病列表-->
+            <div class="jibing">
+            	 <div class="pubtop">
+                    <img class="homeimg left" src="images/home.png" alt="" /><a href="">首页 </a> > <a href="">鼻窦炎</a>
+                </div>
+                	<div class="jibingcon">
+                		<div class="line left">
+                			<img src="images/line.png"/>
+                		</div>
+                		<div class="xiangqing left">
+                			 <!--1.疾病介绍-->
+                			 <div class="xxdiv xxdiv1">
+                			 	<div class="title"><img src="images/title1.jpg" alt="" /></div>
+                			 	 <div class="xxdivtxt1">
+                			 	 	一个或多个鼻窦发生炎症称为鼻窦炎，累及的鼻窦包括：上颌窦、筛窦、额窦和蝶窦。鼻窦炎可分为急性慢性鼻窦炎2种。<br><br>
+                			 	 	<img src="images/demo.jpg"/>
+                			 	 </div>
+                			 </div>
+                			 <!--1.疾病介绍 end-->
+                			 <!--2.症状表现-->
+                			 <div class="xxdiv xxdiv2">
+                			 	<div class="title"><img src="images/title2.jpg" alt="" /></div>
+                			 	 <div class="zhengzhuang">
+                			 	 	 <div class="zz1 zz">
+                			 	 	 	 <div class="wenzi"> 
+                			 	 	 	 	<div class="wenzi-txt">   
+	                			 	 	 	<p><b>全身症状</b></p>
+	                			 	 	 	 常在急性鼻炎病程中患侧症状加重，继而出现畏寒发热、周身不适、精神不振、食欲减退等
+	                			 	 	 	 </div>
+                			 	 	 	 </div>
+                			 	 	 </div>
+                			 	 	 <div class="zz2 zz">
+                			 	 	 	 <div class="wenzi"> 
+                			 	 	 	 	<div class="wenzi-txt"> 
+	                			 	 	 	<p><b>局部症状</b></p>
+	                			 	 	 	鼻阻塞、脓涕、局部疼痛和头痛、嗅觉下降
+	                			 	 	 	</div>
+	                			 	 	 </div>
+                			 	 	 </div>
+                			 	 	 <div class="zz3 zz">
+                			 	 	 	<div class="wenzi"> 
+                			 	 	 	 	<div class="wenzi-txt"> 
+	                			 	 	 	<p><b>其他症状 </b></p>
+	                			 	 	 	眼部有压迫感，亦可引起视力障碍。
+	                			 	 	 	</div>
+		                			 	  </div>
+                			 	 	 </div>
+                			 	 	 <div class="zz4 zz">
+                			 	 	 	<div class="wenzi"> 
+                			 	 	 	 	<div class="wenzi-txt"> 
+	                			 	 	 	<p><b>可能症状</b></p>
+	                			 	 	 	头部沉重压迫感，或仅有钝痛或闷胀痛。
+	                			 	 	 	</div>
+		                			 	  </div>
+                			 	 	 	
+                			 	 	 </div>
+                			 	 </div>
+                			 </div>
+                			 <!--2.症状表现end-->
+                			 <!--3.症状影响-->
+                			  <div class="xxdiv xxdiv3">
+                			 	<div class="title"><img src="images/title3.jpg" alt="" /></div>
+                			 	 <div class="yingxiang">
+                			 	 	  	 <img src="images/yx.png"/>
+                                        <div class="yx-list">
+                			 	 	       <p><em>1</em><span>鼻窦炎会引发严重头痛、恶心</span></p>
+                                           <p><em>1</em><span>鼻窦炎会引发严重头痛、恶心</span></p>
+                                           <p><em>1</em><span>鼻窦炎会引发严重头痛、恶心</span></p>
+                                           <p><em>1</em><span>鼻窦炎会引发严重头痛、恶心</span></p>
+                                         </div>
+
+                			 	 	</ul>
+                			 	 </div>
+                			 </div>
+                			 <!--3.症状影响end-->
+                			  <!--4.诊疗技术-->
+                			  <div class="xxdiv xxdiv4">
+                			 	<div class="title"><img src="images/title4.jpg" alt="" /></div>
+                			 	 <div class="zhenliao">
+                			 		  <div class="img"> 
+                			 		  	 <p> <img src="images/jishudemo.jpg"/></p>
+                			 		  	 <p><em></em></p>
+                			 		  </div>
+                			 		  <div class="name">等离子消融术</div>
+                			 		  <div class="miaoshu">
+                			 		  	在鼻内窥镜下，运用等离子低温消融系统瞬间对引起鼻炎的增生组织进行消融，可保持局部黏膜组织结构的安全性。
+                			 		  </div>
+                                      
+                			 		  <div class="ohter">
+                			 		  	<p class="head">其他治疗方法</p>
+                                        <div class="ohterjishu">
+                			 		  	<p>(1)全身治疗，选择相应的药物治疗，遵循医嘱有效治疗。</p>　　
+										<p>(2)病因治疗，如为牙源性上颌窦炎应同时治疗牙病。</p>　
+										<p>(3)中医中药，以芳香通窍、清热解毒、祛湿排脓为原则。　</p>
+										<p>(4)理疗，一般用超短波透热疗法，以辅助治疗。。</p>
+                                        </div>
+                			 		  </div>
+                			 		  
+                			 	 </div>
+                			 </div>
+                			 <!--4.诊疗技术end-->
+                			 <!--5.宏康医生-->
+                			  <div class="xxdiv xxdiv5">
+                			 	<div class="title"><img src="images/title5.jpg" alt="" /></div>
+                			 	  <!-- Swiper -->
+                <div class="swiper-container3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="doctorbg" style="background: url(images/dd1.png) no-repeat center;">
+                                <div class="zhiwei">主治医生</div>
+                                <div class="jianjie">从事耳鼻咽喉头颈外科、颌面外科专业临床工作30余年...</div>
+                                <div class="shanchang">
+                                    <p style="color:#000000;">医师擅长：</p>
+                                    <p>对于中耳炎、咽炎及耳鼻咽喉科各种多发病的诊治娴熟...</p>
+                                </div>
+                                <div class="link">
+                                    <a href="" class="link1">详情</a>
+                                    <a href="" class="link2">咨询</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                             <div class="doctorbg" style="background: url(images/dd1.png) no-repeat center;">
+                                <div class="zhiwei">主治医生</div>
+                                <div class="jianjie">从事耳鼻咽喉头颈外科、颌面外科专业临床工作30余年...</div>
+                                <div class="shanchang">
+                                    <p style="color:#000000;">医师擅长：</p>
+                                    <p>对于中耳炎、咽炎及耳鼻咽喉科各种多发病的诊治娴熟...</p>
+                                </div>
+                                <div class="link">
+                                    <a href="" class="link1">详情</a>
+                                    <a href="" class="link2">咨询</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                             <div class="doctorbg" style="background: url(images/dd1.png) no-repeat center;">
+                                <div class="zhiwei">主治医生</div>
+                                <div class="jianjie">从事耳鼻咽喉头颈外科、颌面外科专业临床工作30余年...</div>
+                                <div class="shanchang">
+                                    <p style="color:#000000;">医师擅长：</p>
+                                    <p>对于中耳炎、咽炎及耳鼻咽喉科各种多发病的诊治娴熟...</p>
+                                </div>
+                                <div class="link">
+                                    <a href="" class="link1">详情</a>
+                                    <a href="" class="link2">咨询</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- <div class="swiper-pagination"></div>-->
+                </div>
+                <!-- Swiper JS -->
+                <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.swiper-container3', {
+                        pagination: '.swiper-pagination',
+                        paginationClickable: true,
+                        spaceBetween: 30,
+                        autoplay: 3000
+                    });
+                </script>
+                <!--swiper-->
+                			 </div>
+                			 <!--5.宏康医生end-->
+                		</div>
+                	</div>
+            </div>
+            <!--疾病列表 end-->
+            <!--常见问题-->
+              <div class="wenti clear">
+              	 <div class="title"><img src="images/wenti.png" alt="" /></div>
+              	 <div class="wenti-con">
+              	 	<a href="">鼻窦炎日常护理要怎么做？</a>
+              	 	<a href="">鼻窦炎必须要做手术嘛</a>
+              	 	<a href="">治疗鼻窦炎费用</a>
+              	 	<a href="">治疗鼻窦炎费用</a>
+              	 	<a href="">治疗鼻窦炎费用</a>
+              	 	<a href="">鼻窦炎日常护理要怎么做？</a>
+              	 	<a href="">鼻窦炎必须要做手术嘛</a>
+              	 </div>
+              </div>
+            <!--常见问题 end-->
+                <!--咨询热线-->
+            <div class="hotline">
+                <a href=""><img src="images/hotline.png" alt="" /></a>
+            </div>
+            <!--咨询热线end-->
+            <!--问题分类-->
+            <div class="ask-category clear">
+                <ul>
+                    <li>
+                        <a href="/swt/">
+                            <img src="images/a1.jpg" alt="" />
+                            <p>预约挂号</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:02152830530">
+                            <img src="images/a2.jpg" alt="" />
+                            <p>健康热线</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/swt/">
+                            <img src="images/a3.jpg" alt="" />
+                            <p>在线咨询</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lylx/">
+                            <img src="images/a4.jpg" alt="" />
+                            <p>来院路线</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(function() {
+                    $(".ask-category ul li").last().css({
+                        'margin-right': '0px'
+                    });
+                })
+            </script>
+            <!--问题分类end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-p">
+                    <p>地址：上海市普陀区大渡河路1933号</p>
+                    <p>门诊时间（无假日医院）：8:00-20:30</p>
+                    <p>备案号：沪ICP备10036551号</p>
+                </div>
+            </div>
+            <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+            <script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+            <!-- footer end-->
+            <!--bottom-->
+
+        </div>
+        <!--主体 end-->
+    </div>
+
+</body>
+
+</html>

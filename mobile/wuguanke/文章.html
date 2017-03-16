@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>文章 </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/zan/animate.css"/>
+    <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+    <script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <link rel="stylesheet" type="text/css" href="css/headerFooter.css" />
+        <div id="header" class="header1 header relative">
+            <div class="showMenu absolute">
+                <a href="javascript:void(0)" id="headercontro"></a>
+            </div>
+            <i class="jibing">疾病</i>
+            <div class="logo absolute"></div>
+            <a href="tel:400-021-1992" target="_blank" class="topTell absolute"></a>
+            <!--下拉菜单-->
+            <div id="popMenu" class="popMenu">
+                <div class="menulists">
+                    <div class="menulist">
+                        <h3>鼻部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">鼻炎</a></li>
+                            <li><a href="">鼻窦炎 </a></li>
+                            <li><a href="">鼻息肉</a></li>
+                            <li><a href="">鼻出血</a></li>
+                            <li><a href="">过敏鼻炎</a></li>
+                            <li><a href="">鼻甲肥大</a></li>
+                            <li><a href="">鼻中隔偏曲</a></li>
+                            <li><a href="">其他鼻炎</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>咽喉疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">咽炎</a></li>
+                            <li><a href="">打呼噜</a></li>
+                            <li><a href="">咽喉炎</a></li>
+                            <li><a href="">腺样体</a></li>
+                            <li><a href="">声带息肉</a></li>
+                            <li><a href="">声带小结</a></li>
+                            <li><a href="">扁桃体炎</a></li>
+                            <li><a href="">咽喉异物</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>耳部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">耳鸣</a></li>
+                            <li><a href="">耳聋</a></li>
+                            <li><a href="">中耳炎</a></li>
+                            <li><a href="">美尼尔</a></li>
+                            <li><a href="">鼓膜穿孔</a></li>
+                            <li><a href="">鼓膜内陷</a></li>
+                            <li><a href="">外耳道炎</a></li>
+                            <li><a href="">其他耳病</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="menulist">
+                        <h3>眼部疾病</h3>
+                        <ul class="menuItems clearfix" style="">
+                            <li><a href="">白内障</a></li>
+                            <li><a href="">青光眼</a></li>
+                            <li><a href="">眼底病</a></li>
+                            <li><a href="">翼状胬肉</a></li>
+                            <li><a href="">弱视 </a></li>
+                            <li><a href="">斜视</a></li>
+                            <li><a href="">近视矫正</a></li>
+                            <li><a href="">其他眼病</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--下拉菜单  end-->
+        </div>
+
+
+        <!--header end-->
+        <!--nav-->
+        <div class="nav">
+            <ul>
+                <li><a href="">品牌</a><i></i></li>
+                <li><a href="">医师</a><i></i></li>
+                <li><a href="">公益</a><i></i></li>
+                <li><a href="">挂号</a><i></i></li>
+                <li><a href="">地址</a><i></i></li>
+            </ul>
+        </div>
+        <!--nav end-->
+        <!--banenr-->
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+                <div class="swiper-slide"><img src="images/banner.png" /></div>
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div>-->
+        </div>
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                spaceBetween: 30,
+                autoplay: 3000
+            });
+        </script>
+
+        <!--banner end-->
+        <!--主体部分-->
+        <div class="wrapper">
+               <!--文章页-->
+               <div class="h15" style="height: 45px;"></div>
+               <div class="article">
+               	    <div class="headtop">
+               	    	<p class="a-tit">鼻窦炎的表现症状有哪些？</p>
+               	    	 <span class="a-time left">2016-06-24</span>
+               	    	 <span class="a-laiyuan right">来源：上海宏康医院</span>
+               	    </div>
+               	    <div class="article-con">
+               	    	<p style="color:#ff6702;">1、急性鼻窦炎</p><br>
+急性鼻窦炎多由上呼吸道感染引起，细菌与病毒感染可同时并发。急性鼻窦炎的感染常来自于：窦源性感染、鼻腔源性感染、邻近组织源性感染、血源性感染创伤源性感染，还有全身因素和中毒因素导致的。<br>
+<br>
+<p style="color:#ff6702;">2、慢性鼻窦炎</p>
+（1） 由急性鼻窦炎转变而来，多因对急性鼻窦炎治疗不当，或对其未予彻底治疗以致反复发作，迁延不愈使之转为慢性。此为本病之首要病因。<br>
+（2）阻塞性病因，鼻腔内的阻塞性疾病，如鼻息肉鼻甲肥大、鼻腔结石、鼻中隔偏曲、鼻腔肿瘤、鼻腔填塞等阻碍鼻腔鼻窦通气引流，是本病的重要病因。<br>
+（3）致病菌毒力强，某些毒力较强的致病菌，如患猩红热时的乙型溶血性链球菌，其所致的急性鼻窦炎极易转为慢性。<br>
+<br>
+<p style="color:#ff6702;">3、急性鼻窦炎</p><br>
+急性鼻窦炎多由上呼吸道感染引起，细菌与病毒感染可同时并发。急性鼻窦炎的感染常来自于：窦源性感染、鼻腔源性感染、邻近组织源性感染、血源性感染创伤源性感染，还有全身因素和中毒因素导致的。
+               	    </div>
+               	    <div class="zans">
+               	    	<span class="numss">阅读：25</span>
+         
+               	    	<div class="opera">
+							<span id="btn">
+								<i class="iconfont"></i> 点赞
+							</span>
+						</div>
+               	    	<a href="" class="right a-zx"><img src="images/zixun.jpg" alt="" /></a>
+               	    </div>
+               	    			  <!--分类-->
+	<div class="categorys-nav">
+	      <div id="categorys" >
+	            <ul class="categorys-nav-ul swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                 <li class="swiper-slide on"><a href="">鼻窦炎</a></li>
+                  <li class="swiper-slide">过敏性鼻炎</li>
+                  <li class="swiper-slide">鼻息肉</li>
+                  <li class="swiper-slide">鼻中隔偏曲</li>
+                </ul>
+               
+	      </div>
+	    </div>
+<!--手滑切换end-->
+<script>
+	var swiper2 = new Swiper('#categorys', {
+		//pagination: '.swiper-pagination',
+		slidesPerView: 'auto',
+		paginationClickable: true,
+		//spaceBetween: 30,
+		freeMode: true
+	});
+ </script> 
+               </div>
+               <!--文章页end-->
+                <!--咨询热线-->
+            <div class="hotline">
+                <a href=""><img src="images/hotline.png" alt="" /></a>
+            </div>
+            <!--咨询热线end-->
+            <!--问题分类-->
+            <div class="ask-category clear">
+                <ul>
+                    <li>
+                        <a href="/swt/">
+                            <img src="images/a1.jpg" alt="" />
+                            <p>预约挂号</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:02152830530">
+                            <img src="images/a2.jpg" alt="" />
+                            <p>健康热线</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/swt/">
+                            <img src="images/a3.jpg" alt="" />
+                            <p>在线咨询</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lylx/">
+                            <img src="images/a4.jpg" alt="" />
+                            <p>来院路线</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(function() {
+                    $(".ask-category ul li").last().css({
+                        'margin-right': '0px'
+                    });
+                })
+            </script>
+            <!--问题分类end-->
+
+            <!--end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-p">
+                    <p>地址：上海市普陀区大渡河路1933号</p>
+                    <p>门诊时间（无假日医院）：8:00-20:30</p>
+                    <p>备案号：沪ICP备10036551号</p>
+                </div>
+            </div>
+            <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+            <script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+            <!-- footer end-->
+            <!--bottom-->
+
+        </div>
+        <!--主体 end-->
+    </div>
+ <script src="css/zan/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+(function ($) {
+	$.extend({
+		tipsBox: function (options) {
+			options = $.extend({
+				obj: null,  //jq对象，要在那个html标签上显示
+				str: "+1",  //字符串，要显示的内容;也可以传一段html，如: "<b style='font-family:Microsoft YaHei;'>+1</b>"
+				startSize: "12px",  //动画开始的文字大小
+				endSize: "30px",    //动画结束的文字大小
+				interval: 600,  //动画时间间隔
+				color: "red",    //文字颜色
+				callback: function () { }    //回调函数
+			}, options);
+			$("body").append("<span class='num'>" + options.str + "</span>");
+			var box = $(".num");
+			var left = options.obj.offset().left + options.obj.width() / 2;
+			var top = options.obj.offset().top - options.obj.height();
+			box.css({
+				"position": "absolute",
+				"left": left + "px",
+				"top": top + "px",
+				"z-index": 9999,
+				"font-size": options.startSize,
+				"line-height": options.endSize,
+				"color": options.color
+			});
+			box.animate({
+				"font-size": options.endSize,
+				"opacity": "0",
+				"top": top - parseInt(options.endSize) + "px"
+			}, options.interval, function () {
+				box.remove();
+				options.callback();
+			});
+		}
+	});
+})(jQuery);
+  
+function niceIn(prop){
+	prop.find('i').addClass('niceIn');
+	setTimeout(function(){
+		prop.find('i').removeClass('niceIn');	
+	},1000);		
+}
+$(function () {
+	$("#btn").click(function () {
+		$.tipsBox({
+			obj: $(this),
+			str: "+1",
+			callback: function () {
+			}
+		});
+		niceIn($(this));
+	});
+});
+</script>
+</body>
+
+</html>

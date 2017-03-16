@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <!--Swiper3.0.4-->
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/choumei.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout" style="padding-bottom: 75px;">
+        <div class="header">
+            <a href="" class="back"></a>
+            <a href="/" class="logo"><img src="images/logo.png" alt=""></a>
+            <a href="#nav_s_1" id="li1" class="home"></a>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="doctor">
+                        <div class="doctorbg">
+                            <!--医生介绍-->
+                            <div class="doctor-article">
+                                <div class="doc-img"><img src="images/d1.png" alt=""></div>
+                                <div class="doc-time">
+                                    <div class="pub-icon">坐诊时间</div>
+                                    <p>隔周周六上午（限20个名额）</p>
+                                </div>
+                                <div class="doc-shanchang">
+                                    <div class="pub-icon">医生擅长</div>
+                                    <ul>
+                                        <li>癌症</li>
+                                        <li>肿瘤</li>
+                                        <li>肝胆疾</li>
+                                        <li>肾脏疾</li>
+                                        <li>癫痫</li>
+                                        <li>妇科疾病</li>
+                                        <li>男科疾病</li>
+                                        <li>不孕</li>
+                                        <li>儿科疾病</li>
+                                    </ul>
+                                </div>
+                                <div class="doc-jianjie">
+                                    <div class="pub-icon">医生简介</div>
+                                    <p>出身中医世家，为清代御医著名中医学家黄元御先生的第七代传人。为国医大师王绵之先生的再传弟子，王绵之名中医工作室成员。拜著名肿瘤专家、全国名老中医刘嘉湘教授为师，曾上海中医药大学肝病研究所/肝硬化科从事临床、科研和教学工作。</p>
+                                </div>
+                            </div>
+
+                            <!--医生介绍 end-->
+                            <!--预约医生-->
+                            <div class="yuyue" id="nav_s_1">
+                                <div class="yy-top">
+                                    <img src="images/yuyue.png" alt="">
+                                </div>
+                                <div class="form_box">
+                                    <form name='tjform' method='post' action='/plus/diy.php' onsubmit='return yzform()' class="material" target="aa">
+                                        <input type='hidden' name='action' value='post' />
+                                        <input type='hidden' name='wid' value='718'>
+                                        <iframe name="aa" id="aa" frameborder="0" style="display:none;" width="0" height="0"></iframe>
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="td1"><i class="star fl">*</i>您的称呼：</td>
+                                                <td class="td2"><input name="xm" id="xm" type="text" class="input-txt" placeholder="请输入您的姓名"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1"><i class="star fl">*</i>联系电话：</td>
+                                                <td class="td2"><input name="tel" id="tel" type="text" class="input-txt" placeholder="请输入您的电话号码"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td1"><i class="star fl"></i>就诊时间：</td>
+                                                <td class="td2"><input name="yysj" id='time' type="text" class="input-txt time" readonly placeholder="请选择您的就诊时间"></td>
+                                            </tr>
+                                            <tr style="margin-top:30px;">
+                                                <td><input type="reset" class="input-btn reset" value="重置" /></td>
+                                                <td><input type="submit" class="input-btn submit" value="提交" /></td>
+                                            </tr>
+                                        </table>
+
+                                    </form>
+                                </div>
+                                <!--预约医生end-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <script type="text/javascript">
+            window.onload = function() {
+                var mySwiper = new Swiper('.swiper-container', {
+                    slidesPerView: "auto",
+                    centeredSlides: !0,
+                    watchSlidesProgress: !0,
+                    paginationClickable: !0,
+                    pagination: '.swiper-pagination',
+                    paginationType: 'fraction',
+                    onProgress: function(a) {
+                        var b, c, d;
+                        for (b = 0; b < a.slides.length; b++) c = a.slides[b], d = c.progress, scale = 1 - Math.min(Math.abs(.2 * d), 1), es = c.style, es.opacity = 1 - Math.min(Math.abs(d / 2), 1), es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = "translate3d(0px,0," + -Math.abs(150 * d) + "px)"
+                    },
+                    onSetTransition: function(a, b) {
+                        for (var c = 0; c < a.slides.length; c++) es = a.slides[c].style, es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = b + "ms"
+                    }
+                })
+            }
+        </script>
+
+
+    </div>
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script>
+        $(function() {
+            $("#li1").click(function() {
+                $("html,body").animate({
+                    scrollTop: $("#nav_s_1").offset().top
+                }, 1000);
+            });
+
+        });
+    </script>
+    <div class="footer">
+        <div class="footer-top">
+            <p class="p1">健康热线：400-6670-630</p>
+            <p class="p2">医院地址：浦东新区金高路1115号（近巨峰路口)</p>
+        </div>
+        <div class="footer-bottom">
+            <p>沪医广【2015】第09-08-G158</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

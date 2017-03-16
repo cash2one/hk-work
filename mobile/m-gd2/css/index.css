@@ -1,0 +1,2947 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    background: #fff;
+    color: #242a2d;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+input {
+    font-family: "微软雅黑";
+    outline: none;
+    border: none;
+}
+
+section {
+    padding: 0px 20px;
+}
+
+.layout {
+    width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.layout2 {
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.header {
+    height: 116px;
+    background: #377aef;
+}
+
+.header .logo {
+    padding: 0px 20px;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+
+/*banenr*/
+
+.swiper-container {
+    width: 640px;
+    height: 294px;
+    margin: 0px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*nav*/
+
+.nav {
+    height: 156px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+    width: 159px;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+    position: relative;
+    background: url(../images/h_line.png)repeat-x left bottom;
+}
+
+.nav ul li.bb {
+    /*background: none;*/
+}
+
+.nav ul li a {
+    width: 159px;
+    height: 78px;
+    color: #353535;
+    font-size: 26px;
+}
+
+.nav ul li i {
+    width: 3px;
+    height: 78px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../images/s_line.png)no-repeat center;
+}
+
+.wrapper {
+    background: #f2f2f2;
+}
+
+
+/*公用标题样式*/
+
+.pubtitle {
+    width: 100%;
+    height: 94px;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.pubtitle .title1 {
+    background: url(../images/title1.png)no-repeat center;
+}
+
+.pubtitle .title2 {
+    background: url(../images/title2.png)no-repeat center;
+}
+
+.pubtitle-con {
+    width: 460px;
+    height: 95px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pubtitle-con .zh {
+    font-size: 30px;
+    color: #323232;
+    display: block;
+    padding-top: 20px;
+}
+
+.pubtitle-con .ch {
+    font-size: 19px;
+    color: #323232;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+
+/*疾病分类*/
+
+.disease {
+    width: 100%;
+    min-height: 604px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.disease .bz-list {
+    overflow: hidden;
+    padding: 0px 20px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.disease .bz-list li {
+    width: 173px;
+    height: 160px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    background: #ffaf36;
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.disease .bz-list li a {
+    width: 173px;
+    height: 160px;
+    display: block;
+}
+
+.disease .bz-list li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.disease .bz-list li .img {
+    width: 72px;
+    height: 77px;
+    display: block;
+    margin: 20px auto 0px;
+}
+
+.disease .bz-list li .disease-name {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.hot-news {
+    padding: 0 20px;
+    height: 85px;
+}
+
+.hot-news .img {
+    width: 160px;
+    padding-top: 10px;
+}
+
+.hot-news-list {
+    width: 440px;
+}
+
+
+/* 本例子css */
+
+.txtScroll-top {
+    width: 360px;
+    overflow: hidden;
+    float: right;
+    height: 86px;
+}
+
+.txtScroll-top .infoList li {
+    height: 86px;
+    line-height: 86px;
+}
+
+.txtScroll-top .infoList li a {
+    font-size: 22px;
+    color: #757575;
+}
+
+
+/*就诊*/
+
+.jiuzhen {
+    width: 100%;
+    height: 286px;
+    overflow: hidden;
+    margin-top: 20px;
+    background: url(../images/jiuzhen.jpg)no-repeat center;
+}
+
+.jiuzhen .div1 {
+    width: 180px;
+    height: 286px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.jiuzhen .div1 a {
+    width: 180px;
+    height: 286px;
+    display: block;
+}
+
+.jiuzhen .p1 {
+    font-size: 26px;
+    color: #323232;
+}
+
+.jiuzhen .p2 {
+    font-size: 22px;
+    color: #757575;
+}
+
+.jiuzhen .div1 img {
+    padding: 50px 0px 40px;
+}
+
+.jiuzhen .div1 .p1 {
+    font-size: 26px;
+    color: #323232;
+}
+
+.jiuzhen .div1 .p2 {
+    font-size: 22px;
+    color: #757575;
+}
+
+.jiuzhen .div2 {
+    width: 420px;
+    height: 115px;
+    display: block;
+    float: left;
+}
+
+.jiuzhen .div2 a {
+    width: 420px;
+    height: 115px;
+    display: block;
+}
+
+.jiuzhen .div2 img {
+    padding: 15px 50px 0px 0px;
+}
+
+.jiuzhen .div2 .p1 {
+    text-indent: 65px;
+    padding-top: 30px;
+}
+
+.jiuzhen .div2 .p2 {
+    text-indent: 65px;
+}
+
+.jiuzhen .div3 {
+    width: 218px;
+    height: 170px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.jiuzhen .div3 a {
+    width: 218px;
+    height: 170px;
+    display: block;
+}
+
+.jiuzhen .div3 img {
+    padding: 10px 0px 0px;
+}
+
+.jiuzhen .div3 .p1 {
+    font-size: 26px;
+    color: #323232;
+}
+
+.jiuzhen .div3 .p2 {
+    font-size: 22px;
+    color: #757575;
+}
+
+.jiuzhen .div4 {
+    width: 199px;
+    height: 170px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.jiuzhen .div4 a {
+    width: 199px;
+    height: 170px;
+    display: block;
+}
+
+.jiuzhen .div4 img {
+    padding: 10px 0px 0px;
+}
+
+.jiuzhen .div4 .p1 {
+    font-size: 26px;
+    color: #323232;
+}
+
+.jiuzhen .div4 .p2 {
+    font-size: 22px;
+    color: #757575;
+}
+
+.yykp {
+    width: 100%;
+    height: 212px;
+    display: block;
+}
+
+
+/*病例*/
+
+.bingli {
+    width: 100%;
+    /*min-height: 800px;*/
+    background: #fff;
+    overflow: hidden;
+}
+
+.bingli ul {
+    overflow: hidden;
+    padding: 30px 20px 0px;
+}
+
+.bingli ul li {
+    width: 284px;
+    height: 295px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.bingli ul li:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.bingli ul li .img {
+    width: 284px;
+    height: 188px;
+    display: block;
+}
+
+.bingli ul li .huanzhe {
+    font-size: 26px;
+    color: #323232;
+    padding-top: 10px;
+}
+
+.bingli ul li .zhenduan {
+    font-size: 22px;
+    color: #757575;
+}
+
+.lookmore {
+    width: 100%;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    color: #2063d7;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+/*医师预约*/
+
+.ysyy {
+    width: 100%;
+    min-height: 495px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.ysyy ul {
+    overflow: hidden;
+    padding: 30px 20px 10px;
+}
+
+.ysyy ul li {
+    width: 170px;
+    height: 270px;
+    display: block;
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.ysyy ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.ysyy ul li .img {
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+
+.ysyy ul li .name {
+    font-size: 26px;
+    color: #323232;
+    padding-top: 10px;
+}
+
+.ysyy ul li .yygh {
+    width: 132px;
+    height: 42px;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+    color: #fff;
+    background: #f9a821;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+
+
+/*自助挂号*/
+
+.form_box {
+    width: 100%;
+    padding: 0px 20px 20px;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.form_box_head p {
+    font-size: 26px;
+    color: #343434;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form_box table tr {
+    height: 55px;
+    display: block;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.form_box table tr .td1 {
+    width: 130px;
+    font-size: 26px;
+    color: #343434;
+    line-height: 55px;
+    float: left;
+    letter-spacing: -1px;
+}
+
+.sex {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #343434;
+}
+
+.sex i {
+    padding-left: 10px;
+}
+
+.form_box table tr .td1 .star {
+    color: #ff2c55;
+    margin: 3px 5px 10px 0;
+}
+
+.form_box table tr .input-txt {
+    width: 470px;
+    height: 55px;
+    display: block;
+    text-indent: 18px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    outline: none;
+    font-size: 24px;
+    color: #343434;
+}
+
+.form_box table tr .textarea-txt {
+    width: 470px;
+    height: 236px;
+    display: block;
+    text-indent: 18px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    outline: none;
+    font-size: 24px;
+    color: #343434;
+    font-family: "微软雅黑";
+}
+
+.riqi {
+    background: url(../images/riqi.png) no-repeat 390px center #fff;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 22px;
+    color: #8a8a8a;
+    font-family: "微软雅黑";
+}
+
+.form_box table tr .input-btn {
+    width: 237px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form_box table tr .reset {
+    float: left;
+    margin-top: 15px;
+    margin-left: 4rem;
+    background: #9a9a9a;
+}
+
+.form_box table tr .submit {
+    float: left;
+    margin-top: 15px;
+    margin-left: 4rem;
+    background: #fc814b;
+}
+
+.form_box .notice {
+    width: 600px;
+    color: #242a2d;
+    line-height: 32px;
+    font-size: 22px;
+    color: #343434;
+    padding: 20px 0px;
+    line-height: 26px;
+}
+
+
+/*特殊下拉框*/
+
+select {
+    display: none;
+}
+
+select option {
+    color: #ff2c00
+}
+
+.select_box {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #343434;
+    width: 230px;
+    height: 34px;
+    line-height: 32px;
+}
+
+.select_showbox {
+    width: 470px;
+    height: 53px;
+    line-height: 48px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    color: #343434;
+    font-family: "微软雅黑";
+    letter-spacing: 3px;
+    background: url(../images/xiala.png) no-repeat 390px center #fff;
+}
+
+.select_option {
+    border: 2px solid #dcdcdc;
+    border-top: none;
+    display: none;
+    position: relative;
+    background: #fff;
+    top: 0px;
+    width: 470px;
+}
+
+.select_option li {
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 5px;
+}
+
+
+/*底部*/
+
+.footer {
+    height: 268px;
+    overflow: hidden;
+    background: #3269c9;
+}
+
+.footer-nav {
+    height: 76px;
+    width: 100%;
+    display: block;
+    background: #2a62c2;
+}
+
+.footer-nav a {
+    width: 160px;
+    height: 29px;
+    display: block;
+    float: left;
+    background: url(../images/footline.png)no-repeat right center;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+.footer .footer-p {
+    padding-top: 45px;
+}
+
+
+/*医院概况*/
+
+.page-header {
+    width: 100%;
+    height: 90px;
+    background: #377aef;
+}
+
+.page-header .back {
+    float: left;
+    width: 55px;
+    height: 90px;
+}
+
+.page-header .back img {
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+.page-header .lanmu {
+    float: left;
+    width: 518px;
+    text-align: center;
+    font-size: 31px;
+    color: #f3faff;
+    line-height: 90px;
+}
+
+.page-header .home {
+    float: right;
+    width: 65px;
+    height: 90px;
+}
+
+.page-header .home img {
+    padding-right: 20px;
+    padding-top: 17px;
+}
+
+.gaikuang {
+    height: 350px;
+    background: #fff;
+}
+
+.gaikuang ul {
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.gaikuang ul li {
+    width: 100%;
+    height: 45px;
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.gaikuang ul li .img {
+    float: left;
+    width: 65px;
+}
+
+.gaikuang ul li .dirname {
+    float: left;
+    font-size: 26px;
+    color: #383838;
+    width: 125px;
+    line-height: 45px;
+}
+
+.gaikuang ul li .enname {
+    float: left;
+    font-size: 18px;
+    color: #aba9a9;
+    font-family: "Arial";
+    width: 290px;
+    line-height: 45px;
+}
+
+.gaikuang ul li .jinru {
+    width: 107px;
+    height: 43px;
+    display: block;
+    float: right;
+    background: #f9a821;
+    border-radius: 3px;
+    line-height: 43px;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.pingjia {
+    height: 155px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.pingjia .totalstar {
+    width: 114px;
+    height: 155px;
+    display: block;
+    float: left;
+}
+
+.pingjia .totalstar .zongping {
+    font-size: 26px;
+    color: #343434;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.pingjia .totalstar .pingjia-star {
+    color: #f9a821;
+    letter-spacing: 3px;
+    font-size: 26px;
+}
+
+.pingjia .totalstar .pingjia-star i {
+    color: #c4c4c4;
+}
+
+
+/*.pingjia .totalstar dl dd {
+    display: block;
+    float: left;
+    margin-left: 2px;
+}*/
+
+.manyidu {
+    width: 460px;
+    display: block;
+    font-size: 22px;
+    color: #343434;
+    padding-top: 45px;
+}
+
+.manyidu .line1 {
+    padding-bottom: 10px;
+}
+
+.manyidu .line1 i {
+    width: 222px;
+    display: block;
+    float: left;
+    line-height: 20px;
+}
+
+
+/*医院新闻*/
+
+.yynews {
+    background: #fff;
+}
+
+.yynews ul {
+    padding: 0px 20px 40px;
+    overflow: hidden;
+}
+
+.yynews ul li {
+    width: 100%;
+    height: 180px;
+    display: block;
+    border-bottom: 1px solid #cecece;
+}
+
+.yynews ul li .imgdate {
+    float: left;
+    width: 141px;
+    height: 115px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.yynews ul li .imgdate img {
+    width: 141px;
+    height: 115px;
+}
+
+.yynews ul li .imgdate .date {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    bottom: 0px;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+    font-family: "Arial";
+}
+
+.yynews ul li .detail {
+    width: 445px;
+    float: right;
+    margin-top: 30px;
+}
+
+.yynews ul li .detail .title {
+    font-size: 26px;
+    color: #363636;
+    line-height: 36px;
+}
+
+.yynews ul li .detail .xiangxi {
+    font-size: 24px;
+    color: #8a8a8a;
+    padding-top: 10px;
+}
+
+.yynews ul li .detail .xiangxi a {
+    color: #faa821;
+}
+
+
+/*fenye*/
+
+.page {
+    height: 70px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.page li {
+    display: inline-block;
+    font-size: 26px;
+    color: #303030;
+    margin-right: 10px;
+    border: 1px solid #d9d9d9;
+    padding: 5px 18px;
+}
+
+.page li a {
+    color: #303030;
+}
+
+.page li.thisclass {
+    background: #377aef;
+    color: #fff;
+}
+
+
+/*zhuanjia*/
+
+.zhuanjia {
+    background: #fff;
+}
+
+.zhuanjia ul {
+    padding: 0px 20px 40px;
+    overflow: hidden;
+}
+
+.zhuanjia ul li {
+    width: 100%;
+    height: 215px;
+    display: block;
+    border-bottom: 1px solid #cecece;
+}
+
+.zhuanjia ul li .img {
+    width: 101px;
+    height: 101px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 28px;
+}
+
+.zhuanjia ul li:last-child {
+    border-bottom: none;
+}
+
+.zhuanjia ul li .img img {
+    width: 101px;
+    height: 101px;
+    display: block;
+    border-radius: 50%;
+}
+
+.zhuanjia ul li .detail {
+    width: 475px;
+    display: block;
+}
+
+.zhuanjia ul li .detail .name {
+    font-size: 26px;
+    color: #000000;
+    line-height: 31px;
+    padding-top: 24px;
+}
+
+.zhuanjia ul li .detail .year {
+    font-size: 24px;
+    color: #8b8b8b;
+    line-height: 31px;
+    padding-top: 5px;
+}
+
+.zhuanjia ul li .detail .shanchang {
+    font-size: 24px;
+    color: #8b8b8b;
+    line-height: 31px;
+    padding-top: 5px;
+}
+
+.zhuanjia ul li .detail .yisheng-link {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.zhuanjia ul li .detail .yisheng-link a {
+    width: 106px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 22px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+}
+
+.detail .yisheng-link a.a1 {
+    border: 1px solid #3778ec;
+    color: #3778ec;
+}
+
+.detail .yisheng-link a.a2 {
+    border: 1px solid #faa821;
+    color: #faa821;
+    margin-left: 20px;
+}
+
+
+/*专家文章*/
+
+.zhuanjua-top {
+    width: 100%;
+    min-height: 398px;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+}
+
+.zhuanjua-top .img {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto 0px;
+}
+
+.zhuanjua-top .img img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+}
+
+.zhuanjua-top .name {
+    font-size: 26px;
+    color: #000000;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.zhuanjua-top .name i {
+    padding-left: 15px;
+}
+
+.zhuanjua-top .year {
+    font-size: 22px;
+    color: #8c8c8c;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.zhuanjua-top .year i {
+    padding-left: 15px;
+}
+
+.zhuanjua-top .star {
+    font-size: 26px;
+    color: #f9a821;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.zhuanjua-top .star i {
+    color: #c4c4c4;
+}
+
+.zhuanjua-top .star span {
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Arial";
+}
+
+.zixunqu {
+    width: 600px;
+    height: 236px;
+    display: block;
+    margin: 0 auto;
+}
+
+.zixunqu ul {
+    padding-top: 10px;
+}
+
+.zixunqu ul li {
+    width: 200px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.zixunqu ul li a {
+    width: 200px;
+    display: block;
+}
+
+.zixunqu ul li a .p1 {
+    font-size: 26px;
+    color: #373737;
+    padding: 5px 0px;
+}
+
+.zixunqu ul li a .p2 {
+    font-size: 22px;
+    color: #ffc000;
+    letter-spacing: 1px;
+}
+
+
+/*医生详情介绍*/
+
+.doctor-detail {
+    margin-top: 20px;
+    background: #fff;
+    overflow: hidden;
+    padding: 25px 20px 30px;
+}
+
+.doctor-detail .doctor-line {
+    padding-bottom: 25px;
+    overflow: hidden;
+}
+
+.doctor-detail .doctor-line .doctor-line-title {
+    height: 45px;
+    background: url(../images/icon5.png)no-repeat left center;
+    text-indent: 36px;
+    font-size: 28px;
+    color: #8c8c8c;
+    line-height: 45px;
+}
+
+.doctor-detail .doctor-line .doctor-line-title2 {
+    background: url(../images/icon6.png)no-repeat left center;
+}
+
+.doctor-detail .doctor-line .doctor-line-title3 {
+    background: url(../images/icon6.png)no-repeat left center;
+    color: #000;
+}
+
+.doctor-detail .doctor-line .doctor-line-con {
+    width: 556px;
+    float: right;
+    font-size: 26px;
+    color: #373737;
+    line-height: 36px;
+}
+
+
+/* 本例子css */
+
+.picScroll-left {
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.picScroll-left .hd {
+    height: 30px;
+    padding: 0 10px;
+}
+
+.picScroll-left .hd .prev,
+.picScroll-left .hd .next {
+    display: block;
+    width: 42px;
+    height: 51px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.picScroll-left .hd .prev {
+    left: 0px;
+    background: url(../images/prev.png) no-repeat;
+}
+
+.picScroll-left .hd .next {
+    right: 0px;
+    background: url(../images/next.png) no-repeat;
+}
+
+.picScroll-left .bd {
+    width: 516px;
+    margin-left: 50px;
+}
+
+.picScroll-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+    margin: 0px 20px 0px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic {
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic img {
+    width: 206px;
+    height: 146px;
+    display: block;
+}
+
+
+/*患者病历*/
+
+.hz-bingli {
+    width: 100%;
+    min-height: 326px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0px 20px;
+}
+
+.hz-bingli .headimg {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30px 20px 25px;
+}
+
+.hz-bingli .headtxt {
+    width: 435px;
+    height: 124px;
+    margin-top: 50px;
+}
+
+.hz-bingli .headtxt .name {
+    font-size: 26px;
+    color: #ff0000;
+}
+
+.hz-bingli .headtxt .name i {
+    color: #000;
+    padding-left: 35px;
+}
+
+.hz-bingli .headtxt .zhuyuanhao {
+    font-size: 26px;
+    color: #8c8c8c;
+    padding-top: 10px;
+}
+
+.hz-bingli .short-js {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    font-size: 26px;
+    color: #8c8c8c;
+    line-height: 36px;
+}
+
+.hz-bingli .short-js p .i1 {
+    width: 280px;
+    display: block;
+    float: left;
+}
+
+.hz-bingli .short-js p .i2 {
+    width: 278px;
+    display: block;
+    float: left;
+}
+
+.bingli-article {
+    margin-top: 30px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0px 20px 35px;
+}
+
+.bingli-article .bl {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.bingli-article .bl:last-child {
+    border-bottom: none;
+}
+
+.bingli-article .bl .bl-title {
+    height: 45px;
+    background: url(../images/icon7.png)no-repeat left center;
+    text-indent: 30px;
+    font-size: 28px;
+    color: #8c8c8c;
+    line-height: 45px;
+}
+
+.bingli-article .bl .bl-con {
+    width: 569px;
+    float: right;
+    font-size: 26px;
+    color: #373737;
+    line-height: 36px;
+}
+
+.bl-btn {
+    width: 405px;
+    height: 72px;
+    display: block;
+    float: left;
+    margin: 25px auto 0px;
+    background: #fd8b00;
+    color: #fff;
+    text-align: center;
+    line-height: 72px;
+    font-size: 26px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+
+/*病程记录*/
+
+.picScroll-left2 {
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.picScroll-left2 .hd {
+    height: 30px;
+    padding: 0 10px;
+}
+
+.picScroll-left2 .hd .prev,
+.picScroll-left2 .hd .next {
+    display: block;
+    width: 48px;
+    height: 47px;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.picScroll-left2 .hd .prev {
+    left: 0px;
+    background: url(../images/prev2.png) no-repeat;
+}
+
+.picScroll-left2 .hd .next {
+    right: 0px;
+    background: url(../images/next2.png) no-repeat;
+}
+
+.picScroll-left2 .bd {
+    margin-left: 60px;
+}
+
+.picScroll-left2 .bd ul {
+    overflow: hidden;
+    padding-left: 10px;
+    zoom: 1;
+}
+
+.picScroll-left2 .bd ul li {
+    margin: 0px 15px 0px 0px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picScroll-left2 .bd ul li .pic {
+    text-align: center;
+}
+
+.picScroll-left2 .bd ul li .pic a {
+    width: 152px;
+    height: 195px;
+    display: block;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+}
+
+.picScroll-left2 .bd ul li .pic img {
+    width: 152px;
+    height: 195px;
+    display: block;
+}
+
+
+/*主治医生*/
+
+.zhuzhidortor {
+    min-height: 460px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.zhuzhidortor .title {
+    height: 85px;
+    background: #f2f2f2;
+    position: relative;
+    text-indent: 35px;
+    font-size: 30px;
+    color: #343434;
+    line-height: 85px;
+    background: url(../images/titlebg.jpg)no-repeat left center;
+}
+
+.zhuzhidortor .con .img {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto 0px;
+}
+
+.zhuzhidortor .con .img img {
+    width: 150px;
+    height: 150px;
+}
+
+.zhuzhidortor .con .name {
+    font-size: 26px;
+    color: #000;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.zhuzhidortor .con .name em {
+    font-style: normal;
+}
+
+.zhuzhidortor .con .year {
+    font-size: 22px;
+    color: #8c8c8c;
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+.zhuzhidortor .con .z-url {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 17px;
+}
+
+.zhuzhidortor .con .z-url a {
+    width: 175px;
+    height: 52px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 52px;
+    color: #fff;
+    background: #fd8b00;
+    font-size: 26px;
+    border-radius: 3px;
+}
+
+
+/*疾病文章*/
+
+#article1 {
+    background: #fff;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.art-biaoti {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #377aef;
+    font-weight: 800;
+    padding: 30px 0px 10px;
+}
+
+.other-zuozhe .laiyuan {
+    font-size: 24px;
+    line-height: 36px;
+    color: #606060;
+    text-align: center;
+}
+
+.other-zuozhe .laiyuan i {
+    padding-left: 15px;
+}
+
+.other-zuozhe .tishi {
+    background: #f2f2f2;
+    font-size: 23px;
+    line-height: 36px;
+    color: #606060;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.other-zuozhe .tishi a {
+    color: #ff0000;
+}
+
+.zuozhe {
+    padding-bottom: 40px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.zuozhe .img {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.zuozhe .img img {
+    width: 108px;
+    height: 108px;
+}
+
+.zuozhe .zuozhe-js {
+    width: 471px;
+    margin-left: 15px;
+}
+
+.zuozhe .name {
+    padding-top: 10px;
+    font-size: 26px;
+    color: #373737;
+}
+
+.zuozhe .name i {
+    padding-left: 5px;
+}
+
+.zuozhe .click {
+    padding-top: 10px;
+    font-size: 26px;
+    color: #8c8c8c;
+}
+
+.zuozhe .click i {
+    padding-left: 55px;
+}
+
+.article-txt {
+    font-size: 26px;
+    color: #323232;
+    line-height: 36px;
+    padding-bottom: 50px;
+}
+
+.article-txt img {
+    max-width: 600px;
+}
+
+.article-btn {
+    height: 170px;
+}
+
+.article-btn p {
+    text-align: center;
+    font-size: 26px;
+    color: #363636;
+    line-height: 36px;
+}
+
+.article-btn p i {
+    position: relative;
+    padding-left: 8px;
+    top: 3px;
+}
+
+.article-btn a {
+    width: 293px;
+    height: 72px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    font-size: 28px;
+    line-height: 72px;
+    text-indent: 120px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.article-btn .a1 {
+    background: url(../images/icon10.png)no-repeat 50px center #fd8b00;
+}
+
+.article-btn .a2 {
+    background: url(../images/icon9.png)no-repeat 50px center #377aef;
+    float: right;
+}
+
+.art-yygh {
+    height: 114px;
+    margin: 20px auto;
+}
+
+.xgwz {
+    overflow: hidden;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+.xgwz .title {
+    height: 70px;
+    font-size: 30px;
+    color: #8c8c8c;
+    line-height: 70px;
+    text-indent: 10px;
+    position: relative;
+}
+
+.xgwz .title i {
+    width: 3px;
+    height: 28px;
+    display: block;
+    background: #fd8b00;
+    position: absolute;
+    left: 0px;
+    top: 23px;
+}
+
+.xgwz ul li {
+    width: 100%;
+    height: 65px;
+    display: block;
+    border-top: 1px dashed #8c8c8c;
+    font-size: 26px;
+    color: #363636;
+    line-height: 65px;
+    background: url(../images/icon11.png)no-repeat right center;
+}
+
+.xgwz ul li a {
+    display: block;
+    color: #363636;
+}
+
+
+/*问诊*/
+
+.jibing-tab {
+    width: 100%;
+    height: 160px;
+    display: block;
+    background: #fff;
+}
+
+.jibing-tab ul {
+    padding: 20px 20px 0px;
+}
+
+.jibing-tab ul li {
+    width: 173px;
+    height: 50px;
+    border: 1px solid #d3d3d3;
+    display: block;
+    float: left;
+    margin-right: 36px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #343434;
+    text-align: center;
+    margin-bottom: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.jibing-tab ul li.on {
+    background: #f9ae3b;
+    border: 1px solid transparent;
+    display: block;
+    color: #fff;
+}
+
+.jibing-tab ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.jibing-wamp {
+    margin-top: 20px;
+}
+
+.jibingshow ul {
+    overflow: hidden;
+}
+
+.jibingshow ul li {
+    padding: 25px 20px;
+    background: #fff;
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.jibingshow ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.jibingshow ul li .wen {
+    width: 100%;
+    overflow: hidden;
+}
+
+.jibingshow ul li .wen .img {
+    width: 42px;
+    height: 42px;
+}
+
+.jibingshow ul li .wen .txt {
+    font-size: 24px;
+    color: #343434;
+    line-height: 32px;
+    width: 535px;
+    margin-left: 10px;
+}
+
+.jibingshow ul li .da {
+    width: 600px;
+    position: relative;
+    background: #e9e9e9;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.jibingshow ul li .da em {
+    width: 33px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background: url(../images/sanjiao.png)no-repeat;
+}
+
+.ys-huida .img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.ys-huida .img img {
+    width: 50px;
+    height: 50px;
+}
+
+.ys-huida .name {
+    width: 503px;
+    height: 70px;
+    line-height: 80px;
+    font-size: 24px;
+    color: #7b7b7b;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.ys-huida-txt {
+    clear: both;
+    width: 556px;
+    margin: 0px auto;
+    font-size: 24px;
+    color: #3d3d3d;
+    line-height: 30px;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+.ys-huida-yincang {
+    width: 556px;
+    margin: 0px auto;
+    overflow: hidden;
+    display: none;
+}
+
+.ys-huida-yincang p.ts {
+    font-size: 22px;
+    color: #7b7b7b;
+    line-height: 32px;
+}
+
+.ys-huida-yincang .da-link a {
+    width: 175px;
+    height: 66px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 66px;
+    color: #fff;
+    background: #f9ae3b;
+    font-size: 26px;
+    border-radius: 5px;
+    margin: 20px 15px 25px 0px;
+}
+
+.ys-huida-yincang .da-link a:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.ys-huida .weibu {
+    width: 556px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+
+.ys-huida .weibu .date {
+    float: left;
+    font-size: 24px;
+    color: #7b7b7b;
+}
+
+.ys-huida .weibu .showmore {
+    width: 120px;
+    height: 50px;
+    float: right;
+    display: block;
+}
+
+.ys-huida .weibu .showmore span {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    color: #3d3d3d;
+    line-height: 50px;
+    background: url(../images/zhankai.png)no-repeat right center;
+}
+
+.showMorehandle {
+    width: 100%;
+    height: 50px;
+    display: block;
+    background: #fff;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.showMorehandle a {
+    width: 205px;
+    height: 47px;
+    display: block;
+    margin: 0 auto;
+    line-height: 47px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    font-size: 22px;
+    color: #a5a5a5;
+    background: url(../images/loadmore.png)no-repeat 160px center;
+    text-indent: 25px;
+}
+
+
+/*预约挂号*/
+
+.position {
+    height: 68px;
+    line-height: 68px;
+    font-size: 26px;
+    color: #6e6e6e;
+    padding-left: 20px;
+}
+
+.position a {
+    color: #6e6e6e;
+}
+
+
+/*预约须知*/
+
+.yuyuexuzhi {
+    min-height: 270px;
+    padding: 0px 20px;
+    overflow: hidden;
+    background: #fff;
+    margin: 20px 0px;
+}
+
+.gh-title {
+    height: 74px;
+    font-size: 26px;
+    color: #8e8e8e;
+    line-height: 74px;
+    text-indent: 30px;
+    background: url(../images/icon7.png) no-repeat left center;
+}
+
+.xuzhi-txt p {
+    font-size: 22px;
+    color: #343434;
+    line-height: 45px;
+}
+
+
+/*就诊流程*/
+
+.jz-liucheng {
+    min-height: 225px;
+    padding: 0px 20px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.treat-process-con .step {
+    width: 110px;
+    height: 110px;
+    display: block;
+    float: left;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+
+.treat-process-con .step:last-child {
+    margin-right: 0px;
+}
+
+.treat-process-con .step p {
+    text-align: center;
+    color: #2d353a;
+}
+
+.treat-process-con .step .step-num {
+    font-family: "Arial";
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+.treat-process-con .step .step-message {
+    font-size: 18px;
+}
+
+
+/*来院路线*/
+
+.road-content {
+    height: 640px;
+    background: #fff;
+    padding: 20px 15px 20px 18px;
+}
+
+.road-content .phone {
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.road-content .phone img {
+    float: left;
+    padding-top: 5px;
+}
+
+.road-content .phone span {
+    font-size: 28px;
+    line-height: 50px;
+    color: #333333;
+    padding-left: 10px;
+    float: left;
+}
+
+.road-content .phone span b {
+    font-size: 34px;
+    font-family: arial;
+}
+
+.road-content .phone .lookmap {
+    width: 212px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 7px;
+    text-indent: 15px;
+    background: #ff6702 url(../images/lookmap.png)no-repeat 167px center;
+}
+
+.road-content .address {
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    clear: both;
+}
+
+.road-content .address img {
+    float: left;
+    padding-top: 5px;
+}
+
+.road-content .address span {
+    font-size: 28px;
+    line-height: 50px;
+    color: #333333;
+    padding-left: 10px;
+    float: left;
+}
+
+.road-class {
+    margin-top: 20px;
+    min-height: 941px;
+    background: #fff;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+}
+
+.road-class .title {
+    width: 220px;
+    height: 60px;
+    display: block;
+    margin: 30px auto 35px;
+    height: 60px;
+}
+
+.road-class .title img {
+    float: left;
+    margin-right: 8px;
+}
+
+.road-class .title .zh {
+    font-size: 36px;
+    color: #272c2f;
+    line-height: 45px;
+}
+
+.road-class .title .en {
+    font-size: 12px;
+    color: #686868;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+
+/*线路分类*/
+
+.roadtab ul li {
+    width: 142px;
+    height: 118px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.roadtab ul li.on {
+    background-position: center -118px !important;
+    color: #fff;
+}
+
+.roadtab ul li p {
+    font-size: 24px;
+    color: #0077c0;
+    text-align: center;
+    padding-top: 68px;
+}
+
+.roadtab ul li.on p {
+    color: #fff;
+}
+
+.roadshow {
+    padding: 45px 15px 15px 18px;
+    overflow: hidden;
+    min-height: 520px;
+}
+
+
+/*bus road*/
+
+.Bus ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.Bus ul li .roadline {
+    width: 104px;
+    height: 118px;
+    display: block;
+    margin-top: 8px;
+    background: url(../images/roadline.png)no-repeat center;
+}
+
+.Bus ul li .roadline p {
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 34px;
+}
+
+.Bus ul li .roaddetail {
+    width: 480px;
+    padding-top: 5px;
+}
+
+.Bus ul li .roaddetail .p1 {
+    font-size: 24px;
+    color: #0077c0;
+    line-height: 24px;
+}
+
+.Bus ul li .roaddetail .p1 i {
+    font-family: arial;
+}
+
+.Bus ul li .roaddetail .p2 {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #666666;
+    line-height: 36px;
+}
+
+.zixun {
+    padding-left: 18px;
+}
+
+.zixun a {
+    width: 243px;
+    height: 74px;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 74px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.zixun .online {
+    background: #38b4fe;
+    margin-left: 35px;
+}
+
+.zixun .register {
+    background: #f86a2c;
+    margin-left: 45px;
+}
+
+
+/*sunway*/
+
+.Subway ul li .roadline .s-line {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 34px;
+    color: #1b4d6b;
+    letter-spacing: 1px;
+}
+
+.Subway ul li .roadline .s-line2 {
+    padding-left: 30px;
+}
+
+.Subway ul li .roaddetail .p2 i {
+    color: #0077c0;
+}
+
+
+/*é£žæœº*/
+
+.Air ul li .roadline {
+    width: 131px;
+    height: 118px;
+    display: block;
+    background: url(../images/aircraft.png)no-repeat center top;
+}
+
+.Air ul li .roadline .a-line {
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 36px;
+    color: #000;
+}
+
+.Air ul li .roaddetail {
+    width: 460px;
+}
+
+.Air ul li .roaddetail .p2 i {
+    color: #0077c0;
+}
+
+
+/*电子病历查询中心*/
+
+.dianzibingli {
+    background: #fff;
+}
+
+.dianzibingli .chaxun {
+    padding: 25px 20px 10px;
+}
+
+.dianzibingli .chaxun span {
+    width: 136px;
+    height: 55px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    background: #fd8b00;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 55px;
+    text-align: center;
+}
+
+.dianzibingli .ul {
+    padding: 0px 20px 40px;
+    overflow: hidden;
+    clear: both;
+}
+
+.dianzibingli .ul li {
+    width: 100%;
+    height: 210px;
+    display: block;
+    border-bottom: 1px solid #cecece;
+}
+
+.dianzibingli .ul li .imgdate {
+    float: left;
+    width: 205px;
+    height: 147px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.dianzibingli .ul li .imgdate img {
+    width: 205px;
+    height: 147px;
+    display: block;
+}
+
+.dianzibingli .ul li .imgdate .date {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    bottom: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    font-family: "Arial";
+}
+
+.dianzibingli .ul li .detail {
+    width: 372px;
+    float: right;
+    margin-top: 30px;
+}
+
+.dianzibingli .ul li .detail p {
+    font-size: 26px;
+    color: #363636;
+    line-height: 36px;
+    padding-top: 10px;
+}
+
+.dianzibingli .ul li .detail .p1 span {
+    font-size: 22px;
+    color: #464646;
+    padding-left: 10px;
+    line-height: 36px;
+    position: relative;
+    top: -3px;
+}
+
+.dianzibingli .ul li .detail .p1 i {
+    padding-right: 10px;
+}
+
+
+/*特殊下拉框*/
+
+#select {
+    display: block;
+    float: right;
+    width: 450px;
+    height: 55px;
+    line-height: 48px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    color: #343434;
+    font-family: "微软雅黑";
+    letter-spacing: 3px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    background: url(../images/xiala2.png) no-repeat 390px center #fff;
+}
+
+#select option {
+    padding-left: 5px;
+    font-size: 14px;
+    color: #343434;
+    text-indent: 10px;
+}
+
+
+/*select {
+    display: none;
+}
+
+select option {
+    color: #ff2c00
+}
+
+.select_box2 {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #343434;
+    width: 450px;
+    height: 55px;
+    float: right;
+    line-height: 55px;
+}
+
+.select_showbox2 {
+    width: 450px;
+    height: 55px;
+    line-height: 48px;
+    display: block;
+    text-indent: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    color: #343434;
+    font-family: "微软雅黑";
+    letter-spacing: 3px;
+    background: url(../images/xiala2.png) no-repeat 390px center #fff;
+}
+
+.select_option2 {
+    border: 2px solid #dcdcdc;
+    border-top: none;
+    display: none;
+    position: relative;
+    background: #fff;
+    z-index: 999;
+    top: 0px;
+    width: 450px;
+}
+
+.select_option2 li {
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 5px;
+}*/
+
+.chexun_list {
+    width: 450px;
+    display: block;
+    float: right;
+}
+
+.list {
+    width: 100%;
+}
+
+.list .search_box {
+    position: relative;
+    width: 450px;
+    height: 55px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+.xiala2 {
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../images/xiala2.png) no-repeat center #fff;
+}
+
+.list .chose {
+    width: 400px;
+    height: 55px;
+    line-height: 48px;
+    display: block;
+    text-indent: 18px;
+    outline: none;
+    font-size: 26px;
+    color: #343434;
+    font-family: "微软雅黑";
+    letter-spacing: 3px;
+}
+
+.list .search_box ul li {
+    line-height: 48px;
+    width: 450px;
+    height: 48px;
+    display: block;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.list .search_box ul li a {
+    display: block;
+    width: 450px;
+    height: 48px;
+    display: block;
+    color: #333;
+    text-indent: 20px;
+    border-bottom: #eee 3px solid;
+}
+
+.list .search_box ul {
+    background: #fff;
+    position: absolute;
+    width: 450px;
+    display: none;
+    z-index: 100000;
+    border: 1px solid #dcdcdc;
+    padding-bottom: 20px;
+}
+
+
+/*疾病百科*/
+
+.jibingbk {
+    width: 100%;
+    height: 141px;
+    background: #fff;
+}
+
+.jibingbk ul {
+    overflow: hidden;
+}
+
+.jibingbk ul li {
+    width: 319px;
+    height: 140px;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+
+.jibingbk ul li:nth-child(2n) {
+    border-right: none;
+}
+
+.jibingbk ul li:nth-child(2n) .img {
+    margin-left: 25px;
+}
+
+.jibingbk ul li .img {
+    width: 85px;
+    height: 85px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 27px;
+    margin-right: 15px;
+}
+
+.jibingbk ul li .p1 {
+    font-size: 26px;
+    color: #464646;
+    line-height: 36px;
+    padding-top: 35px;
+}
+
+.jibingbk ul li .p2 {
+    font-size: 22px;
+    color: #767676;
+}
+
+.zz-title {
+    height: 85px;
+    background: #f2f2f2;
+    position: relative;
+    text-indent: 35px;
+    font-size: 30px;
+    color: #343434;
+    line-height: 85px;
+    background: url(../images/titlebg.jpg)no-repeat left center;
+}
+
+.tuijian-doctor ul {
+    background: #fff;
+    overflow: hidden;
+    padding: 20px 20px 30px;
+}
+
+.tuijian-doctor ul li {
+    width: 175px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.tuijian-doctor ul li .img {
+    width: 175px;
+    height: 175px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tuijian-doctor ul li .img img {
+    width: 175px;
+    height: 175px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tuijian-doctor ul li .name {
+    font-size: 26px;
+    color: #464646;
+    padding-top: 10px;
+}
+
+.tuijian-doctor ul li .zhiwei {
+    font-size: 24px;
+    color: #767676;
+    padding-top: 3px;
+}
+
+
+/*.ys-jiedu ul {
+    padding: 0px 20px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.ys-jiedu ul li {
+    height: 120px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.ys-jiedu ul li a {
+    width: 500px;
+    height: 34px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    color: #464646;
+    font-size: 26px;
+    text-indent: 30px;
+    background: url(../images/jiedu.png)no-repeat left center;
+}
+
+.ys-jiedu ul li .liulan {
+    width: 95px;
+    height: 34px;
+    line-height: 36px;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    color: #a7a7a7;
+    font-size: 26px;
+    text-indent: 40px;
+    font-family: "Arial";
+    background: url(../images/liulan.png)no-repeat left center;
+}
+
+.ys-jiedu ul li .gs {
+    width: 100%;
+    height: 34px;
+    line-height: 36px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    color: #767676;
+    font-size: 24px;
+    text-indent: 30px;
+}
+*/
+
+
+/*相关文章栏目页1*/
+
+.xgwzlm {
+    background: #fff;
+}
+
+.xgwzlm ul {
+    padding: 0px 20px 40px;
+    overflow: hidden;
+}
+
+.xgwzlm ul li {
+    width: 100%;
+    height: 236px;
+    display: block;
+    border-bottom: 1px solid #cecece;
+}
+
+.xgwzlm ul li .imgdate {
+    float: left;
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.xgwzlm ul li .imgdate img {
+    width: 175px;
+    height: 175px;
+}
+
+.xgwzlm ul li .imgdate .date {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    bottom: 0px;
+    font-size: 22px;
+    color: #f2f2f2;
+    line-height: 40px;
+    text-align: center;
+}
+
+.xgwzlm ul li .detail {
+    width: 409px;
+    float: right;
+    margin-top: 30px;
+}
+
+.xgwzlm ul li .detail .title {
+    font-size: 26px;
+    color: #377aef;
+    line-height: 36px;
+}
+
+.xgwzlm ul li .detail .xiangxi {
+    font-size: 22px;
+    color: #5b5b5b;
+    padding-top: 10px;
+}
+
+.xgwzlm ul li .detail .xiangxi a {
+    color: #f9ae3b;
+}
+
+.xgwzlm ul li .detail .p3 {
+    font-size: 20px;
+    color: #5b5b5b;
+    padding-top: 12px;
+}
+
+
+/*直播倒计时*/
+
+.zb-benqi {
+    width: 100%;
+    height: 211px;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+}
+
+.zb-benqi .zb-thumb {
+    width: 100%;
+    height: 211px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.zb-benqi .zb-thumb img {
+    width: 100%;
+    height: 211px;
+}
+
+.zb-benqi .zb-yinying {
+    width: 100%;
+    height: 211px;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, .75);
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.zb-benqi .zb-anniu {
+    width: 209px;
+    height: 43px;
+    display: block;
+    border-radius: 5px;
+    background: #faa821;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    margin-left: -104px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 43px;
+    text-align: center;
+    top: 45px;
+}
+
+.zb-wq .title {
+    height: 90px;
+    text-align: center;
+}
+
+.zb-wq .title .p1 {
+    font-size: 30px;
+    color: #343434;
+}
+
+.zb-wq .title .p2 {
+    font-size: 18px;
+    color: #929292;
+    font-family: "Arial";
+    padding-bottom: 10px;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+
+.wq-ul ul {
+    background: #fff;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+
+.wq-ul ul li {
+    width: 100%;
+    height: 195px;
+    display: block;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.wq-ul ul li:last-child {
+    border-bottom: none;
+}
+
+.wq-ul ul li .imgnumber {
+    width: 201px;
+    height: 133px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+}
+
+.wq-ul ul li .imgnumber img {
+    width: 201px;
+    height: 133px;
+    display: block;
+}
+
+.wq-ul ul li .imgnumber i {
+    width: 201px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, .43);
+    font-size: 20px;
+    color: #fff;
+}
+
+.wq-ul ul li .xushu {
+    width: 330px;
+    height: 133px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.wq-ul ul li .xushu .zb-title {
+    font-size: 26px;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+.wq-ul ul li .xushu .zb-title a {
+    color: #377aef;
+}
+
+.wq-ul ul li .xushu .name {
+    font-size: 22px;
+    line-height: 26px;
+    color: #8d8d8d;
+}
+
+.wq-ul ul li .xushu .time {
+    font-size: 22px;
+    line-height: 26px;
+    color: #8d8d8d;
+    padding-top: 10px;
+}
+
+.wq-ul ul li .play a {
+    width: 50px;
+    height: 133px;
+    display: block;
+    float: right;
+}
+
+.wq-ul ul li .play a img {
+    padding-top: 58px;
+}
+
+
+/*直播诊室内容页*/
+
+.zhibo-tab {
+    height: 90px;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.zhibo-tab ul li {
+    width: 173px;
+    height: 51px;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    background: #fd8b00;
+    border-radius: 5px;
+    line-height: 51px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 26px;
+    color: #ffffff;
+    margin-right: 40px;
+}
+
+.zhibo-tab ul li:last-child {
+    margin-right: 0px;
+}
+
+.zhibowamp {
+    background: #fff;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+
+.zhiboshow {
+    padding-bottom: 30px;
+}
+
+.zhiboshow .t1 {
+    padding-top: 25px;
+    font-size: 26px;
+    color: #8d8d8d;
+}
+
+.zhiboshow .t2 {
+    font-size: 26px;
+    line-height: 36px;
+    color: #343434;
+}

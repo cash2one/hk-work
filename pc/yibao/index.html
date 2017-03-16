@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用医保看牙病_上海医保牙科_上海金高口腔</title>
+    <link rel="stylesheet" href="/include/css/reset.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <!--<script type="text/javascript" src="/include/js/jquery1.42.min.js"></script>-->
+    <script type="text/javascript" src="/include/js/jquery.SuperSlide.2.1.js"></script>
+
+
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="/include/css/header.css" />
+    <div class="header">
+        <div class="head-inner">
+            <a class="head-logo" href="/"><img src="/include/images/logo.jpg" /></a>
+            <div>
+                <a class="phone-tel" href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="nav-inner">
+            <a class="head-home active" href="/">首页<span>HOME</span></a>
+            <a href="/yypp/"><img src="/include/images/head_nav_0.png" />
+                <p>品牌<span>BRAND</span></p>
+            </a>
+            <a href="/zj/"><img src="/include/images/head_nav_1.png" />
+                <p>医生<span>EXPERTS</span></p>
+            </a>
+            <a href="/js/"><img src="/include/images/head_nav_2.png" />
+                <p>技术<span>TECHNOLOGY</span></p>
+            </a>
+            <a href="/zzgh/"><img src="/include/images/head_nav_3.png" />
+                <p>挂号<span>REGISTER</span></p>
+            </a>
+            <a href="/lylx/"><img src="/include/images/head_nav_4.png" />
+                <p>路线<span>ROUTE</span></p>
+            </a>
+        </div>
+    </div>
+
+    <div class="index-phone" id="index-phone">
+        <span class="phone-span" id="phone-span">
+  </span>
+        <div class="index-phone-c">
+            <div class="index-phone-left">
+                <h3>
+                    <img src="/include/images/phone-logo.jpg">
+                </h3>
+                <div class="index-phone-left-l">
+                    <p>您的号码:</p>
+                    <p>通话时段</p>
+                </div>
+                <div class="index-phone-left-r">
+                    <form action="http://tel.kuaishang.com.cn/calld.php" method="post" onsubmit="return chk(this);return false;" target="phone">
+                        <input type="hidden" name="fromurl" id="call_fromurl1" value="">
+                        <input type="hidden" name="sid" value="2013141726">
+                        <input type="hidden" name="did" value="1011701">
+                        <div class="mainr-t">
+                            <div class="mainr-td">
+                                <input class="index-phone-f_tel" id="index-phone-f_tel" name="tel" autocomplete="off" value="请输入您自己的电话号码！" onfocus="if(this.value=='请输入您自己的电话号码！'){this.value='';this.style.color='#737373'}" onblur="if(this.value==''){this.value='请输入您自己的电话号码！';this.style.color='#737373'}"
+                                    style="color: rgb(115, 115, 115);" type="text">
+                                <div class="fd-nr">
+                                </div>
+                            </div>
+                            <div>
+                                <select class="timing" name="timing" size="1">
+              <option value="不限时段">不限时段</option>
+              <option value="中午12:00-13:30">中午12:00-13:30</option>
+              <option value="下午18:00-21:00">下午18:00-21:00</option>
+              <option value="周六或者周日">周六或者周日</option>
+            </select>
+                            </div>
+                            <div class="mainr-p">
+                                <i></i>您的通话全程免费并加密，请放心倾听！
+                            </div>
+                        </div>
+                        <div class="mainr-n">
+                            <span>
+              <input name="" class="input2" value="" type="submit">
+            </span>
+                            <s id="phone-zq">
+              <i></i>
+              <input class="comr-c-form3" name="" value="重新输入" type="reset">
+            </s>
+                        </div>
+                    </form>
+                    <script>
+                        document.getElementById('phone-zq').onclick = function() {
+                            this.getElementsByTagName("i")[0].className = "ad";
+                            setTimeout(function() {
+                                    document.getElementById('phone-zq').getElementsByTagName("i")[0].className = " ";
+                                },
+                                400);
+                        }
+                    </script>
+                    <div class="index-phone-left-b">
+                        <a href="javascript:;" onclick="swt();" class="phone-zixun1">
+                            <span>
+            </span>
+                            <s>QQ咨询</s>
+                        </a>
+                        <a href="javascript:;" onclick="swt();" class="phone-zixun2">
+                            <span></span>
+                            <s>在线咨询</s>
+                        </a>
+                    </div>
+                </div>
+                <p class="phone-p">
+                    诊疗项目：
+                    <a href="javascript:;" onclick="swt();">牙齿种植</a>
+                    <a href="javascript:;" onclick="swt();">牙齿矫正</a>
+                    <a href="javascript:;" onclick="swt();">牙齿修复</a>
+                    <a href="javascript:;" onclick="swt();">牙齿美白</a>
+                    <a href="javascript:;" onclick="swt();">补牙</a>
+                    <a href="javascript:;" onclick="swt();">牙疼</a>
+                    <a href="javascript:;" onclick="swt();">蛀牙</a>
+                    <a href="javascript:;" onclick="swt();">烤瓷牙</a>
+                    <a href="javascript:;" onclick="swt();">牙齿松动</a>
+                    <a href="javascript:;" onclick="swt();">拔牙</a>等
+                </p>
+                <p class="phone-p">
+                    医院地址：
+                    <a href="/lylx" target="_blank">上海市浦东新区金高路1115号（近12号线金京站）</a>
+                </p>
+            </div>
+            <div class="index-phone-right">
+                <img src="/include/images/phone-left.jpg">
+            </div>
+        </div>
+        <iframe name="phone" id="phone" frameborder="0" width="0" height="0"></iframe>
+    </div>
+    <div id="tel-float-div"></div>
+    <script>
+        function chk(_obj) {
+            var _tel = _obj.tel.value;
+            var zz = /^(0[3-9]\d{2}-)?([2-9][0-9]{6})(-[0-9]{1,4})?$|^(0(10|2[0-9])-)?([2-9][0-9]{7})(-[0-9]{1,4})?$|^1([3,8][0-9]|4[5,7,9]|5[012356789]|7[0,5,6,7,8])\d{8}$/;
+            if (_tel == '请输入您自己的电话号码！' || _tel == '' || !zz.test(_tel)) {
+                alert('请填写正确的手机或座机号码！');
+                return false;
+            }
+            return true;
+        }
+        $(function() {
+            $('a.phone-tel').click(function() {
+                $('#index-phone').stop().animate({
+                    'top': '60%'
+                }, 300);
+                $('#tel-float-div').show();
+                return false;
+            })
+
+            $('#phone-span').click(function() {
+                $('#index-phone').stop().animate({
+                    'top': '-50%'
+                }, 300);
+                $('#tel-float-div').hide();
+            })
+        })
+    </script>
+    <div class="banner"></div>
+    <!--div1 -->
+    <div class="zt-div1">
+        <div class="div1-con w1000">
+            <div class="div1-title">
+                <div class="div1-txt">
+                    <p>金高口腔，</p>
+                    <p><i>秉承“自然、美观、精确”的原则</i>，</p>
+                    <p>根据生物力学原理和电脑辅助设计，为患者提供不同年龄段的口腔保健服务。</p>
+                    <p>并严格执行消毒标准措施，</p>
+                    <p><i>实行一人一机一消毒</i>，彻底杜绝了交叉感染。同时，吸纳齿科精英加盟，</p>
+                    <p>确保金高口腔的医技处于领先优势，</p>
+                    <p><i>打造专业、舒适的诊疗环境</i>。</p>
+                </div>
+                <div class="div1-list">
+                    <ul>
+                        <li>
+                            <img src="images/div1-1.png" alt="">
+                            <div class="xushu">
+                                <p class="p1">慎于术前</p>
+                                <p class="p2">数字化全面检查</p>
+                            </div>
+
+                        </li>
+                        <li>
+                            <img src="images/div1-2.png" alt="">
+                            <div class="xushu">
+                                <p class="p1">精于术中</p>
+                                <p class="p2">苛求0.01mm精细</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/div1-3.png" alt="">
+                            <div class="xushu">
+                                <p class="p1">勤于术后</p>
+                                <p class="p2">术后跟踪检查及访问</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div1-img fr">
+                <img src="images/div1-4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--div1 end-->
+    <!--div2-->
+    <div class="zt-div2">
+        <div class="div2-con w1000">
+            <div class="title"><img src="images/div2-title.png" alt=""></div>
+            <div class="div2-1 fl">
+                <img src="images/div2-1.png" alt="">
+            </div>
+            <div class="div2-2 fr">
+                <div class="div2-line1">
+                    <img src="images/div2-2.png" alt="" class="fl">
+                    <div class="txt">
+                        <p>上海金高中西医结合医院经医保局、卫生严格评估、审查，荣获"上海市医保定点单位"</p>
+                    </div>
+                </div>
+                <div class="div2-line2 fl" style="padding-top:10px;">
+                    <div class="txt" style="margin-left:0px;margin-right:10px;">
+                        <p>享有上海市医保的患者可以在医院直接报销。能让患者花最少的钱看牙病。</p>
+                    </div>
+                    <img src="images/div2-3.png" alt="" class="fl">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--div2 end-->
+    <!--div3-->
+    <div class="zt-div3">
+        <div class="div3-con w1000">
+            <div class="title"><img src="images/div3-title.png" alt=""></div>
+            <div class="div3-img fr">
+                <a href="javascript:;" onclick="swt()"> <img src="images/div3-1.png" alt=""></a>
+            </div>
+            <div class="tishi fl">
+                <img src="images/ts.png" alt="">
+                <p>1、参保人员住院需符合医疗保险规定的病种目录（病种目录外疾病须到医保局医疗审核处审批）。</p>
+                <p>2、参保患者入院时医院应提示患者或其家属出示医保IC卡、《就医手册》及身份证。如因急诊、急救等原因当时未能用医保IC卡入院，患者在3个工作日内将IC卡拿到医院补办医保住院手续。</p>
+                <p>3、因患者医保IC卡丢失、损坏，患者可凭挂失单复印件及补办的IC卡办理医保住院手续，从患者入院之日起按医保处理。</p>
+            </div>
+            <div class="div3-btn">
+                <a href="javascript:;" onclick="swt();" class="a1"><img src="images/icon1.png" alt="">还有疑问 ?</a>
+                <a href="javascript:;" onclick="swt();" class="a2"><img src="images/icon2.png" alt="">点击咨询</a>
+            </div>
+        </div>
+    </div>
+    <!--div3 end-->
+    <!--div4-->
+    <div class="zt-div4">
+        <div class="div4-con w1000">
+            <div class="title"><img src="images/div4-title.png" alt=""></div>
+            <div class="div4-list">
+                <div class="div4-1">
+                    <h3>详情咨询</h3>
+                    <p>1 、患者通过网上咨询<br>与电话咨询进行交流。
+                    </p>
+                </div>
+                <div class="div4-2">
+                    <h3>预约挂号</h3>
+                    <p>2 、通过咨询后，患者<br>进行网上或电话挂号。
+                    </p>
+                </div>
+                <div class="div4-3">
+                    <h3>预约登记</h3>
+                    <p>3 、患者来到医院后，进行信息确认及登记。
+                    </p>
+                </div>
+                <div class="div4-4">
+                    <h3>现场挂号</h3>
+                    <p>4、确认登记后，<br>患者再进行挂号。
+                    </p>
+                </div>
+                <div class="div4-5">
+                    <h3>诊断治疗</h3>
+                    <p>5 、患者挂号后就可以就 <br>诊，（网上预约优先就诊）。
+                    </p>
+                </div>
+                <div class="div4-6">
+                    <h3>术后回访</h3>
+                    <p>6 、就诊结束，宏康医生会<br>对患者进行术后跟踪回访。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--div4 end-->
+    <!--div5-->
+    <div class="div5">
+        <div class="div5-con w1000">
+            <div class="title"><img src="images/div5-title.png" alt=""></div>
+        </div>
+    </div>
+    <div class="box4 clear">
+        <div class="relative focus-box" id="focus-box">
+            <div class="absolute prev" id="box4-prev"></div>
+            <div class="absolute next" id="box4-next"></div>
+            <ul class="relative" id="box4-wrap">
+                <li class="pic1">
+                    <img class="img" src="images/box4_0.png" />
+                    <div>
+                        <i></i>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_1.png" /></a>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_0.png" /></a>
+                    </div>
+                </li>
+                <li class="pic3">
+                    <img class="img" src="images/box4_2.png" />
+                    <div>
+                        <i></i>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_1.png" /></a>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_0.png" /></a>
+                    </div>
+                </li>
+                <li class="pic4 active">
+                    <img class="img" src="images/box4_3.png" />
+                    <div>
+                        <i></i>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_1.png" /></a>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_0.png" /></a>
+                    </div>
+                </li>
+                <li class="pic5">
+                    <img class="img" src="images/box4_4.png" />
+                    <div>
+                        <i></i>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_1.png" /></a>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_0.png" /></a>
+                    </div>
+                </li>
+                <li class="pic6">
+                    <img class="img" src="images/box4_5.png" />
+                    <div>
+                        <i></i>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_1.png" /></a>
+                        <a href="javascript:;" onclick="swt()"><img src="images/expert_btn_0.png" /></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- end .box4-->
+    </div>
+    <div class="film" id="film">
+        <div class="clear" id="film-inner">
+            <img src="images/film_0.jpg" />
+            <img src="images/film_1.jpg" />
+            <img src="images/film_2.jpg" />
+            <img src="images/film_3.jpg" />
+            <img src="images/film_4.jpg" />
+            <img src="images/film_5.jpg" />
+            <img src="images/film_6.jpg" />
+            <img src="images/film_7.jpg" />
+            <img src="images/film_8.jpg" />
+            <img src="images/film_9.jpg" />
+        </div>
+        <!-- end .film-->
+    </div>
+    <!--div5 end-->
+    <!--div 6-->
+    <div class="div6">
+        <div class="div6-con w1000">
+            <div class="title"><img src="images/div6-title.png" alt=""></div>
+            <div class="div6-l">
+                <div class="p">
+                    <p> 安全成就品质看牙</p>
+                    <p>将每一例案例都做成精品</p>
+                    <p>&nbsp;</p>
+                    <p>关注细节，呵护感受</p>
+                    <p>全程一对一跟踪诊疗</p>
+                    <p>&nbsp;</p>
+                    <p>让看牙成为一种享受！</p>
+                </div>
+                <a href="javascript:;" onclick="swt();" class="more">点击查看更多 + </a>
+            </div>
+            <div class="div6-r">
+                <ul>
+                    <li>
+                        <div class="img"> <img src="images/div6-2.jpg" alt=""></div>
+                        <p>私人牙医亲诊服务</p>
+                    </li>
+                    <li>
+                        <div class="img"> <img src="images/div6-3.jpg" alt=""></div>
+                        <p>量齿定制专业诊疗方案</p>
+                    </li>
+                    <li>
+                        <div class="img"> <img src="images/div6-4.jpg" alt=""></div>
+                        <p>网络预约就诊无需排队</p>
+                    </li>
+                    <li>
+                        <div class="img"> <img src="images/div6-5.jpg" alt=""></div>
+                        <p>术后贴心回访管理制度</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--div6 end-->
+    <!--div 7-->
+    <div class="div7">
+        <div class="div7-con">
+            <div class="title"><img src="images/div7-title.png" alt=""></div>
+            <div class="div7-txt">
+                <p>始终不渝地践行公益事业</p>
+                <p> 向社会输送温暖</p>
+                <p style="font-size:24px;"> 为提升广大公民的口腔保健意识</p>
+                <p> 贡献一份力量</p>
+                <p> 这是我们从未改变的信仰</p>
+            </div>
+            <div class="div7-img">
+                <img src="images/div7-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--div7 end-->
+    <link rel="stylesheet" href="/include/css/footer.css" />
+    <div class="footer_nav">
+        <p>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_01"></i>术前严检</a>
+            <!----><a href="/zj/"><i class="footer_nav_02"></i>医生资质</a>
+            <!---->
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_03"></i>进口材料</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_04"></i>数码设备</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_05"></i>私人定制</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_06"></i>术后管理</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_07"></i>医保定点</a>
+            <a href="javascript:;" onclick="swt();"><i class="footer_nav_08"></i>免费挂号</a>
+        </p>
+    </div>
+    <div class="footer_wrap">
+        <div class="footer_conter">
+            <img class="footer_conter_logo" src="/include/images/img20.jpg" />
+            <div class="fonter_conter_zj">
+                <p>
+                    <a href="/zt/wczzy/"><b>牙齿种植</b>Teeth grow</a>
+                    <a href="/zt/ycjzjh/"><b>牙齿矫正</b>Teeth rectify</a>
+                    <a href="/zt/kaociya/"><b>牙齿修复</b>Teeth repair</a>
+                    <a href="/lgmb/"><b>牙齿美白</b>Teeth whitening</a>
+                    <a href="/yczl/28.html" style="width:114px;"><b>牙齿治疗</b>Teeth treat</a>
+                </p>
+
+                <form name="form1" method="post" action="/plus/search.php">
+                    <input type="text" name="q" onfocus="if(this.value=='种植牙、烤瓷牙') {this.value='';}this.style.color='#7f7f7f';" onblur="if(this.value==''){this.value='种植牙、烤瓷牙';this.style.color='#7f7f7f';}" value="种植牙、烤瓷牙" class="footer_conter_form1" />
+                    <input type="submit" name="submit1" class="footer_conter_form2" />
+                </form>
+
+                <em>医院地址：上海市浦东新区金高路1115号（近地铁12号线）</em>
+
+            </div>
+            <div class="footer_conter_right"><img src="/include/images/img23.jpg" /></div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        沪ICP备12005134号-1 ©上海金高医院 版权所有"沪卫（中医）变审[2014]第10026号"<img src="/include/images/img24.jpg" />
+    </div>
+    <script type="text/javascript">
+        function closeFixedLeft() {
+            document.getElementById('fixed_left').style.display = 'none';
+            setTimeout(function() {
+                document.getElementById('fixed_left').style.display = 'block';
+            }, 3e4);
+        }
+
+        $(document).ready(function() {
+            $(".swt_right li:eq(3)").hover(function() {
+                $(".swt_right li:eq(3) div").animate({
+                    left: '-220px'
+                });
+            }, function() {
+                $(".swt_right li:eq(3) div").animate({
+                    left: '60px'
+                });
+            })
+
+            $("#leftphone").hover(function() {
+                $("#fixed_left4").css({
+                    "background-position": "100px -2400px"
+                });
+                $("#fixed_left_dh").animate({
+                    left: '0px'
+                });
+            }, function() {
+                $("#fixed_left_dh").animate({
+                    left: '-280px'
+                });
+                $("#fixed_left4").css({
+                    "background-position": "0px -240px"
+                });
+            })
+        })
+    </script>
+    <!-- /左侧商务通 -->
+    <script src="/include/js/swt.js"></script>
+</body>
+
+</html>

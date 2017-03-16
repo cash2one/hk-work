@@ -1,0 +1,30 @@
+.Wdate{
+	width:460px;
+	height: 56px;
+	display: block;
+	text-indent: 18px;
+	border:2px solid #dcdcdc;
+	border-radius: 10px;
+	outline: none;
+	font-size: 22px;
+	color:#8a8a8a;
+	background:#fff url(datePicker.png) no-repeat 408px center;
+}
+.Wdate::-ms-clear{display:none;}
+.Wdate2{
+	    width: 470px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: "Microsoft YaHei";
+    border-radius: 5px;
+}
+.Wdate2::-ms-clear{display:none;}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    background: #fff;
+    color: #242a2d;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+input {
+    font-family: "微软雅黑";
+    outline: none;
+    border: none;
+}
+
+section {
+    padding: 0px 20px;
+}
+
+.layout {
+    width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+
+/*banenr*/
+
+
+/*医师详情页面*/
+
+.doctor {
+    width: 560px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: #f3eeeb;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.doctor-article {
+    padding: 40px 20px 20px;
+    overflow: hidden;
+}
+
+.doctor-article .doc-img {
+    width: 347px;
+    height: 481px;
+    display: block;
+    margin: 0 auto;
+}
+
+.doctor-article .pub-icon {
+    width: 149px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 30px;
+    color: #fff;
+    background: url(../images/d-title.png)no-repeat center center;
+}
+
+.doc-time {
+    padding-top: 10px;
+}
+
+.doc-time p {
+    padding-left: 10px;
+    font-size: 24px;
+    color: #000;
+    line-height: 36px;
+    padding: 10px 0px 30px 10px;
+    overflow: hidden;
+}
+
+.doc-shanchang ul {
+    padding: 20px 0px 10px;
+    overflow: hidden;
+}
+
+.doc-shanchang ul li {
+    width: 158px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 24px;
+    color: #969696;
+    display: block;
+    float: left;
+    border: 1px solid #ebe7e4;
+    margin-right: 18px;
+    background: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.doc-shanchang ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.doc-jianjie {
+    padding-top: 10px;
+}
+
+.doc-jianjie p {
+    padding-left: 10px;
+    font-size: 24px;
+    color: #000;
+    line-height: 36px;
+    padding: 10px 0px 30px 5px;
+    overflow: hidden;
+}
+
+.yuyue {
+    overflow: hidden;
+}
+
+.yuyue .yy-top {
+    width: 100%;
+    height: 145px;
+}
+
+.form_box {
+    padding: 0px 20px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.form_box table tr {
+    height: 40px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.form_box table tr .td1 {
+    width: 140px;
+    font-size: 24px;
+    color: #333333;
+    line-height: 40px;
+    text-align: left;
+    float: left;
+}
+
+.form_box table tr .td1 .star {
+    float: left;
+    width: 15px;
+    display: block;
+    color: #ff2c55;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.form_box table tr .input-txt {
+    width: 335px;
+    height: 36px;
+    display: block;
+    line-height: 36px;
+    text-indent: 18px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background: #fff;
+    color: #333333;
+}
+
+.form_box table tr .time {
+    background: url(../images/time.png)no-repeat right center #fff;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    color: #999999;
+    font-family: "微软雅黑";
+}
+
+.form_box table tr .input-btn {
+    width: 240px;
+    height: 56px;
+    line-height: 50px;
+    display: block;
+    float: left;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 34px;
+    letter-spacing: 10px;
+}
+
+.form_box table tr .reset {
+    background: #503228;
+}
+
+.form_box table tr .submit {
+    float: left;
+    background: #961e1e;
+    margin-left: 25px;
+}

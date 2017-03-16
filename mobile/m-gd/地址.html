@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=640" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="">
+<meta name="format-detection" content="telephone=no">
+<title>首页 </title>
+<link rel="stylesheet" href="css/glide.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/page.css">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/jquery.glide.js"></script>
+<script type='text/javascript' src='js/imagesloaded.pkgd.min.js'></script>
+<script type="text/javascript" src="js/ios.js"></script>
+<script type="text/javascript" src="js/addons.js"></script>
+<script>
+	$(function(){
+		var glide = $('.glide').glide({
+			animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效
+			arrows:false, //是否显示左右导航器
+			//arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+			//arrowMainClass: "slider-arrow",//滑块箭头公共类名
+			//arrowRightClass:"slider-arrow--right",//滑块右箭头类名
+			//arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
+			arrowRightText:"",//定义左右导航器文字或者符号也可以是类
+			arrowLeftText:"",
+			nav:true, //主导航器也就是本例中显示的小方块
+			navCenter:true, //主导航器位置是否居中
+			navClass:"slider-nav",//主导航器外部div类名
+			navItemClass:"slider-nav__item", //本例中小方块的样式
+			navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
+		});	
+	})
+</script>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+	var version=parseFloat(RegExp.$1);  
+	if (version > 2.3) {  
+	  document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+	} else {  
+	  document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+	}  
+  } else {  
+	document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+</head>
+
+<body>
+<div class="layout">
+	<!--header-->
+	<div class="header">
+		<div class="logo left"><a href=""><img src="images/logo.png"/></a></div>
+		<div class="logo2 right"><a href=""><img src="images/logo2.png"/></a></div>
+	</div>
+	<!--header end-->
+	<!--nav-->
+	<div class="nav">
+		<ul>
+			<li><a href="">品牌</a><i></i></li>
+			<li><a href="">医师</a><i></i></li>
+			<li><a href="">技术</a><i></i></li>
+			<li><a href="">挂号</a><i></i></li>
+			<li><a href="">地址</a><i></i></li>
+		</ul>
+	</div>
+	<!--nav end-->
+	<!--banenr-->
+		<div class="glide">
+		<ul class="slides">
+			<li class="slide">
+				<a href="#"><img src="images/banner.png" /></a>
+			</li>
+			<li class="slide">
+				<a href="#"><img src="images/banner2.png" /></a>
+			</li>
+			<li class="slide">
+				<a href="#"><img src="images/banner.png" /></a>
+			</li>
+		</ul>
+	</div>
+	<!--banner end-->
+	<!--主体部分-->
+	<div class="wrapper">
+		<!--来院路线map-->
+		<div class="road">
+			<div class="pubtop">
+				<img class="homeimg left" src="images/home.png" alt="" /><a href="">首页 </a> > <a href="">来院路线</a>
+			</div>
+			<div class="road-content">
+				<div class="mapimg"><img src="images/address/map.png" alt="" /></div>
+				<div class="phone">
+					<img src="images/address/tel.png" alt="" />
+					<span>电话：<b>021-62150089</b></span>
+					<a href="" class="lookmap left">快速查看地图</a>
+				</div>
+				<div class="address">
+					<img src="images/address/add.png"/>
+					<span>地址：上海市普陀区大渡河路933号</span>
+				</div>
+			</div>
+		</div>
+		<!--来院路线map end-->
+		<!--来院路线分类-->
+		<div class="road-class">
+			<div class="title">
+				<img src="images/address/roadclass.png" alt="" />
+				<p class="zh">来院路线</p>
+				<p class="en">Route to the college</p>
+			</div>
+			<!--线路切换-->
+			 <div class="roadtab">
+			      <ul>
+			        	<li class="on" style="background: url(images/address/road1.png)no-repeat center top;"><p>公交路线</p></li>
+				        <li style="background: url(images/address/road2.png)no-repeat center top;"><p>地铁路线</p></li>
+				        <li style="background: url(images/address/road3.png)no-repeat center top;"><p>乘坐飞机</p></li>
+				        <li style="background: url(images/address/road4.png)no-repeat center top;"><p>自驾/打车</p></li>
+			       </ul>
+			  </div>
+			  <div class="roadwamp clear">
+		        <div class="roadshow" style="display: block;">
+		              <!--公交路线 end-->
+		              <div class="Bus">
+		              	<ul>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p>路线一</p>
+		              			</div>
+		              			<div class="roaddetail right">
+		              				<p class="p1">乘坐<i>136、856、944、754、838</i></p>
+									<p class="p2">以上公交在真北新村（大渡河路桃浦路）下车沿大渡河路步行378米即到</p>
+		              			</div>
+		              		</li>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p>路线二</p>
+		              			</div>
+		              			<div class="roaddetail right">
+		              				<p class="p1">乘坐<i>136、 551、724、766、838、856、944</i></p>
+									<p class="p2">以上公交在大渡河路铜川路下车，沿大渡河路步行458米即到医院路线</p>
+		              			</div>
+		              		</li>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p>路线一</p>
+		              			</div>
+		              			<div class="roaddetail right">
+		              				<p class="p1">乘坐<i>106、129、551、724、742、766、768、838、856</i></p>
+									<p class="p2">桃浦路真北路（杨家桥）下车，转向大渡河路方向，沿大渡河路步行496米即到医院</p>
+		              			</div>
+		              		</li>
+		              	</ul>
+		              </div>
+		              <!--公交路线 end-->
+		        </div>
+		 　　　　 <div class="roadshow" style="display: none;">
+		             <!--地铁路线 -->
+		              <div class="Bus Subway">
+		              	<ul>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="s-line">12号线</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2"><i>上海西站下</i>（四号口），沿桃浦路向西步行至大渡河路再由大渡河路向南至芝川路口，即可到达医院</p>
+		              			</div>
+		              		</li>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="s-line s-line2">3号线</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2"><i>至曹杨路</i>换乘11号线，上海西站下（四号口），沿桃浦路向西步行至大渡河路；步行约500米，即可到达医院</p>
+		              			</div>
+		              		</li>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="s-line s-line2">3号线</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2"><i>至曹杨路</i>换乘11号线，上海西站下（四号口），沿桃浦路向西步行至大渡河路；步行约500米，即可到达医院</p>
+
+		              			</div>
+		              		</li>
+		              	</ul>
+		              </div>
+		              <!--地铁路线end-->
+		         </div>
+		　　　　<div class="roadshow" style="display: none;">
+		             <!--乘坐飞机-->
+		              <div class="Bus Air">
+		              	<ul>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="a-line">浦东国际机场</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2"><i>地铁2号线</i>东延伸段（广兰路方向）——  广兰路站换乘地铁2号线（徐泾东方向） —— 江苏路换乘地铁11号线（安亭方向或者嘉定北方向）——上海西
+站下（四号口出）步行即可到达医院</p>
+		              			</div>
+		              		</li>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="a-line">上海虹桥机场</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2"><i>地铁10号线</i>（新江湾城方向）——交通大学换乘地铁11号线（安亭方向或嘉定北方向）——上海西站下（四号口出）步行即可到医院</p>
+		              			</div>
+		              		</li>
+		              	</ul>
+		              </div>
+		              <!--乘坐飞机end-->
+		         </div>
+		 　　　　<div class="roadshow" style="display: none;">
+		          <!--自驾-->
+		              <div class="Bus Air">
+		              	<ul>
+		              		<li>
+		              			<div class="roadline left">
+		              				<p class="a-line" style="padding-left:40px;">自驾</p>
+		              			</div>
+		              			<div class="roaddetail right">
+									<p class="p2" style="line-height: 36px;"><i>自驾：</i><br>导航至上海市普陀区大渡河路1933号(芝川路口),如中途路线不清楚，可电话咨询：021-打车：打的至上海市普陀区大渡河路1933号（芝川路口）</p>
+		              			</div>
+		              		</li>
+		              	</ul>
+		              </div>
+		              <!--自驾end-->
+		         </div>
+
+			  </div>
+			<!--线路切换 end-->
+			<div class="zixun">
+				<a href="" class="online">点击在线咨询</a>
+				<a href="" class="register">点击预约挂号</a>				
+			</div>
+		</div>
+		<!--来院路线分类end-->
+		<!-- footer-->
+		<div class="footer clear">
+			<div class="footer-p">
+				<p>地址：上海市普陀区大渡河路1933号</p>
+				<p>门诊时间（无假日医院）：8:00-20:30</p>
+				<p>备案号：沪ICP备10036551号</p>
+			</div>
+		</div>
+		<!-- footer end-->
+	</div>
+	<!--主体 end-->
+</div>
+<script type="text/javascript">
+     $(function(){          
+      $('.roadtab li').click(function(){
+         var liindex = $('.roadtab li').index(this);
+          $(this).addClass('on').siblings().removeClass('on');
+         $('.roadwamp div.roadshow').eq(liindex).fadeIn(150).siblings('div.roadshow').hide();
+     });
+      
+    });
+ </script>
+</body>
+</html>
+

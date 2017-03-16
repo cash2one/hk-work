@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>医院新闻 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--单页头部-->
+        <div class="page-header">
+            <a href="" class="back"><img src="images/back.png" alt=""></a>
+            <p class="lanmu">电子病历查询中心</p>
+            <a href="" class="home"><img src="images/home.png" alt=""></a>
+        </div>
+        <!--单页头部 end-->
+        <!--banenr-->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banner.jpg" /></div>
+            </div>
+        </div>
+        <!--banner end-->
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--电子病历查询中心-->
+            <div class="dianzibingli">
+                <div class="chaxun">
+                    <span>病历查询</span>
+
+                    <div class="chexun_list">
+                        <div class="list" id="My_form">
+                            <div class="content_body">
+                                <div class="search_box">
+                                    <input type="text" readonly="readonly" value="肝胆疾病" class="chose" />
+                                    <div class="xiala2"></div>
+                                    <ul>
+                                        <li><a href="/blcx/dnjs/">胆囊结石</a></li>
+                                        <li><a href="/blcx/dnxr/">胆囊息肉</a></li>
+                                        <li><a href="/blcx/dny/">胆囊炎</a></li>
+                                        <li><a href="/blcx/dgjs/">胆管结石</a></li>
+                                        <li><a href="/blcx/dzgjs/">胆总管结石</a></li>
+                                        <li><a href="/blcx/gndgjs/">肝内胆管结石</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript" src="js/select2.js"></script>
+                <ul class="ul">
+                    <li>
+                        <div class="imgdate">
+                            <img src="images/bingli.jpg" alt="">
+                            <p class="date">住院号：1881881</p>
+                        </div>
+                        <div class="detail">
+                            <p class="p1">患者：刘**<span>(<i>性别：男</i><i>年龄：64</i>)</span> </p>
+                            <p class="p2">主治医生：王碧芬 </p>
+                            <p class="p3">诊断结果：6*5cm胆囊结石</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgdate">
+                            <img src="images/bingli.jpg" alt="">
+                            <p class="date">住院号：1881881</p>
+                        </div>
+                        <div class="detail">
+                            <p class="p1">患者：刘**<span>(<i>性别：男</i><i>年龄：64</i>)</span> </p>
+                            <p class="p2">主治医生：王碧芬 </p>
+                            <p class="p3">诊断结果：6*5cm胆囊结石</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgdate">
+                            <img src="images/bingli.jpg" alt="">
+                            <p class="date">住院号：1881881</p>
+                        </div>
+                        <div class="detail">
+                            <p class="p1">患者：刘**<span>(<i>性别：男</i><i>年龄：64</i>)</span> </p>
+                            <p class="p2">主治医生：王碧芬 </p>
+                            <p class="p3">诊断结果：6*5cm胆囊结石</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgdate">
+                            <img src="images/bingli.jpg" alt="">
+                            <p class="date">住院号：1881881</p>
+                        </div>
+                        <div class="detail">
+                            <p class="p1">患者：刘**<span>(<i>性别：男</i><i>年龄：64</i>)</span> </p>
+                            <p class="p2">主治医生：王碧芬 </p>
+                            <p class="p3">诊断结果：6*5cm胆囊结石</p>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="page">
+
+
+                </div>
+            </div>
+            <!--电子病历查询中心 end-->
+            <!--患者评价-->
+            <div class="hzpj">
+                <div class="pubtitle" style="padding:20px 0px;">
+                    <div class="pubtitle-con">
+                        <p class="zh">患者评价</p>
+                        <p class="ch">Evaluation of patients with</p>
+                    </div>
+                </div>
+                <div class="pingjia">
+                    <div class="totalstar fl">
+                        <p class="zongping">总评</p>
+                        <p class="pingjia-star">★★★★<i>★</i></i>
+                        </p>
+                    </div>
+                    <div class="manyidu fr">
+                        <div class="line1"><i>治疗效果：96%满意</i><img src="images/baifen96.png" alt=""></div>
+                        <div class="line1"><i>医生态度：94%满意</i><img src="images/baifen94.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!--患者评价 end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-nav">
+                    <a href="">医院概况</a>
+                    <a href="">医生团队</a>
+                    <a href="">病例查询</a>
+                    <a href="">来院路线</a>
+                </div>
+                <div class="footer-p">
+                    <p>门诊时间：8:00-20:30（无假日医院）</p>
+                    <p>医院地址：上海市普陀区大渡河路1933号</p>
+                    <p>预约电话：021-62150060</p>
+                </div>
+            </div>
+            <!-- footer end-->
+        </div>
+        <!--主体 end-->
+    </div>
+
+
+</body>
+
+</html>

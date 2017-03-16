@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/fkcss.css" />
+    <link rel="stylesheet" href="css/zhou.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.source.js"></script>
+    <script type="text/javascript" src="js/kandytabs.js"></script>
+
+
+</head>
+
+<body>
+    <div class="top">
+        <div class="top1 left mtop25"><img src="img/fuke.jpg"></div>
+        <div class="top2 left mtop25"><img src="img/fuke_06.jpg"></div>
+        <div class="top2 left mtop25"><img src="img/fuke.gif"></div>
+    </div>
+
+    <div class="nav ">
+        <div class="menu w1200">
+            <ul>
+                <li><a href="#">科室首页</a></li>
+                <li><a href="#">科室介绍</a></li>
+                <li><a href="#">医生介绍</a></li>
+                <li><a href="#">科室动态</a></li>
+                <li><a href="#">健康宣教</a></li>
+                <li><a href="#">图片集锦</a></li>
+                <li><a href="#">在线咨询</a></li>
+                <li><a href="#">自助挂号</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner"></div>
+    <div class="conter2">
+        <!--自主挂号-->
+        <div class="main-center">
+            <!--标题行-->
+            <div class="pic-top">
+                <div class="pic-top-l" style="width:305px;">
+                    <span>自助挂号  <i>/  Self-service registration</i></span>
+                </div>
+                <div class="pic-top-r">
+                    <span>您的位置：</span>
+                    <a href="">妇科</a><i>></i> <a href="">自助挂号</a><i>></i>
+                    <span>详细</span>
+                </div>
+            </div>
+            <!--标题行 end-->
+            <div class="zizhuguahao">
+                <!--自助挂号left-->
+                <div class="guahao-l">
+                    <hgroup class="hgroup1">
+                        <section>
+                            <h2>网上挂号说明</h2>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>1、请您真实填写预约信息，并且当天只能预约同一科室的一个医生号。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>2、上海宏康医院挂号中心客服将在15分钟之内与您联系，确认您的就诊时间、科室及预约号。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>3、当您来院就诊时，请到一楼导医台出示您的预约号，导医会安排您优先就诊。</span>
+                            </div>
+                        </section>
+                    </hgroup>
+                    <hgroup class="hgroup2">
+                        <section>
+                            <h2>网上挂号电话</h2>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span class="tel">021-52358632</span>
+                            </div>
+                            <div class="telimg">
+
+                            </div>
+                        </section>
+                    </hgroup>
+                    <hgroup class="hgroup3">
+                        <section>
+                            <h2>挂号、就诊流程</h2>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>1、请填写准确的联系方式，以方便我院及时安排针对您病情的医生号。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>2、挂号中心客服根据您的联系方式联系您，确定并安排您的最终就诊时间。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>3、就诊当天到医院大厅一楼导医台出示您的预约号及身份证。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>4、将由导医引导就诊。</span>
+                            </div>
+                        </section>
+                    </hgroup>
+                    <hgroup class="hgroup4">
+                        <section>
+                            <h2>温馨提示</h2>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>1、网上挂号无任何附加费用，主要是为方便您及时就诊，为维护患者隐私，网上所填写的所有资料只为预约提供方便，不作其它用途，我们将严格尊准保密原则。</span>
+                            </div>
+                            <div class="z-line">
+                                <div class="img"></div>
+                                <span>2、请记住您的预约号，以此作为网站挂号的凭证。。</span>
+                            </div>
+
+                        </section>
+                    </hgroup>
+                </div>
+                <!--自助挂号left end-->
+                <!--自助挂号right-->
+                <script type="text/javascript" src="js/date/WdatePicker.js"></script>
+                <div class="guahao-r">
+                    <div class="zzgh_content_2">
+                        <h1></h1>
+                        <form id="ghtd_form" action="/plus/diy.php" method="post" name="My_form" onsubmit="return yzform()" target="aa">
+                            <input type="hidden" name="action" value="post">
+                            <input type="hidden" name="wid" value="703">
+                            <p class="">病情描述：</p>
+                            <textarea name="bqms" placeholder="请简述您的病情..." class="gh-textarea"></textarea>
+                            <p class=""><span class="redstar">*</span> 您的姓名：</p>
+                            <input type="text" name="xm" id="xm" placeholder="请输入您的姓名" class="gh-input">
+                            <p class=""><span class="redstar">*</span> 联系电话：</p>
+                            <input type="text" id="tel" name="tel" placeholder="请输入您的联系电话" class="gh-input">
+                            <p class="">预约时间：</p>
+                            <input type="text" name="yysj" onClick="WdatePicker({dateFmt:'yyyy年/MM月/dd日 '})" class="Wdate2 gh-input" placeholder="请输入您的预约时间">
+                            <iframe width="0" height="0" frameborder="0" id="aa" name="aa"></iframe>
+                            <input class="yygh_tj" type="submit" value="加密提交" name="submit">
+                        </form>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    function yzform() {
+                        var temp = document.getElementById("tel");
+                        //对电话的验证
+                        var myreg = /^((1[0-9][0-9]{1})|159|153)+\d{8}$/;
+
+                        if (document.getElementById("xm").value == "")
+
+                        {
+                            alert("请填写您的【姓名】后再次提交!")
+                            document.getElementById("xm").focus();
+                            return false;
+                        }
+
+                        if (!myreg.test(temp.value)) {
+                            alert('请输入11位有效的手机号码！');
+                            document.getElementById("tel").focus();
+                            return false;
+                        }
+
+                    }
+                </script>
+                <!--自助挂号right end-->
+
+            </div>
+
+        </div>
+        <!--自助挂号 end-->
+        <div class="footer">
+            <div class="footer1">
+                <div class="footer_yjdc">
+                    <div class="footer_yjdc_img"><img src="img/footer_1.png" width="44" height="45" alt="" /></div>
+                    <dl>
+                        <dt><a href="/yjjy/">在线咨询</a></dt>
+                        <dd>马上提问 及时回答</dd>
+                    </dl>
+                </div>
+                <div class="footer_yjdc">
+                    <div class="footer_yjdc_img"><img src="img/footer_2.png" width="44" height="45" alt="" /></div>
+                    <dl>
+                        <dt><a href="/zxdc/">在线挂号</a></dt>
+                        <dd>无需排队 快速就医</dd>
+                    </dl>
+                </div>
+                <div class="footer_yjdc">
+                    <div class="footer_yjdc_img"><img src="img/footer_3.png" width="44" height="45" alt="" /></div>
+                    <dl>
+                        <dt><a href="/yjjy/">联系电话</a></dt>
+                        <dd>021-52358632</dd>
+                    </dl>
+                </div>
+                <div class="footer_yjdc">
+                    <div class="footer_yjdc_img"><img src="img/footer_4.png" width="44" height="45" alt="" /></div>
+                    <dl>
+                        <dt><a href="/zxdc/">预约医生</a></dt>
+                        <dd>指定医师 准确就诊</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer_n">
+                <div class="foot1">
+                    <ul>
+                        <li><a href="/yygk/">医院概况</a></li>
+                        <li><a href="/lxwm/">联系我们</a></li>
+                        <li><a href="/yjjy/">意见建议</a></li>
+                        <li><a href="/zxdc/">在线调查</a></li>
+                        <li><a href="/lxwm/">医院地址</a></li>
+                        <li><a href="/jzxz/">就诊须知</a></li>
+                    </ul>
+                </div>
+                <div class="foot2">
+                    <div class="foot2_img"><img src="img/footer-logo.png" width="261" height="52" style="opacity: 1;"></div>
+                    <div class="foot2_img2"><img src="img/footer-wh.png" width="281" height="50"></div>
+
+                    <div class="foot2_wz">
+
+                        <p class="foot2_ph">
+                            <span>医院电话：021-52358632</span><br> 门诊时间：8:00-20：30（无节假日休息）
+                            <br> 院址：上海市普陀区大渡河路1933号 备案号：沪ICP备10036551号-18<br>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="foot3">
+                    <div class="foot3_img"><img src="img/wxh.png" width="120" height="120"></div>
+                    <p class="foot3_wx">
+                        <span>了解更多医疗资讯</span><br> 上海宏康医院官方微信
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

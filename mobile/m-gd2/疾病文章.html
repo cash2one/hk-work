@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>王碧芬简介 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--单页头部-->
+        <div class="page-header">
+            <a href="" class="back"><img src="images/back.png" alt=""></a>
+            <p class="lanmu">胆结石必须切除胆囊吗？</p>
+            <a href="" class="home"><img src="images/home.png" alt=""></a>
+        </div>
+        <!--单页头部 end-->
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--文章详情-->
+            <div id="article1">
+                <p class="art-biaoti">
+                    胆结石必须切除胆囊吗？
+                </p>
+                <div class="other-zuozhe" id="zuozhe1">
+                    <p class="laiyuan">来源：上海宏康医院 <i>2016-09-27</i></p>
+                    <div class="tishi">
+                        温馨提示：由于篇幅原因，很多内容不能详尽，如果 您或者您的家人有疑问，可<a href="javascript:;" onclick="swt();">点击此处</a>进行咨询，或直接拨打电话：<a href="tel:02162150060">021-62150060</a>
+                    </div>
+                </div>
+                <div class="zuozhe" id="zuozhe2">
+                    <div class="img fl"><img src="images/zhuanjia.png" alt=""></div>
+                    <div class="zuozhe-js fl">
+                        <p class="name"><b>王碧芬</b> <i>上海宏康医院肝胆疾病医生</i></p>
+                        <p class="click">发表于2016.8.25 <i> 1100已读</i></p>
+                    </div>
+                </div>
+                <div class="article-txt">
+                    到医院去看病就需要挂号，但根据最近患者的在线咨询反映，一些胆结石患者对于挂什么科室却不很清楚。为避免患者挂错科室，延误病情，上海宏康医院接下来将为有疑问的患者回答此问题。<br> <br>一、挂什么科？要先了解胆结石属于哪类结石<br><br> 胆结石，是指胆囊内存在结石，所以又被称为胆囊结石，是常见的肝胆系结石病，属肝胆疾病范畴。所以去医院挂号可直接挂肝胆外科医生门诊，或者肝胆疾病医生门诊。<br><br>
+                    <a href="">》点击此处免费挂号《</a><br><br> 二、在宏康医院可直接挂“肝胆疾病”门诊
+                    <br><br> 肝胆疾病是上海宏康医院的特色诊疗项目，通过本官网在线预约、自助挂号或电话预约。
+                </div>
+                <div class="article-btn">
+                    <p>想了解更多？点击下方快速咨询<i><img src="images/icon8.png" alt=""></i></p>
+                    <a href="" class="a1">在线咨询</a>
+                    <a href="" class="a2">电话咨询</a>
+                </div>
+            </div>
+            <script>
+                var oDiv1 = document.getElementById("zuozhe1");
+                var oDiv2 = document.getElementById("zuozhe2");
+                var awriter = '{dede:field.writer/}'
+                if (awriter == 'yisheng') {
+                    oDiv2.style.display = "block";
+                    oDiv1.style.display = "none";
+                } else {
+                    oDiv2.style.display = "none";
+                    oDiv1.style.display = "block";
+                }
+            </script>
+            <div class="art-yygh">
+                <a href=""><img src="images/hotimg.jpg" alt=""></a>
+            </div>
+            <!--相关文章-->
+            <div class="xgwz">
+                <div class="title">
+                    <i></i>相关文章
+                </div>
+                <ul>
+                    <li><a href="">胆囊结石必须切除胆囊吗？</a></li>
+                    <li><a href="">胆囊结石必须切除胆囊吗？</a></li>
+                    <li><a href="">胆囊结石必须切除胆囊吗？</a></li>
+                </ul>
+            </div>
+            <!--相关文章end-->
+
+            <!--文章详情 end-->
+            <!--患者评价-->
+            <div class="hzpj">
+                <div class="pubtitle" style="padding:20px 0px;">
+                    <div class="pubtitle-con">
+                        <p class="zh">患者评价</p>
+                        <p class="ch">Evaluation of patients with</p>
+                    </div>
+                </div>
+                <div class="pingjia">
+                    <div class="totalstar fl">
+                        <p class="zongping">总评</p>
+                        <p class="pingjia-star">★★★★<i>★</i></i>
+                        </p>
+                        <!--<dl>
+                            <dd><img src="images/star.png" alt=""></dd>
+                            <dd><img src="images/star.png" alt=""></dd>
+                            <dd><img src="images/star.png" alt=""></dd>
+                            <dd><img src="images/star.png" alt=""></dd>
+                            <dd><img src="images/star.png" alt=""></dd>
+                        </dl>-->
+                    </div>
+                    <div class="manyidu fr">
+                        <div class="line1"><i>治疗效果：96%满意</i><img src="images/baifen96.png" alt=""></div>
+                        <div class="line1"><i>医生态度：94%满意</i><img src="images/baifen94.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!--患者评价 end-->
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-nav">
+                    <a href="">医院概况</a>
+                    <a href="">医生团队</a>
+                    <a href="">病例查询</a>
+                    <a href="">来院路线</a>
+                </div>
+                <div class="footer-p">
+                    <p>门诊时间：8:00-20:30（无假日医院）</p>
+                    <p>医院地址：上海市普陀区大渡河路1933号</p>
+                    <p>预约电话：021-62150060</p>
+                </div>
+            </div>
+            <!-- footer end-->
+        </div>
+        <!--主体 end-->
+    </div>
+
+    <script type="text/javascript" src="js/select.js"></script>
+</body>
+
+</html>

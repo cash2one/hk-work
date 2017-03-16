@@ -1,0 +1,164 @@
+{dede:include filename="zz_iejr.htm"/}
+<link rel="stylesheet" type="text/css" href="/include/hk_index/css/jquery.fancybox.css" media="screen" />
+<script src="/include/hk_index/js/simplefoucs.js" type="text/javascript"></script>
+{dede:include filename="zz_xwggnr_top.htm"/} {dede:include filename="zz_topf.htm"/}
+
+<div class="con">
+    {dede:include filename="zz_zjhk.htm"/}
+
+    <div class="con_right">
+        <div class="con_nr">
+            <p>您当前的位置：{dede:field name='position'/}</p>
+        </div>
+
+        <div class="con_xian3">
+            <span>
+          			<div class="con_xi_ys"><p>就医环境<i> /  Environmental</i></p></div>
+                </span>
+        </div>
+
+        <div class="jyhj_con">
+            <div class="jyhj_jz">
+                <p>医院环境及服务是一家医院不可或缺的软实力体现。舒心的就诊环境，人性化的医疗服务不仅能让每位病友放心就诊，更是能有效加快康复速度。</p>
+                <p>上海宏康医院是经上海市卫生部门批准的一家具有专业特色的现代化综合性医院。上海宏康医院位于风物荟萃、名胜云集、沪申文化积淀的普陀区，建筑高度11层，面积15800平米。医院整体建筑为综合先进风格，功能分区合理，布置优雅，致力为客户营造温馨舒适的就诊环境。</p>
+                <p>医院秉承 “以民为天，以德为先”的经营理念，并结合现今科学发展之国情，不断提升各方面的服务，一切以患者为中心，传递身体和心灵双重舒适感，铸就上海口碑医院。</p>
+            </div>
+            <div class="jyhj_jz_pic"><img src="/include/hk_index/images/hj_dy.jpg" width="730" height="390"> </div>
+
+        </div>
+        <div class="yyhj_con">
+            <div class="content_huanjing">
+                <!-- 环境图集 -->
+                <ul>
+                    <li>
+                        <div class="huanjing_box"> <img src="/include/hk_index/Picture/hj_11.jpg" />
+                            <a class="yuannei" href="javascript:;"> <span class="huanjing_jieshao"> 院内环境图集<br/>
+          <font style="font-size:12px;">[该图集共有19张照片]</font> </span> </a>
+                            <a class="rydaohang hjdaohang yuannei" href="javascript:;"></a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="huanjing_box"> <img src="/include/hk_index/Picture/hj_22.jpg" />
+                            <a class="yiliao" href="javascript:;"> <span class="huanjing_jieshao"> 医疗设备图集<br/>
+          <font style="font-size:12px;">[该图集共有9张照片]</font> </span> </a>
+                            <a class="rydaohang hjdaohang yiliao" href="javascript:;"></a>
+                        </div>
+                    </li>
+                    <li style="margin-right:0px;">
+                        <div class="huanjing_box"> <img src="/include/hk_index/Picture/hj_33.jpg" />
+                            <a class="pinzhi" href="javascript:;"> <span class="huanjing_jieshao"> 品质服务图集<br/>
+          <font style="font-size:12px;">[该图集共有13张照片]</font> </span> </a>
+                            <a class="rydaohang hjdaohang pinzhi" href="javascript:;"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script language="javascript" src="/include/hk_index/js/common.js"></script>
+<!--环境-->
+<script type="text/javascript" src="/include/hk_index/js/jquery.fancybox.js"></script>
+<!--环境-->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // 院内环境画廊
+        $(".yuannei").click(function() {
+            //alert(".yuannei");
+            $.fancybox.open([{
+                href: '/include/hk_index/Picture/01dya.jpg'
+            }, {
+                href: '/include/hk_index/Picture/02a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/03hsa.jpg'
+            }, {
+                href: '/include/hk_index/Picture/04rya.jpg'
+            }, {
+                href: '/include/hk_index/Picture/06a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/07a.jpg'
+            }, ], {
+                prevEffect: 'block',
+                nextEffect: 'block',
+                afterLoad: function() {
+                    this.title = '[' + (this.index + 1) + ' / ' + this.group.length + (this.title ? ' - ' + this.title : '') + "]";
+                }
+            });
+        });
+
+        // 医疗设备画廊
+        $(".yiliao").click(function() {
+            $.fancybox.open([{
+                href: '/include/hk_index/Picture/001a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_001a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_002a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_003a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_004a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_005a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_006a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_007a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_008a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_009a.jpg'
+            }, {
+                href: '/include/hk_index/Picture/z_0010a.jpg'
+            }, ], {
+                prevEffect: 'none',
+                nextEffect: 'none',
+                afterLoad: function() {
+                    this.title = '[' + (this.index + 1) + ' / ' + this.group.length + (this.title ? ' - ' + this.title : '') + "]";
+                }
+            });
+        });
+
+        // 品质服务画廊
+        $(".pinzhi").click(function() {
+            $.fancybox.open([{
+                href: '/include/hk_index/Picture/01a1.jpg'
+            }, {
+                href: '/include/hk_index/Picture/02a2.jpg'
+            }, {
+                href: '/include/hk_index/Picture/03a3.jpg'
+            }, {
+                href: '/include/hk_index/Picture/04a4.jpg'
+            }, {
+                href: '/include/hk_index/Picture/05a5.jpg'
+            }, ], {
+                prevEffect: 'none',
+                nextEffect: 'none',
+                afterLoad: function() {
+                    this.title = '[' + (this.index + 1) + ' / ' + this.group.length + (this.title ? ' - ' + this.title : '') + "]";
+                }
+            });
+        });
+        /*
+        $('.pinzhi').fancybox({
+        	prevEffect : 'none',
+        	nextEffect : 'none',
+        	afterLoad : function() {
+        			this.title = '[' + (this.index + 1) + ' / ' + this.group.length + (this.title ? ' - ' + this.title : '') + "]";
+        		}
+        });
+        */
+    });
+</script>
+{dede:include filename="zz_footer.htm"/}
+<script src="/include/hk_index/js/jquery.plugin.min.js"></script>
+<!--banner-->
+<script src="/include/hk_index/js/jquery-main.js"></script>
+<!--导航-->
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=640" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="">
+<meta name="format-detection" content="telephone=no">
+<title>首页 </title>
+<link rel="stylesheet" href="css/glide.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/page.css">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/jquery.glide.js"></script>
+<script type='text/javascript' src='js/imagesloaded.pkgd.min.js'></script>
+<script type="text/javascript" src="js/ios.js"></script>
+<script type="text/javascript" src="js/addons.js"></script>
+<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+
+<script>
+	$(function(){
+		var glide = $('.glide').glide({
+			animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效
+			arrows:false, //是否显示左右导航器
+			//arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+			//arrowMainClass: "slider-arrow",//滑块箭头公共类名
+			//arrowRightClass:"slider-arrow--right",//滑块右箭头类名
+			//arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
+			arrowRightText:"",//定义左右导航器文字或者符号也可以是类
+			arrowLeftText:"",
+			nav:true, //主导航器也就是本例中显示的小方块
+			navCenter:true, //主导航器位置是否居中
+			navClass:"slider-nav",//主导航器外部div类名
+			navItemClass:"slider-nav__item", //本例中小方块的样式
+			navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
+		});	
+	})
+</script>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+	var version=parseFloat(RegExp.$1);  
+	if (version > 2.3) {  
+	  document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+	} else {  
+	  document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+	}  
+  } else {  
+	document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+</head>
+
+<body>
+<div class="layout">
+	<!--header-->
+	<div class="header">
+		<div class="logo left"><a href=""><img src="images/logo.png"/></a></div>
+		<div class="logo2 right"><a href=""><img src="images/logo2.png"/></a></div>
+	</div>
+	<!--header end-->
+	<!--nav-->
+	<div class="nav">
+		<ul>
+			<li><a href="">品牌</a><i></i></li>
+			<li><a href="">医师</a><i></i></li>
+			<li><a href="">技术</a><i></i></li>
+			<li><a href="">挂号</a><i></i></li>
+			<li><a href="">地址</a><i></i></li>
+		</ul>
+	</div>
+	<!--nav end-->
+	<!--banenr-->
+		<div class="glide">
+		<ul class="slides">
+			<li class="slide">
+				<a href="#"><img src="images/banner.png" /></a>
+			</li>
+			<li class="slide">
+				<a href="#"><img src="images/banner2.png" /></a>
+			</li>
+			<li class="slide">
+				<a href="#"><img src="images/banner.png" /></a>
+			</li>
+		</ul>
+	</div>
+	<!--banner end-->
+	<!--主体部分-->
+	<div class="wrapper">
+		<!--预约挂号-->
+		<div class="reserve-gh">
+			<div class="pubtop">
+				<img class="homeimg left" src="images/home.png" alt="" /><a href="">首页 </a> > <a href="">预约挂号</a>
+			</div>
+			<div class="reserve-gh-con">
+				<div class="title">官方免费自助挂号平台</div>
+				<div class="form_box">
+					<form action="">
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="td1 left block"><i class="star left">*</i>您的姓名：</td>
+								<td class="td2 left block"><input type="text" class="input-txt" placeholder="请输入您的姓名" style="width:205px;"></td>							
+							</tr>
+							<tr>
+								<td class="td1 left block" style="width:95px">年龄：</td>
+								<td class="td2 left block"><input type="text" class="input-txt" placeholder="您的年龄" style="width:134px;"/></td>							
+							</tr>
+							<tr>
+								<td class="td1 left block"><i class="star left">*</i>电话号码：</td>
+								<td class="td2 left block"><input type="text" class="input-txt" placeholder="请输入您的号码"></td>							
+							</tr>
+							<tr>
+								<td class="td1 left block">就诊日期：</td>
+								<td class="td2 left block"><input type="text" class="input-txt Wdate" placeholder="年/月/日" onClick="WdatePicker({dateFmt:'yyyy年/MM月/dd日 '})"></td>							
+							</tr>
+							<tr style="height: 250px;">
+								<td class="td1 left block">病情描述：</td>
+								<td class="td2 left block"><textarea name="" class="input-area" placeholder="描述您的病情..."></textarea></td>							
+							</tr>
+							<tr>
+								<td>
+									<p class="notice">提示：* 为必填项，填写提交后请不要离开本页，挂号人员将马上回复你！</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="td3 left"><input type="reset" value="重新填写" class="input-btn reset"/></td>
+								<td class="td4 right"><input type="submit" value="确认提交" class="input-btn submit"/></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--预约挂号 end-->
+		<!--来院就诊流程-->
+		<div class="treat-process">
+			<div class="pubtop2">
+				<img class="homeimg left" src="images/register/guahao.png" alt="" /> <a href="">来院就诊流程</a>
+			</div>
+			<div class="treat-process-con">
+				<div class="step" style="background: url(images/register/step1.png)no-repeat center;">
+					<p class="step-num">01</p>
+					<p class="step-message">提交信息</p>
+				</div>
+				<div class="next-step"></div>
+				<div class="step" style="background: url(images/register/step2.png)no-repeat center;">
+					<p class="step-num">02</p>
+					<p class="step-message">成功挂号</p>
+				</div>
+				<div class="next-step"></div>
+				<div class="step" style="background: url(images/register/step3.png)no-repeat center;">
+					<p class="step-num">03</p>
+					<p class="step-message">专人联系</p>
+				</div>
+				<div class="step" style="background: url(images/register/step4.png)no-repeat center;">
+					<p class="step-num">04</p>
+					<p class="step-message">医导台就医</p>
+				</div>
+				<div class="next-step"></div>
+				<div class="step" style="background: url(images/register/step5.png)no-repeat center;">
+					<p class="step-num">05</p>
+					<p class="step-message">领取病历本</p>
+				</div>
+				<div class="next-step"></div>
+				<div class="step" style="background: url(images/register/step6.png)no-repeat center;">
+					<p class="step-num">06</p>
+					<p class="step-message">医生门诊</p>
+				</div>
+				<div class="linkurl clear">
+					<a href="tel:021-62150089">
+							<img src="/include/images/telbtn.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--来院就诊流程 end-->
+		<!-- footer-->
+		<div class="footer clear">
+			<div class="footer-p">
+				<p>地址：上海市普陀区大渡河路1933号</p>
+				<p>门诊时间（无假日医院）：8:00-20:30</p>
+				<p>备案号：沪ICP备10036551号</p>
+			</div>
+		</div>
+		<!-- footer end-->
+	</div>
+	<!--主体 end-->
+</div>
+<script type="text/javascript">
+     $(function(){          
+      $('.roadtab li').click(function(){
+         var liindex = $('.roadtab li').index(this);
+          $(this).addClass('on').siblings().removeClass('on');
+         $('.roadwamp div.roadshow').eq(liindex).fadeIn(150).siblings('div.roadshow').hide();
+     });
+      
+    });
+ </script>
+</body>
+</html>
+

@@ -1,0 +1,680 @@
+/*地址 css*/
+.pubtop{
+	height: 66px;
+	line-height: 66px;
+	padding-left: 18px;
+	font-size: 24px;
+}
+.pubtop .homeimg{
+	margin-top: 19px;
+	padding-right: 7px;
+}
+.pubtop a{
+	color:#242a2d;
+}
+.road-content{
+	height: 640px;
+	background: #fff;
+	padding:20px 15px 20px 18px; 
+}
+.road-content .phone{
+	height: 50px;
+	padding-top: 45px;
+	padding-left: 20px;
+	
+}
+.road-content .phone img{
+	float:left;
+	padding-top: 5px;
+}
+.road-content .phone span{
+	font-size: 28px;
+	line-height: 50px;
+	color:#333333;
+	padding-left: 10px;
+	float:left;
+}
+.road-content .phone span b{
+	font-size: 34px;
+	font-family: arial;
+}
+.road-content .phone .lookmap{
+	width: 212px;
+	height: 50px;
+	line-height: 50px;
+	color:#fff;
+	font-size: 24px;
+	display: block;
+	border-radius: 5px;
+	margin-left: 7px;
+	text-indent: 15px;
+	background: #ff6702 url(../images/address/lookmap.png)no-repeat 167px center;
+}
+.road-content .address{
+	height: 50px;
+	padding-left: 20px;
+	padding-top: 5px;
+	clear:both;
+	
+}
+.road-content .address img{
+	float:left;
+	padding-top: 5px;
+}
+.road-content .address span{
+	font-size: 28px;
+	line-height: 50px;
+	color:#333333;
+	padding-left: 10px;
+	float:left;
+}
+
+/*路线分类*/
+.road-class{
+	margin-top: 20px;
+	min-height: 941px;
+	background: #fff;
+	padding:20px 0px 20px 0px;
+	overflow: hidden; 
+}
+.road-class .title{
+	width:220px;
+	height: 60px;
+	display: block;
+	margin:30px auto 35px ;
+	height:60px;
+	
+}
+.road-class .title img{
+	float:left;
+	margin-right: 8px;
+}
+
+.road-class .title .zh{
+	font-size: 36px;
+	color:#272c2f;
+	line-height: 45px;
+}
+.road-class .title .en{
+	font-size: 12px;
+	color:#686868;
+	font-family: arial;
+	text-transform: uppercase;
+}
+/*线路切换*/
+.roadtab ul li{
+	width:142px;
+	height: 118px;
+	display: block;
+	float:left;
+	cursor: pointer;
+	margin-left: 15px;
+	overflow: hidden;
+}
+.roadtab ul li.on{
+	background-position: center -118px !important;
+	color: #fff; 
+}
+.roadtab ul li p{
+	font-size: 24px;
+	color:#0077c0;
+	text-align: center;	
+	padding-top: 68px;
+}
+.roadtab ul li.on p{
+	color:#fff;
+}
+.roadshow{
+	padding: 45px 15px 15px 18px;
+	overflow: hidden;
+	min-height: 520px;
+}
+/*bus road*/
+.Bus ul li{
+	width: 100%;
+	display: block;
+	float:left;
+	margin-bottom: 50px;
+}
+.Bus ul li .roadline{
+	width:104px;
+	height:118px;
+	display: block;
+	margin-top:8px;
+	background: url(../images/address/roadline.png)no-repeat center;
+}
+.Bus ul li .roadline p{
+	color:#000;
+	font-weight: 800;
+	font-size:20px;
+	padding-left: 30px;
+	padding-top: 34px;
+}
+.Bus ul li .roaddetail{
+	width: 480px;
+	padding-top: 5px;
+	
+}
+.Bus ul li .roaddetail .p1{
+	font-size: 24px;
+	color:#333333;
+	line-height: 24px;
+   
+}
+.Bus ul li .roaddetail .p1 i{
+	font-family: arial;
+   
+}
+.Bus ul li .roaddetail .p2{
+	font-size: 20px;
+	color:#666666;
+	line-height: 24px;
+}
+.zixun {
+	padding-left: 18px;
+}
+.zixun a{
+	width:243px;
+	height:74px;
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 74px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	color:#fff;
+	
+}
+.zixun .online{
+	background: #38b4fe;
+	margin-left: 35px;
+	
+}
+.zixun  .register{
+	background: #f86a2c;
+	margin-left: 45px;
+}
+
+/*sunway*/
+.Subway ul li .roadline .s-line{
+	font-weight: 800;
+	font-size:20px;
+	padding-left: 25px;
+	padding-top: 34px;
+	color:#1b4d6b;
+	letter-spacing: 1px;
+}
+.Subway ul li .roadline .s-line2{
+	padding-left: 30px;
+}
+.Subway  ul li .roaddetail .p2 i{
+	color:#0077c0;
+}
+/*飞机*/
+.Air ul li .roadline{
+	width:131px;
+	height:118px;
+	display: block;
+	background: url(../images/address/aircraft.png)no-repeat center top;
+}
+.Air  ul li .roadline .a-line{
+	font-weight: 800;
+	font-size:18px;
+	padding-left: 10px;
+	padding-top: 36px;
+	color:#000;
+}
+.Air  ul li .roaddetail{
+	width: 460px;
+}
+.Air  ul li .roaddetail .p2 i{
+	color:#0077c0;
+}
+
+/*挂号页*/
+.reserve-gh-con{
+	overflow: hidden;
+	display: block;
+	background: #fff;
+}
+.reserve-gh-con .title{
+	width:100%;
+	height: 92px;
+	border-bottom: 2px solid #ececec;
+	font-size: 36px;
+	color:#272c2f;
+	line-height: 92px;
+	text-align: center;
+}
+.form_box{
+	padding: 25px 14px 35px 18px;
+}
+.form_box table tr{
+	height: 60px;
+	display: block;
+	float:left;
+	margin-bottom: 25px;
+	
+}
+.form_box table tr .td1{
+	width:155px;
+	font-size: 26px;
+	color:#242a2d;
+	line-height: 56px;
+	text-align: right;
+	
+}
+.form_box table tr .td1 .star{
+	color:#ff2c55;
+	padding: 3px 5px;
+}
+.form_box table tr .input-txt{
+	width:435px;
+	height: 56px;
+	display: block;
+	text-indent: 18px;
+	border:2px solid #dcdcdc;
+	border-radius: 10px;
+	outline: none;
+	font-size: 22px;
+	color:#8a8a8a;
+}
+input::-webkit-input-placeholder {
+   font-size: 22px;
+	color:#8a8a8a;
+	font-family: "微软雅黑";
+}
+.form_box table tr .input-area{
+	width:431px;
+	height: 250px;
+	display: block;
+	text-indent: 18px;
+	border:2px solid #dcdcdc;
+	border-radius: 10px;
+	font-size: 22px;
+	color:#8a8a8a;
+	resize: none;
+	padding-top:1rem;
+	font-family: "微软雅黑";
+
+}
+.form_box table tr .notice{
+	color:#242a2d;
+	font-size: 22px;
+	line-height: 26px;
+}
+.form_box table tr .td3,.form_box table tr .td4{
+padding-left: 35px;
+}
+.form_box table tr .input-btn{
+	width:243px;
+	height:74px;
+	display: block;
+	border-radius: 5px;
+	border: none;
+	font-size:30px;
+	color:#fff;
+	font-weight:800;
+	cursor: pointer;
+}
+.form_box table tr .reset{
+	background: #38b4fe;
+}
+.form_box table tr .submit{
+	float:right;
+	margin-right: 3rem;
+	background: #f86a2c;
+}
+.pubtop2{
+	height: 92px;
+	line-height: 92px;
+	padding-left: 18px;
+	font-size: 24px;
+}
+.pubtop2 .homeimg{
+	margin-top: 26px;
+	padding-right: 7px;
+}
+.pubtop2 a{
+	color:#242a2d;
+}
+.treat-process-con{
+	min-height: 580px;
+	padding: 30px 14px 0px 18px;
+	background: #fff;
+}
+.treat-process-con .step{
+	width:146px;
+	height: 138px;
+	display: block;
+	float:left;
+	margin: 0px 17px 15px 18px;
+}
+.treat-process-con .step p{
+	text-align: center;
+    color:#2d353a;
+}
+.treat-process-con .step .step-num{
+	font-family: arial;
+	padding-top: 30px;
+	font-size: 36px;
+}
+
+.treat-process-con .step .step-message{
+	font-size: 20px;
+}
+.next-step{
+	width:32px;
+	height: 138px;
+	display: block;
+	float:left;
+	background: url(../images/register/step.png)no-repeat center;
+}
+.treat-process-con .linkurl{
+	padding-top: 30px;
+}
+.treat-process-con .linkurl a{
+	width:100%;
+	height:76px;
+	display: block;
+	background: #37B3FD;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.treat-process-con .linkurl .advisory{
+	background: #37B3FD;
+	line-height: 76px;
+	color:#fff;
+	font-weight: 800;
+	font-size: 32px;
+}
+.treat-process-con .linkurl .advisory2{
+	background: #f86b2e;
+}
+.tel-to{
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+}
+.tel-to img{
+	float:left;
+	width:70px;
+	height:76px;
+}
+.tel-to .p1{
+	width: 257px;
+	padding-left: 4px;
+	font-size: 23px;
+	color:#fff;
+	letter-spacing: 18px;
+}
+.tel-to .p2{
+	width: 260px;
+	font-size: 38px;
+	color:#fff;
+	font-weight: 800;
+	font-family: arial;
+}
+/*技术页*/
+.skill{
+	overflow: hidden;
+	background: #fff;
+	padding: 30px 14px 0px 18px;
+}
+.skill li{
+	width: 100%;
+	display: block;
+	float:left;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dotted #919191;
+}
+.skill li .title{
+	display: block;
+	text-indent: 23px;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: url(../images/tec/yuan.png)no-repeat left center;
+	font-size: 30px;
+	color:#23292D;
+}
+.skill li .xushu{
+	display: block;
+	padding-left: 23px;
+	padding-top: 5px;
+	width: 100%;
+	line-height: 32px;
+	font-size: 24px;
+	color:#6a6b6b;
+}
+.skill li .xushu a{
+	color:#6A6B6B
+}
+.free-gh{
+	margin-top: 20px;
+	width: 100%;
+	height: 92px;
+	line-height: 92px;
+	padding-left: 18px;
+	font-size: 30px;
+	background: #0077c0;
+	color:#fff;
+}
+.free-gh i{
+	font-size: 24px;
+}
+.free-gh .homeimg{
+	margin-top: 23px;
+	padding: 0px 7px;
+}
+
+/*列表页*/
+.pathology-content{
+	background: #fff;
+	padding: 30px 14px 35px 18px;
+	overflow: hidden;
+}
+.disease-xq {
+	overflow: hidden;
+}
+.disease-xq .img{
+	width:247px;
+	height:230px;
+	display: block;
+	border:1px solid #e6ecf0;
+}
+.disease-xq .img img{
+	width:245px;
+	height:228px;
+}
+.disease-xq .disease-r{
+	width: 340px;
+}
+.disease-r .title{
+	height: 80px;
+	border-bottom: 1px dotted #aaaaaa;
+}
+.disease-r .title .zh{
+	font-size: 24px;
+	
+	padding-top: 15px;
+}
+.disease-r .title .en{
+	font-size: 14px;
+	color:#cdcdce;
+	font-family: arial;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+.disease-r dl{
+	padding-top: 25px;
+}
+.disease-r dl dd{
+	width:100%;
+	height:30px;
+	display: block;
+	float:left;
+	margin-bottom: 10px;
+	background: url(../images/list/img1.png)no-repeat left center;
+	font-size: 24px;
+	text-indent: 15px;
+}
+.dis-reason{
+	width: 100%;
+	height: 125px;
+	overflow: hidden;
+	background: #eaeaea;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.dis-reason .zheng{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+.dis-reason .zheng img{
+	float: left;
+padding-right: 8px;
+}
+.dis-reason .zheng a{
+	color:#242a2d;
+	font-size: 24px;
+}
+.dis-reason .reason{
+	margin-top: 10px;
+}
+.ask-list{
+	width: 100%;
+	overflow: hidden;
+}
+.ask-list li{
+	width:100%;
+	height:64px;
+	line-height: 64px;
+	display: block;
+	border-bottom: 1px dotted #aaaaaa;
+	background: url(../images/list/img2.png)no-repeat 10px center;
+}
+.ask-list li a{
+	font-size: 24px;
+	color:#242a2d;
+	display: block;
+	text-indent:28px ;
+}
+.ask-category{
+	padding-top: 15px;
+	overflow: hidden;
+}
+.ask-category ul li{
+	width: 140px;
+	height:130px;
+	display: block;
+	float:left;
+	text-align: center;
+	margin-right: 15px;
+}
+.ask-category ul li a{
+	display: block;
+	color:#fff;
+}
+.ask-category ul li a p{
+	text-align: center;
+	padding-top: 88px;
+	font-size: 24px;
+}
+.article-content{
+	overflow: hidden;
+	background: #fff;
+	padding:0px 14px 0px 18px;
+}
+.article-content .title{
+	height:98px;
+	line-height: 98px;
+	text-align: center;
+	font-size: 30px;
+}
+.free-phone{
+	width:100%;
+	overflow: hidden;
+	padding-bottom: 20px;
+	background:#EDF7FC;
+}
+.free-phone .head{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+}
+.free-phone  .tel-input{
+	width:330px;
+	height: 69px;
+	line-height: 69px;
+	display: block;
+	font-size: 24px;
+	color:#5f5454;
+	text-indent: 50px;
+	border:1px solid #c6c6c6;
+	background: url(../images/list/art-tel.png)no-repeat 5px center #f1f9fe;
+	margin-top: 5px;
+	margin-left: 4rem;
+}
+.free-phone .free-to{
+	width:170px;
+	height:69px;
+	line-height: 69px;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	color:#fff;
+	background: #38b4fe;
+	margin-top: 5px;
+	margin-right: 4rem;
+}
+.article-txt{
+	padding-top: 30px;
+	line-height: 36px;
+	font-size: 26px;
+	color:#343434;
+	padding-bottom: 20px;
+}
+.article-url{
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.article-url a{
+	width:277px;
+	height:64px;
+	display: inline-block;
+	float:left;
+	font-weight: 800;
+	color:#fff;
+	font-size: 30px;
+	line-height: 64px;
+	text-align: center;
+	border-radius: 5px;
+}
+.article-url .a1{
+	background: #38b4fe;
+}
+.article-url .a2{
+	background: #f86a2c;
+	margin-left: 50px;
+}
+.turnpage{
+	padding: 25px 0px 25px;
+	background: #fff;
+	border-top: 1px solid #ececec;
+}
+.turnpage a{
+	text-indent: 18px;
+	display: block;
+	line-height: 40px;
+	font-size: 26px;
+	color:#242a2d;
+}
+/*医师*/
+.doctor .doctorlist{
+	padding-bottom: 40px;
+}

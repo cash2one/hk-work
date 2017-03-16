@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>感恩有礼_上海市医保定点单位 上海市医保定点牙科</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=0" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <link rel="stylesheet" href="/include/css/header.min.css" />
+        <div class="header">
+            <a href="/" class="home"></a>
+            <div class="fc" id="header-link">
+                <a href="/" class="on">首页</a>
+                <a href="/yyjj">医院简介</a>
+                <a href="/ystd">医师团队</a>
+                <a href="/zzgh">自助挂号</a>
+                <a href="/lylx">来院路线</a>
+            </div>
+        </div>
+        <script>
+            $(function() {
+                var t = true;
+                $('#header-link a[href!="/"]').each(function(f) {
+                    if (!!~window.location.href.indexOf($(this).attr('href'))) {
+                        t = false;
+                        $(this).addClass('on').siblings().removeClass('on');
+                    }
+                });
+                if (t) {
+                    $('#header-link a:first').addClass('on').siblings().removeClass('on');
+                }
+            })
+        </script>
+        <div class="banner">
+            <a href="javascript:;" onclick="openZoosUrl();return false;"></a>
+        </div>
+        <!--con1-->
+        <div class="con1">
+            <div class="con1-main">
+                <div class="con1-main-l"><img src="images/con1_1.jpg" alt=""></div>
+                <div class="con1-main-r">
+                    <p>十二年，<br> 沪城的风貌在变，医疗政策在变，
+                        <br> 宏康对品质的追求、始终不变
+                        <br> 坚守初心，用心创造微笑
+                        <br> <i>-让每个人都能拥有健康美丽的牙齿！</i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!--con1 end-->
+        <!-- Swiper -->
+        <div class="con2">
+            <div class="pub-title"><img src="images/con2-title.png" alt=""></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="con2-main1">
+                            <a href="javascript:;" onclick="swt();" class="con2-main1-wrap">
+                                <p class="p1">牙齿种植<br>是对生活品质的投资
+                                </p>
+                                <p class="p2">即刻种植牙<br>能吃大闸蟹，能啃硬骨头</p>
+                                <p class="p3">即：网络预约治疗种植牙，种植一颗，送一颗<i>1200元</i>的进口钴烤瓷牙冠，同时种植体再减免<i>500元</i></p>
+                                <p class="p4">种植牙<i>“种一颗<br> 送一颗牙冠”</i></p>
+                                <p class="p5">种植体 <i>再减500元</i></p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="con2-main2">
+                            <a href="javascript:;" onclick="swt();" class="con2-main2-wrap">
+                                <p class="p1">修复牙齿<br>让微笑拥有一万点的自愈力
+                                </p>
+                                <p class="p2">宏康全瓷牙<br>功能修复+美学效果！</p>
+                                <p class="p3">全瓷牙 <br><i> 减免500元/颗</i></p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    spaceBetween: 30,
+                    autoplay: 3000
+                });
+            </script>
+
+        </div>
+        <!--con3-->
+        <div class="con3">
+            <div class="title"><img src="images/con3_title.png" alt=""></div>
+            <div class="con3-main">
+                <div class="con3_div1">
+                    <div class="img"><img src="images/con3_1.jpg" alt=""></div>
+                    <div class="txt">
+                        <p class="zh">免费数字化全景<br> 片检查一次</p>
+                        <p class="ch">Free initial registration fee</p>
+                    </div>
+                </div>
+                <div class="con3_div2">
+                    <div class="img"><img src="images/con3_2.jpg" alt=""></div>
+                    <div class="txt">
+                        <p class="zh">免常规口腔检查费</p>
+                    </div>
+                </div>
+                <div class="con3_div3">
+                    <div class="img"><img src="images/con3_3.jpg" alt=""></div>
+                    <div class="txt">
+                        <p class="zh">免初诊挂号费</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--con3 end-->
+        <!--con4-->
+        <div class="con4">
+            <img src="images/con4_1.png" alt="" class="img1">
+            <img src="images/con4_2.png" alt="">
+            <img src="images/con4_3.png" alt="">
+        </div>
+        <!--con4 end-->
+        <!--con5-->
+        <div class="con5">
+            <div class="pub-title"><img src="images/con5_1.png" alt=""></div>
+            <div class="con5-main ">
+                <div class="zhuanjia-tab">
+                    <ul>
+                        <li class="on one1">
+                            <p>品牌<br>文化</p>
+                        </li>
+                        <li>
+                            <p> 诊疗<br>设备</p>
+                        </li>
+                        <li>
+                            <p> 医生<br>团队</p>
+                        </li>
+                        <li>
+                            <p> 贴心<br>服务</p>
+                        </li>
+                        <li>
+                            <p> 规范<br>诊疗</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="zhuanjiawamp">
+                    <div class="zhuanjiashow" style="display: block;">
+                        <div class="zhuanjiashow1">
+                            <div class="text">
+                                <p>宏康口腔，作为上海市医保定点单位，一直秉承“以民为天、以德为先”的理念，为广大国内外客户提供高标准、高品质的口腔医疗服务，不断努力让每个人拥有美丽健康的牙齿，创造更美微笑。</p>
+                            </div>
+                            <div class="img1"><img src="images/con5_2.png" alt=""></div>
+                            <div class="img2"><img src="images/con5_3.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="zhuanjiashow" style="display: none;">
+                        <div class="zhuanjiashow1">
+                            <div class="text">
+                                <p>宏康口腔引进数字化诊疗设备，如瑞典种植体稳固度检测仪、德国牙科综合治疗机，德国西诺德牙医等精密仪器，确保医疗质量，为您提供舒适的看牙体验。
+                                </p>
+                            </div>
+                            <div class="img1"><img src="images/con5_4.png" alt=""></div>
+                            <div class="img2"><img src="images/con5_5.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="zhuanjiashow" style="display: none;">
+                        <div class="zhuanjiashow1">
+                            <div class="text">
+                                <p>鉴于对专业技术的信赖和执着，宏康口腔打造了一支由赴韩研修医师吴长波主任领衔的齿科精英团队，他们不仅有专注的职业素养、丰富的学习经验，而且在种植、修复、正畸、根管治疗、牙周治疗、美容齿科等口腔问题都有着优秀的治疗经验。
+                                </p>
+                            </div>
+                            <div class="img1"><img src="images/con5_6.png" alt=""></div>
+                            <div class="img2"><img src="images/con5_7.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="zhuanjiashow" style="display: none;">
+                        <div class="zhuanjiashow1">
+                            <div class="text">
+                                <p>秉承”acph”的核心理念与服务标准，将“advanced高端、secure安全、professional专业、honorable尊贵”四者完美融合，以科学管理、精湛技术、优雅环境、人文服务给顾客以至尊体验，让看牙成为一种享受！
+                                </p>
+                            </div>
+                            <div class="img1"><img src="images/con5_8.png" alt=""></div>
+                            <div class="img2"><img src="images/con5_9.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="zhuanjiashow" style="display: none;">
+                        <div class="zhuanjiashow1">
+                            <div class="text">
+                                <p>采用进口消毒设备，执行一人一机一用一消毒，从源头上预防交叉感染，各项消毒均严格按照标准进行，并制定了严格的消毒隔离制度。必须严格遵照消毒操作流程，确保为每位顾客提供一个放心的就医环境。
+                                </p>
+                            </div>
+                            <div class="img1"><img src="images/con5_10.png" alt=""></div>
+                            <div class="img2"><img src="images/con5_11.png" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                $('.zhuanjia-tab li').click(function() {
+                    var liindex = $('.zhuanjia-tab li').index(this);
+                    $(this).addClass('on').siblings().removeClass('on');
+                    $('.zhuanjiawamp div.zhuanjiashow').eq(liindex).fadeIn(150).siblings('div.zhuanjiashow').hide();
+                });
+
+            });
+        </script>
+        <!--con5 end-->
+        <!--con6-->
+        <div class="con6">
+            <div class="h20" style="height:20px;"></div>
+            <div class="con6_main">
+
+                <div class="div6_1">
+                    <a href="javascript:void();" onclick="swt();" target="_blank"></a>
+                </div>
+                <div class="div6_2">
+                    <a href="/zzgh/" target="_blank"> </a>
+                </div>
+                <div class="div6_3">
+                    <a href="tel:02152801926" target="_blank"> </a>
+                </div>
+                <div class="div6_4">
+                </div>
+            </div>
+        </div>
+        <!--con6 end-->
+
+        <link rel="stylesheet" href="/include/css/footer.min.css" />
+        <div class="footer">
+            <p>门诊时间：8:00-17:00<span style="color:#bcbcbc;">（节假日不休）</span></p>
+            <p>地址：上海市普陀区大渡河路1933号（芝川路口）</p>
+            <p style="font-size: 19px;line-height:35px;">沪ICP备10036551号-20 @上海宏康医院版权所有</p>
+            <p style="font-size: 19px;line-height:35px;">沪医广【2016】第09-05-G228号
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702001274" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.shhkyy.com/baimg.png" style="float:left;margin:0 5px;"><span>沪公网安备 31010702001274号</span></a>
+            </p>
+            <div class="footer-nav"></div>
+            <div class="footer-nav fixed">
+                <div class="footer-inner fc">
+                    <a href="javascript:swt();" class="fl">预约挂号</a>
+                    <a href="tel:021-52801926" class="tel">一键通话</a>
+                    <a href="/yydt/35.html" class="fr">最新活动</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/include/js/swt.js"></script>
+</body>
+
+</html>

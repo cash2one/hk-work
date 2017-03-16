@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>电子病历 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--单页头部-->
+        <div class="page-header">
+            <a href="" class="back"><img src="/include/images/back.png" alt=""></a>
+            <p class="lanmu">电子病历</p>
+            <a href="" class="home"><img src="/include/images/home.png" alt=""></a>
+        </div>
+        <!--单页头部 end-->
+        <!--主体部分-->
+        <div class="wrapper">
+            <!--患者电子病历-->
+            <div class="hz-bingli">
+                <div class="headimg fl"><img src="/include/images/person.png" alt=""></div>
+                <div class="headtxt fl">
+                    <p class="name">张** <i>性别：男</i> <i>年龄：35</i></p>
+                    <p class="zhuyuanhao">住院号：1881881</p>
+                </div>
+                <div class="short-js clear">
+                    <p><i class="i1">入院时间：2016-5-1</i>出院时间：2016-5-6</p>
+                    <p><i class="i1">病区床号：9-20 </i>疾病诊断：肾结石</p>
+                    <p><i class="i1">主治医生：王志钧 </i>责任护士：何玲</p>
+                </div>
+            </div>
+            <div class="bingli-article">
+                <div class="bl">
+                    <div class="bl-title">患者主诉</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                    <a href="javascript:;" onclick="swt()" class="bl-btn clear">有类似情况？点击咨询</a>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">辅助检查</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">临床诊断</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">治疗方案</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                    <a href="javascript:;" onclick="swt()" class="bl-btn clear">量身定制治疗方案</a>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">手术记录</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">出院小结</div>
+                    <div class="bl-con">
+                        患者男，35岁。因突发性腰酸腰痛，家人陪伴到 院检查，2016年5月1日入院。
+                    </div>
+                </div>
+                <div class="bl">
+                    <div class="bl-title">病程记录</div>
+                    <div class="bcjl">
+                        <div class="picScroll-left2">
+                            <div class="hd">
+                                <a class="next"></a>
+                                <a class="prev"></a>
+                            </div>
+                            <div class="bd">
+                                <ul class="picList">
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="/include/images/jilu.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="/include/images/jilu.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="/include/images/jilu.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a href="#"><img src="/include/images/jilu.jpg" /></a>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="zhuzhidortor">
+                <div class="title">
+                    主治医生 </div>
+                <div class="con">
+                    <div class="img"><img src="/include/images/zhuanjia.png" alt=""></div>
+                    <p class="name">王碧芬 <em>主治医师</em></p>
+                    <p class="year">30余年临床经验</p>
+                    <div class="z-url">
+                        <a href="javascript:;" onclick="swt()">在线咨询</a>
+                        <a href="tel:02162150060">电话咨询</a>
+                        <a href="javascript:;" onclick="swt()">预约就诊</a>
+                    </div>
+                </div>
+            </div>
+            <!--主治医生  end-->
+            <script type="text/javascript">
+                jQuery(".picScroll-left2").slide({
+                    titCell: ".hd ul",
+                    mainCell: ".bd ul",
+                    autoPage: true,
+                    effect: "left",
+                    autoPlay: true,
+                    vis: 3,
+                    trigger: "click"
+                });
+            </script>
+            <!-- footer-->
+            <div class="footer clear">
+                <div class="footer-nav">
+                    <a href="">医院概况</a>
+                    <a href="">医生团队</a>
+                    <a href="">病例查询</a>
+                    <a href="">来院路线</a>
+                </div>
+                <div class="footer-p">
+                    <p>门诊时间：8:00-20:30（无假日医院）</p>
+                    <p>医院地址：上海市普陀区大渡河路1933号</p>
+                    <p>预约电话：021-62150060</p>
+                </div>
+            </div>
+            <!-- footer end-->
+        </div>
+        <!--主体 end-->
+    </div>
+
+    <script type="text/javascript" src="js/select.js"></script>
+</body>
+
+</html>

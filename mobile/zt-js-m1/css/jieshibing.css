@@ -1,0 +1,579 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei", "微软雅黑", "MicrosoftJhengHei", "华文细黑", STHeiti, MingLiu;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}.all {
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.hotline {
+	background-image: url(../images/hotline-bg.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+}
+.hotline .htleft {
+	float: left;
+	background-image: url(../images/hotline-tel.fw.png);
+	background-repeat: no-repeat;
+	height: 45px;
+	margin-top: 7px;
+	font-size: 30px;
+	color: #11A5A9;
+	line-height: 45px;
+	text-align: right;
+	width: 230px;
+	margin-left: 20px;
+}
+.hotline .htright {
+	float: right;
+	height: 40px;
+	width: 248px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 28px;
+	background-color: #11A5A9;
+	color: #FFF;
+	margin-top: 10px;
+	margin-right: 20px;
+	/* Gecko browsers */
+    -moz-border-radius: 10px; 
+    /* Webkit browsers */
+    -webkit-border-radius: 10px; 
+    /* W3C syntax - likely to be standard so use for future proofing */
+    border-radius:20px;
+}
+.logo {
+	height: 136px;
+	background-image: url(../images/logo-bj.fw.png);
+	background-repeat: repeat-x;
+}
+
+.logo .loleft {
+	float: left;
+	margin-left: 10px;
+	margin-top: 27px;
+}
+.logo .locenter {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.logo .locenter h1 {
+	color: #11A5A9;
+	font-size: 40px;
+	width: 400px;
+	text-align: center;
+	word-spacing: 2px;
+}
+.logo .locenter h1 span {
+	font-size: 24px;
+	margin-left: 10px;
+}
+.logo .locenter p {
+	display: block;
+	background-image: url(../images/logo-yybj.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 20px;
+	color: #666;
+}
+
+
+
+.logo .loright {
+	float: right;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+.nav {
+	height: 147px;
+}
+.nav ul li {
+	float: left;
+	width: 127px;
+	display: block;
+	height: 147px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #eee;
+}
+.nav ul li a {
+	display: block;
+	height: 147px;
+	width: 128px;
+	position: relative;
+}
+.nav ul li a span {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	height: 40px;
+	width: 100%;
+	top: 100px;
+	position: absolute;
+}
+
+
+.nav ul .nav-shouye {
+	background-image: url(../images/nav-shouye.fw.png);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+.nav ul .nav-yyjj {
+	background-image: url(../images/nav-yyjj.fw.png);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+.nav ul .nav-yishi {
+	background-image: url(../images/nav-yishi.fw.png);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+.nav ul .nav-lylx {
+	background-image: url(../images/nav-lylx.fw.png);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+.nav ul .nav-gongyi {
+	background-image: url(../images/nav-gongyi.fw.png);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+.boxtitle span {
+	display: none;
+}
+.bingzhong {
+	background-color: #F5F5F5;
+}
+
+.bingzhong ul li {
+	float: left;
+	width: 212px;
+	display: block;
+	height: 144px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+}
+
+.bingzhong ul li a {
+	display: block;
+	height: 147px;
+}
+.bingzhong ul li a span {
+	display: block;
+	text-align: center;
+	margin-top: 35px;
+	font-size: 24px;
+	float: right;
+	margin-right: 10px;
+	width: 90px;
+	height: 80px;
+}
+.bingzhong ul li a .pa {
+	padding-top: 20px;
+}
+
+.bingzhong ul .bz1 {
+	background-image: url(../images/bz1.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.bingzhong ul .bz2 {
+	background-image: url(../images/bz2.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.bingzhong ul .bz3 {
+	background-image: url(../images/bz3.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.bingzhong ul .bz4 {
+	background-image: url(../images/bz4.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.bingzhong ul .bz5 {
+	background-image: url(../images/bz5.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.bingzhong ul .bz6 {
+	background-image: url(../images/bz6.png);
+	background-repeat: no-repeat;
+	background-position: 23px center;
+}
+.yyjj {
+	line-height: 25px;
+	font-size: 22px;
+	padding-right: 13px;
+	padding-left: 13px;
+	width: 614px;
+	margin-top: 13px;
+	margin-bottom: 20px;
+}
+.yyjj p {
+	text-indent: 2em;
+	line-height: 35px;
+}
+
+.yishi {
+	height: 430px;
+	position: relative;
+}
+.yishi .hd {
+	height: 76%;
+	width: 100%;
+	margin-top: 6%;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+}
+.yishi .hd ul li {
+	float: left;
+	height: 76%;
+	width: 50%;
+}
+.yishi .bd {
+	height: 358px;
+	width: 555px;
+	display: block;
+	position: absolute;
+	left: 42px;
+	margin-top: 25px;
+}
+.yishi .yszl {
+	height: 315px;
+	width: 260px;
+	margin-top: 23px;
+	margin-right: 23px;
+	float: right;
+}
+.yishi .yszl h5{
+	display: block;
+	line-height: 60px;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 35px;
+
+}
+.yishi .yszl b{
+	display: block;
+	text-align: center;
+	color: #0BA3A7;
+	font-size: 18px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #0BA3A8;
+	margin-bottom: 10px;
+
+}
+.yishi .yszl p{
+	display: block;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	color: #0D5D5F;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 40px;
+
+}
+
+.ysjy1 {
+	background-image: url(../images/yishi-yszl-ico1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.ysjy2 {
+	background-image: url(../images/yishi-yszl-ico2.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.yishi .yszl i{
+	display: block;
+	height: 38px;
+	width: 150px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #f90;
+	color: #FFF;
+	font-size: 18px;
+	font-style: normal;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	/* Gecko browsers */
+    -moz-border-radius: 10px; 
+    /* Webkit browsers */
+    -webkit-border-radius: 10px; 
+    /* W3C syntax - likely to be standard so use for future proofing */
+    border-radius:20px;	
+
+}
+.yishi-bg1{
+	background-image: url(../images/yishi-bg1.jpg);
+	background-repeat: no-repeat;
+}
+.yishi-bg2{
+	background-image: url(../images/yishi-bg2.jpg);
+	background-repeat: no-repeat;	
+}
+.yishi-bg3{
+	background-image: url(../images/yishi-bg3.jpg);
+	background-repeat: no-repeat;	
+}
+.yishi-bg4{
+	background-image: url(../images/yishi-bg4.jpg);
+	background-repeat: no-repeat;	
+}
+.yishi-bg5{
+	background-image: url(../images/yishi-bg5.jpg);
+	background-repeat: no-repeat;	
+}
+.yishi-bg2{
+}
+.yishi-bg3{
+}
+
+.yishi ul li {
+	height: 358px;
+	width: 555px;
+	display: block;
+}
+
+.yishi span {
+	position: absolute;
+	top: 160px;
+}
+.yishi .prev {
+	position: absolute;
+	left: 0px;
+	width: 31px;
+	height: 77px;
+}
+.yishi .next {
+	right: 0px;
+	width: 31px;
+	height: 77px;
+}
+.gongyi {
+	display: block;
+	overflow: hidden;
+	background-image: url(../images/gongyi-bg.png);
+	background-repeat: no-repeat;
+	width: 600px;
+	padding: 20px;
+}
+
+.gongyi img {
+	display: block;
+	float: left;
+	width: auto;
+}
+
+.gongyi span {
+	display: block;
+	width: 20px;
+	height: 160px;
+	float: left;
+}
+.gongyi .gytop {
+	display: block;
+	overflow: hidden;
+	clip: rect(auto,auto,20px,auto);
+}
+
+.gongyi .gybottom {
+	display: block;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.huanjing {
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 260px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.huanjing .f3d{
+	width: 1200px;
+	position: absolute;
+	left: -280px;
+	top: -200px;
+	
+}
+.imageflow{
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	visibility: hidden;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.imageflow img{border:none; position:absolute; top:0px; visibility:hidden; -ms-interpolation-mode:bicubic}
+.imageflow p{margin:0 auto; text-align:center}
+.imageflow .loading_bar{background:#ccc; height:15px; visibility:visible; width:1%}
+.imageflow .caption{font-weight:bold; position:relative; text-align:center; z-index:10000}
+.imageflow .scrollbar{border-bottom:1px solid #b3b3b3; position:relative; visibility:hidden; z-index:10001; height:1px}
+.imageflow .loading{border:1px solid #ccc; height:15px; left:50%; margin-left:-106px; padding:5px; position:relative; visibility:visible; width:200px}
+.imageflow .slider{height:14px; margin:-6px 0 0 -7px; position:absolute; width:14px; z-index:10002}
+.imageflow .images{overflow:hidden; white-space:nowrap}
+.tips {
+	height: 90px;
+	color: #F00;
+	text-align: center;
+	font-size: 25px;
+	line-height: 90px;
+}
+.guahao {
+	width: 590px;
+}
+
+.ghname {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.ghname .ghnleft {
+	float: left;
+	width: 170px;
+	font-size: 24px;
+	line-height: 50px;
+}
+.ghname .ghnright {
+	float: left;
+	width: 400px;
+	border: 1px solid #ddd;
+	height: 50px;
+	overflow: hidden;
+	padding-left: 18px;
+	/* Gecko browsers */
+    -moz-border-radius: 5px; 
+    /* Webkit browsers */
+    -webkit-border-radius: 5px; 
+    /* W3C syntax - likely to be standard so use for future proofing */
+    border-radius:7px;		
+}
+.ghname .ghnright input {
+	border: 1px solid #FFF;
+	height: 50px;
+	line-height: 50px;
+	width: 420px;
+	font-size: 18px;
+}
+.ghname .ghnright textarea {
+	border: 1px solid #FFF;
+	line-height: 50px;
+	width: 450px;
+	height: 90px;
+	font-size: 18px;
+}
+.itime {
+	background-image: url(../images/yuyueriqi.png);
+	background-position: 360px center;
+	background-repeat: no-repeat;
+}
+
+.sure {
+	width: 496px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.sure .sureleft {
+	float: left;
+	height: 64px;
+	width: 222px;
+	background-image: url(../images/yuyue.png);
+	background-repeat: no-repeat;
+}
+.ghnleft span {
+	color: #F00;
+}
+
+.sure .sureleft a {
+	display: block;
+	height: 64px;
+	text-indent: -9999px;
+}
+
+.sure .sureright {
+	float: left;
+	height: 64px;
+	width: 222px;
+	margin-left: 50px;
+	background-image: url(../images/tijiao.png);
+}
+.sure .sureright .submit {
+	height: 64px;
+	width: 222px;
+	background-image: none;
+	background-color: transparent;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.telpic {
+	width: 566px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+.ditu {
+	height: 290px;
+	width: 640px;
+	background-image: url(../images/map.jpg);
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+.ditu .time {
+	display:none;
+}
+.ditu .adr {
+	display:none;	
+}.ditu .gomap {
+	height: 55px;
+	width: 317px;
+	float: right;
+	margin-top: 225px;
+	margin-right: 20px;
+}
+.ditu .gomap a {
+	display: block;
+	height: 55px;
+	width: 152px;
+	float: left;
+	text-indent: -9999px;
+}
+.ditu .gomap .abouthk {
+	float: right;
+}

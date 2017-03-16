@@ -1,0 +1,384 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    background: #666;
+    color: #242a2d;
+}
+
+input {
+    font-family: "微软雅黑";
+    outline: none;
+    border: none;
+}
+
+.layout {
+    width: 640px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.layout2 {
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.header {
+    height: 110px;
+    width: 100px;
+    background: #0078c2;
+}
+
+.header .logo {
+    margin: 23px 0px 0px 40px
+}
+
+.header .logo2 {
+    margin-top: 23px;
+}
+
+
+/*banenr*/
+
+.swiper-container {
+    width: 640px;
+    height: 320px;
+    margin: 0px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*nav*/
+
+.nav {
+    height: 70px;
+    border-bottom: 1px solid #dedcd7;
+}
+
+.nav ul li {
+    display: inline-block;
+    float: left;
+    width: 128px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+}
+
+.nav ul li a {
+    width: 128px;
+    display: block;
+    height: 22px;
+    color: #242a2d;
+    font-size: 26px;
+}
+
+.nav ul li i {
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    background: #D3D4D5;
+    right: 0px;
+    top: 25px;
+}
+
+.wrapper {
+    background: #f0f0f0;
+}
+
+
+/*疾病分类*/
+
+.disease {
+    width: 100%;
+    overflow: hidden;
+}
+
+.disease ul {
+    padding-top: 20px;
+    ;
+}
+
+.disease ul li {
+    width: 209px;
+    height: 205px;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.disease ul li .img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: 30px auto 0px;
+}
+
+.disease ul li .disease-name {
+    font-size: 24px;
+    color: #1e262a;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/*医师团队*/
+
+.doctor-head {
+    height: 70px;
+}
+
+.doctor-head-l {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    margin: 25px 0px 0px 15px;
+    border-left: 3px solid #0082d2;
+    font-size: 30px;
+    color: #242a2d;
+}
+
+.doctor-head-r {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 25px 15px 0px 0px;
+}
+
+.doctor-head-r a {
+    font-size: 22px;
+    color: #4c4c4c;
+    padding-top: 25px;
+}
+
+.doctor .doctorlist {
+    background: #fff;
+    padding: 25px 14px 20px 14px;
+    overflow: hidden;
+}
+
+.doctor .doctorlist li {
+    display: block;
+    float: left;
+    border-bottom: 1px dotted #a8a8a8;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.doctor .doctorlist li.last {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.doctor .doctorlist li .img {
+    width: 215px;
+    height: 191px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.doctor .doctorlist li .img img {
+    width: 215px;
+    height: 191px;
+}
+
+.doctor .doctorlist li .profile {
+    width: 370px;
+}
+
+.doctor .doctorlist li .profile .name {
+    display: block;
+    font-size: 30px;
+    color: #242a2d;
+}
+
+.doctor .doctorlist li .profile .name i {
+    font-size: 24px;
+    padding-left: 18px;
+}
+
+.doctor .doctorlist li .profile .accept {
+    font-size: 20px;
+    color: #767676;
+    display: block;
+    line-height: 34px;
+}
+
+.doctor .doctorlist li .profile .goodat {
+    font-size: 24px;
+    color: #242a2d;
+    display: block;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.doctor-url a {
+    width: 151px;
+    height: 43px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.doctor-url a.details {
+    background: #38b4fe;
+    margin-right: 20px;
+}
+
+.doctor-url a.reservation {
+    background: #fc814b;
+}
+
+
+/*诊疗技术*/
+
+.doctor .treatlist {
+    background: #fff;
+    padding: 30px 14px 30px 14px;
+    overflow: hidden;
+}
+
+.doctor .treatlist .li1 {
+    width: 265px;
+    height: 316px;
+}
+
+.doctor .treatlist .li2 {
+    width: 337px;
+    height: 153px;
+    margin-bottom: 9px;
+}
+
+.doctor .treatlist .li3 {
+    width: 337px;
+    height: 153px;
+}
+
+
+/*询问*/
+
+.ask {
+    margin-top: 20px;
+    height: 180px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px #e5e5e5;
+    -moz-box-shadow: 0 0 2px #e5e5e5;
+    box-shadow: 0 0 2px #e5e5e5;
+}
+
+.ask ul li {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    position: relative;
+}
+
+.ask ul li a .img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin: 18px auto 5px;
+}
+
+.ask ul li a p {
+    text-align: center;
+    font-size: 24px;
+    color: #242a2d;
+}
+
+.ask ul li a i {
+    position: absolute;
+    width: 1px;
+    background: url(../images/line.png)no-repeat;
+    right: 0px;
+    top: 15px;
+    height: 157px;
+    ;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 199px;
+    background: #124665;
+}
+
+.footer P {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+.footer .footer-p {
+    padding-top: 45px;
+}

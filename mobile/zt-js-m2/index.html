@@ -1,0 +1,407 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>保胆取石</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=0" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <!--header-->
+        <div class="header">
+            <a href=""> <img src="images/logo.jpg" alt="">
+            </a>
+        </div>
+        <!--banner-->
+        <div class="banner">
+            <a href=""> <img src="images/banner.jpg" alt=""></a>
+        </div>
+        <!--div1-->
+        <div class="div1">
+            <div class="pubtitle pubtitle1"><img src="images/title1.png" alt=""></div>
+            <!--切换-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="baodao">
+                            <div class="img"><img src="images/bd1.jpg" alt=""></div>
+                            <p class="t">著名肝胆专家张宝善呼吁保胆取石</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="baodao">
+                            <div class="img"><img src="images/bd2.jpg" alt=""></div>
+                            <p class="t">中国胆石病专业委员会倡导保胆</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="baodao">
+                            <div class="img"><img src="images/bd3.jpg" alt=""></div>
+                            <p class="t">胆道结石微创治疗学术研讨会
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    spaceBetween: 30,
+                    autoplay: 3000
+                });
+            </script>
+            <!--切换 end-->
+            <div class="div1_txt"> 对于胆结石的治疗，长期以来人们固定观念就是切除胆囊。但随着医学发展，发现胆囊除了有浓缩、储存胆汁等作用，还是人体重要的消化免疫器官，并非可有可无，故不应轻易切除胆囊！</div>
+            <div class="div1_wenda">
+                <div class="s-title"><img src="images/wen-title1.jpg" alt=""></div>
+                <div class="duihua1"><img src="images/duihua1.jpg" alt=""></div>
+                <div class="duihua2">
+                    <p><b>医生建议：</b>良性胆囊疾病可以保胆；若胆囊已经无功能、萎缩则需要切除胆囊。</p>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <a href="javascript:;" onclick="swt();" class="a1"> <img src="images/btn2.jpg" alt=""> </a>
+                <a href="tel:02162150060" class="a2"> <img src="images/btn1.jpg" alt=""> </a>
+            </div>
+        </div>
+        <!--div1 end-->
+        <!--div2-->
+        <div class="div2">
+            <div class="div2_1 pubtitle"><img src="images/title2.jpg" alt=""></div>
+            <div class="div2_2 s-title"><img src="images/div2_2.jpg" alt=""></div>
+            <div class="div2_3">
+                <ul>
+                    <li>
+                        <p class="name"><i>1</i> 确认病情 </p>
+                        <img src="images/div2_3_1.jpg" alt="" class="img">
+                        <p class="txt">通过B超、CT检查确认结石数量、大小、有无堵塞等。</p>
+                    </li>
+                    <li>
+                        <p class="name"><i style="padding-right:5px;">2</i> 测胆囊功能 </p>
+                        <img src="images/div2_3_2.jpg" alt="" class="img">
+                        <p class="txt">运用多普勒检测胆囊收缩储存能力、及是否萎缩、穿孔</p>
+                    </li>
+                    <li>
+                        <p class="name"><i>3</i> 医生会诊 </p>
+                        <img src="images/div2_3_3.jpg" alt="" class="img">
+                        <p class="txt">医生会诊检查结果,确定胆囊有无保留价值,若有即保胆。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="div2_4">
+                <a href="javascript:;" onclick="swt();"><img src="images/btn3.jpg" alt=""></a>
+            </div>
+        </div>
+        <!--div2end-->
+        <!--div3-->
+        <div class="div3">
+            <div class="div3_1 pubtitle"><img src="images/title3.jpg" alt=""></div>
+            <div class="div3_2"><img src="images/div3_2.jpg" alt=""></div>
+            <div class="btn-wrap">
+                <a href="javascript:;" onclick="swt();" class="a1"> <img src="images/btn2.jpg" alt=""> </a>
+                <a href="tel:02162150060" class="a2"> <img src="images/btn1.jpg" alt=""> </a>
+            </div>
+        </div>
+        <!--div3end-->
+        <!--div4-->
+        <div class="div4">
+            <div class="div4_1 pubtitle"><img src="images/title4.jpg" alt=""></div>
+            <div class="div4_2"><img src="images/div4_2.jpg" alt=""></div>
+            <div class="div4_3">
+                <div class="yl-img">
+                    <img src="images/div4_3.jpg" alt="">
+                </div>
+                <div class="yl-txt">
+                    <b>原理：</b>无需大开刀，只需要通过高清腹腔镜+OLYMPUS电子胆道镜+胆囊镜三个现代设备联合，利用软硬内镜优势互补，在直视下即可定位结石取石，能有效避免视觉盲区，避免结石残留。
+                </div>
+                <img src="images/div4_3_2.jpg" alt="" style="padding-left:8px;">
+            </div>
+            <div class="btn-wrap">
+                <a href="javascript:;" onclick="swt();" class="a1"> <img src="images/btn2.jpg" alt=""> </a>
+                <a href="tel:02162150060" class="a2"> <img src="images/btn1.jpg" alt=""> </a>
+            </div>
+        </div>
+        <!--div4end-->
+        <!--div5-->
+        <div class="div5">
+            <div class="div5_1"><img src="images/div5_1.jpg" alt=""></div>
+            <div class="div5_2">
+                <div class="div5_2_1 div_abs">
+                    <p class="title">安全系数高</p>
+                    <p class="txt">全程微创无痛苦，极力保障患者人身安全</p>
+                </div>
+                <div class="div5_2_2 div_abs">
+                    <p class="title">保胆更健康</p>
+                    <p class="txt">突破传统，可视下保胆囊，保障生活质量</p>
+                </div>
+                <div class="div5_2_3 div_abs">
+                    <p class="title">减少复发率</p>
+                    <p class="txt">手术视野广阔清晰，避免盲区结石无残留</p>
+                </div>
+                <div class="div5_2_4 div_abs">
+                    <p class="title">恢复快</p>
+                    <p class="txt">术后1天可下地，3-5天出院，不影响生活</p>
+                </div>
+                <div class="div5_2_5 div_abs">
+                    <p class="title">方式灵活</p>
+                    <p class="txt" style="padding: 10px 10px 0px;">如术中发现胆囊不宜保留，可立即转胆囊切除</p>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <a href="javascript:;" onclick="swt();" class="a1"> <img src="images/btn2.jpg" alt=""> </a>
+                <a href="tel:02162150060" class="a2"> <img src="images/btn1.jpg" alt=""> </a>
+            </div>
+        </div>
+        <!--div5end-->
+        <!--div6-->
+        <div class="div6">
+            <a href=""><img src="images/div6.jpg" alt=""></a>
+        </div>
+        <!--div6 end-->
+        <!--div7-->
+        <div class="div7">
+            <div class="pubtitle"><img src="images/title5.jpg" alt=""></div>
+            <ul>
+                <li>
+                    <img src="images/li1.jpg" alt="">
+                    <p class="name">摆脱6年<br>胆结石</p>
+                </li>
+                <li>
+                    <img src="images/li2.jpg" alt="">
+                    <p class="name">保胆取出<br> 7cm结石
+                    </p>
+                </li>
+                <li>
+                    <img src="images/li3.jpg" alt="">
+                    <p class="name">老人感谢宏康<br>保胆</p>
+                </li>
+                <li>
+                    <img src="images/li4.jpg" alt="">
+                    <p class="name">慕名到宏康<br>保胆</p>
+                </li>
+                <li>
+                    <img src="images/li5.jpg" alt="">
+                    <p class="name">为大学生<br>保胆</p>
+                </li>
+                <li>
+                    <img src="images/li6.jpg" alt="">
+                    <p class="name">心脏病老人<br>取石</p>
+                </li>
+            </ul>
+            <div class="btn-wrap">
+                <a href="javascript:;" onclick="swt();" class="a1"> <img src="images/btn2.jpg" alt=""> </a>
+                <a href="tel:02162150060" class="a2"> <img src="images/btn1.jpg" alt=""> </a>
+            </div>
+        </div>
+        <!--div7 end-->
+        <!--div8-->
+        <div class="div8">
+            <div class="div8_1 pubtitle"><img src="images/title6.jpg" alt=""></div>
+            <div class="div8_2"><img src="images/div8_2.jpg" alt=""></div>
+            <div class="div8_3">
+                <div class="yl-txt">
+                    上海宏康医院拥有一支临床经验均在20年以上的的结石医生团队，精于胆结石的防治，完善了多种疾病手术和治疗方法，取得了满意的临床效果。
+                </div>
+            </div>
+            <div class="div8_4">
+                <a href="javascript:;" onclick="swt();"><img src="images/btn4.jpg" alt=""></a>
+            </div>
+        </div>
+        <!--div8end-->
+        <!--div9-->
+        <div class="div9">
+            <div class="pubtitle"><img src="images/title7.jpg" alt=""></div>
+            <div class="div9_2"><img src="images/div9_2.jpg" alt=""></div>
+            <div class="div9_3">
+                <div class="div9_3_1 div9_abs">
+                    <p class="txt">分析结石成<br>分指导预防</p>
+                </div>
+                <div class="div9_3_2 div9_abs">
+                    <p class="txt"><i style="font-size:18px;">医保报销比例</i><br>85%-92%</p>
+                </div>
+                <div class="div9_3_3 div9_abs">
+                    <p class="txt">中国胆石病<br>专业委员会</p>
+                </div>
+                <div class="div9_3_4 div9_abs">
+                    <p class="txt">全程导医<br>服务
+                    </p>
+                </div>
+                <div class="div9_3_5 div9_abs">
+                    <p class="txt">专病专治<br>专医</p>
+                </div>
+            </div>
+            <div class="div9_4">
+                <!--切换-->
+                <div class="swiper-container2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="zz">
+                                <ul>
+                                    <li>
+                                        <img src="images/ry1.jpg" alt="">
+                                        <p>定点医疗机构</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/ry3.jpg" alt="">
+                                        <p>诚信建设单位</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="zz">
+                                <ul>
+                                    <li>
+                                        <img src="images/ry4.jpg" alt="">
+                                        <p>全国价格监测定点单位</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/ry5.jpg" alt="">
+                                        <p>全国医疗行业特色示范基地
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="zz">
+                                <ul>
+                                    <li>
+                                        <img src="images/ry6.jpg" alt="">
+                                        <p>十佳爱心助老特色基地</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/ry7.jpg" alt="">
+                                        <p>常务理事单位
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination2 "></div>
+                </div>
+                <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+                <script>
+                    var swiper = new Swiper('.swiper-container2', {
+                        pagination: '.swiper-pagination2',
+                        paginationClickable: true,
+                        spaceBetween: 30,
+                        autoplay: 3000
+                    });
+                </script>
+                <!--切换 end-->
+            </div>
+        </div>
+        <!--div9 end-->
+        <!--form-->
+        <div class="yuyue">
+            <div class="yy-top">
+                <img src="images/form-title.jpg" alt="">
+            </div>
+
+            <div class="form_box">
+                <form name='tjform' method='post' action='/plus/diy.php' onsubmit='return yzform()' class="material" target="aa">
+                    <input type='hidden' name='action' value='post' />
+                    <input type='hidden' name='wid' value='705'>
+                    <iframe name="aa" id="aa" frameborder="0" style="display:none;" width="0" height="0"></iframe>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="td1">您的称呼：</td>
+                            <td class="td2"><input name="xm" id="xm" type="text" class="input-txt" placeholder="请输入您的姓名"><i class="star fl">*</i></td>
+                        </tr>
+                        <tr>
+                            <td class="td1">联系电话：</td>
+                            <td class="td2"><input name="tel" id="tel" type="text" class="input-txt" placeholder="请输入您的电话号码"><i class="star fl">*</i></td>
+                        </tr>
+                        <tr style="height: 140px;">
+                            <td class="td1"><i class="star left"></i>病情描述：</td>
+                            <td class="td2"><textarea name="bqms" id="bqms" class="input-area" placeholder="请输入您的具体病情情况"></textarea></td>
+                        </tr>
+                        <tr style="margin-top:30px;">
+                            <td><a href="javascript:;" onclick="swt();" class="input-btn reset" /></a>
+                            </td>
+                            <td><input type="submit" class="input-btn submit" value="" /></td>
+                        </tr>
+                    </table>
+
+                </form>
+                <script>
+                    function yzform() {
+                        var temp = document.getElementById("tel");
+                        //对电话的验证
+                        var myreg = /^((1[0-9][0-9]{1})|159|153)+\d{8}$/;
+
+                        if (document.getElementById("xm").value == "")
+
+                        {
+                            alert("请填写您的【姓名】后再次提交!")
+                            document.getElementById("xm").focus();
+                            return false;
+                        }
+
+                        if (!myreg.test(temp.value)) {
+                            alert('请输入11位有效的手机号码！');
+                            document.getElementById("tel").focus();
+                            return false;
+                        }
+                        if (document.getElementById("bqms").value == "")
+
+                        {
+                            alert("请填写您的【病情情况】后再次提交!")
+                            document.getElementById("bqms").focus();
+                            return false;
+                        }
+
+                    }
+                </script>
+            </div>
+            <!--预约医生end-->
+        </div>
+        <!--formend-->
+        <div class="footer">
+            <div class="footer-top">
+                <p class="p1">地址：上海市普陀区大渡河路1933号</p>
+                <p class="p2">门诊时间（无假日医院）：8:00-20:30</p>
+            </div>
+            <div class="footer-bottom">
+                <p>备案号：沪ICP备10036551号</p>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="/include/js/swt.js"></script>
+    <script type="text/javascript" src="/include/js/bottomswt.js"></script>
+    <script type="text/javascript" src="/include/js/weixin.js"></script>
+</body>
+
+</html>
